@@ -100,7 +100,7 @@ def search_googleScholar(query,headers,_gs_pages,records, _title, _keyword, _abs
             count = 0
 
             for i in tqdm(range(1)):
-                print("\033[1;32;40m\n Searching Google Scholar Engine now please wait...")
+                print("Searching Google Scholar Engine now please wait...")
                 url = 'https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=' + query + '&as_ylo=' + _from_yr + '&as_yhi=' + _to_yr_ + '&btnG='
 
                 #response = requests.get(url, proxies={"http": proxy, "https": proxy}, headers=headers)
@@ -124,7 +124,7 @@ def search_googleScholar(query,headers,_gs_pages,records, _title, _keyword, _abs
 
                     #check if records are greater than 1000 or not
                     if(int(pages) > 100):
-                        print("NOTE:\033[1;32;40m\n Google Scholar returns data for max 1000 records irrespective of total records. Total No of total records found :", rec, "\n Fetching records details now...")
+                        print("NOTE:Google Scholar returns data for max 1000 records irrespective of total records. Total No of total records found :", rec, "\n Fetching records details now...")
 
                         pages = 100
                         for i in range(pages):
@@ -260,12 +260,12 @@ def search_googleScholar(query,headers,_gs_pages,records, _title, _keyword, _abs
                                         # print('error Google:', e)
                     time.sleep(1)
 
-                    print(f' \033[1;32;40m\n Finished with total {count} records returned.')
+                    print(f'Finished with total {count} records returned.')
                     return data
 
         # search without dates
         else:
-            print("\033[1;32;40m\n Searching Google Scholar Engine now please wait...")
+            print("Searching Google Scholar Engine now please wait...")
             client = ScraperAPIClient(scrpr_api)
             count = 0
             for i in tqdm(range(1)):
@@ -338,7 +338,7 @@ def search_googleScholar(query,headers,_gs_pages,records, _title, _keyword, _abs
                             # print('error Google:', e)
             time.sleep(1)
 
-            print(f' \033[1;32;40m\n Finished with total {count} records returned.')
+            print(f'Finished with total {count} records returned.')
             return data
 
 
@@ -355,12 +355,12 @@ def pagination(records):
 
 # method to get list of proxies
 Proxies = []
-def get_proxies():
-
-    scrapper = Scrapper(category='ALL', print_err_trace=False)
-    # Get ALL Proxies According to your Choice
-    data = scrapper.getProxies()
-    # Scrapped Proxies
-    for item in data.proxies:
-        Proxies.append('{}:{}'.format(item.ip, item.port))
-    return Proxies
+# def get_proxies():
+#
+#     scrapper = Scrapper(category='ALL', print_err_trace=False)
+#     # Get ALL Proxies According to your Choice
+#     data = scrapper.getProxies()
+#     # Scrapped Proxies
+#     for item in data.proxies:
+#         Proxies.append('{}:{}'.format(item.ip, item.port))
+#     return Proxies
