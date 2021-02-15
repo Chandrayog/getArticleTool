@@ -18,15 +18,15 @@ import sys
 sys.path.insert(1,os.getcwd())
 #sys.path.insert(1,'Users/chandrayogyadav/Desktop/getArticleTool/')
 from GoogleScholar import search_googleScholar
-# from MSAcademic import search_msAcademic
-# from CORE import search_core
-# from pubMed import search_pubMed
-# from ACMLib import search_acmlibrary
-# from PLOSOne import search_PlosOne0.
-# from Academia import search_academia
-# from ElseScopus import search_scopus
-# from Springer import search_springer
-# from SciDirect import search_sciDirect
+from MSAcademic import search_msAcademic
+from CORE import search_core
+from pubMed import search_pubMed
+from ACMLib import search_acmlibrary
+from PLOSOne import search_PlosOne
+from Academia import search_academia
+from ElseScopus import search_scopus
+from Springer import search_springer
+from SciDirect import search_sciDirect
 
 
 # ignore warning messages
@@ -90,7 +90,7 @@ _gs_pages=''
 # search keywords
 # search_query = "Python"
 records = str(0)
-
+_search_yr =''
 # Input var 1- Choose search engine option
 print("Enter search engine number to lookup your article from list, input multiple numbers with space only:\n 0 ALL, 1 Google Scholar, 2 MS Academic, 3 CORE, 4 PubMed, 5 ACM Library, 6 PLOS ONE, 7 Academia, 8 Elsevier Scopus, 9 Springer, 10 Science Direct")
 x = list(map(int, input("Enter a Search Engine value: ").split()))
@@ -103,10 +103,9 @@ print("Enter the path to save the JSON output file or enter to save on default l
 output_path = input("Path:")
 
 # Input var 3- Dataframe output option
-out=input("Do you also want to Dataframe output? Y/N :").lower()
+out=input("Do you also want Excel output? Y/N :").lower()
 
 # Input var 4- No of records option
-
 rec = str(input("Enter No of records to search(Minimum 10 or press enter):")).split()
 if len(rec) != 0:
     records = rec[0]
@@ -189,7 +188,7 @@ def search_engines(query, x):
                 try:
                     if 3 in x:
                        _pages = pagination(records)
-                       search_core(query,headers, _pages,records,_title,_keyword,_abstract,core_api,_from_yr,_to_yr_, data)  # done
+                       search_core(query,headers, _pages,records,_title,_keyword,_abstract,core_api,_search_yr, data)  # done
                 except Exception as e:  # raise e
                     pass  # print('error:', e)
                 try:
@@ -218,7 +217,7 @@ def search_engines(query, x):
                 try:
                     if 7 in x:
                        _pages = pagination(records)
-                       search_academia(query,headers, _pages,records,_title,_keyword,_abstract,_from_yr,_to_yr_, data)
+                       search_academia(query,headers, _pages,records,_title,_keyword,_abstract,_search_yr, data)
                 except Exception as e:  # raise e
                     pass  # print('error:', e)
                 try:
@@ -231,7 +230,7 @@ def search_engines(query, x):
                 try:
                     if 9 in x:
                        _pages = pagination(records)
-                       search_springer(query,headers, _pages,records,_title,_keyword,_abstract,spr_api,_from_yr,_to_yr_, data)  # done
+                       search_springer(query,headers, _pages,records,_title,_keyword,_abstract,spr_api,_search_yr, data)  # done
                 except Exception as e:  # raise e
                     pass  # print('error:', e)
 
@@ -267,7 +266,7 @@ def search_allengines(query):
                 #print('error:', e)
             try:
                     _pages = pagination(records)
-                    search_core(query, headers, _pages, records, _title, _keyword, _abstract, core_api,_from_yr,_to_yr_, data)  # done
+                    search_core(query, headers, _pages, records, _title, _keyword, _abstract, core_api,_search_yr, data)  # done
             except Exception as e:  # raise e
                 pass  # print('error:', e)
             try:
@@ -292,7 +291,7 @@ def search_allengines(query):
                 #print('error:', e)
             try:
                     _pages = pagination(records)
-                    search_academia(query, headers, _pages, records, _title, _keyword, _abstract,_from_yr,_to_yr_, data)
+                    search_academia(query, headers, _pages, records, _title, _keyword, _abstract,_search_yr, data)
             except Exception as e:  # raise e
                 pass  # print('error:', e)
             try:
@@ -303,7 +302,7 @@ def search_allengines(query):
 
             try:
                     _pages = pagination(records)
-                    search_springer(query, headers, _pages, records, _title, _keyword, _abstract, spr_api,_from_yr,_to_yr_, data)  # done
+                    search_springer(query, headers, _pages, records, _title, _keyword, _abstract, spr_api,_search_yr, data)  # done
             except Exception as e:  # raise e
                 pass  # print('error:', e)
 
@@ -354,6 +353,9 @@ def save_output(output):
             if os.path.exists("data.json"):
                 os.remove("data.json")
                 f = open("data.json", "x")
+                f.write(output)
+                f.close()
+            else:
                 f = open("data.json", "x")
                 f.write(output)
                 f.close()
@@ -388,13 +390,16 @@ if bool(data):
 
             # concatenate both dataframes into one
             result = pd.concat([df, d1], axis=1)
-            print('Output in Dataframe format with columns ')
-            print(result)
-
-        # save final output to csv
-        result.to_excel('search_results.xlsx', index=False)
-        #print('Spreadsheet saved.')
-        # print(result)
+            # print('Output in Dataframe format with columns ')
+            # print(result)
+        if os.path.exists("search_results.xlsx"):
+            # save final output to csv
+            result.to_excel('search_results.xlsx', index=False)
+            print('Spreadsheet saved.')
+        else:
+            result.to_excel('search_results.xlsx', index=False)
+            print('Spreadsheet saved.')
+            # print(result)
     else:
         exit
 else:
