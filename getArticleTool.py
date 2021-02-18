@@ -255,7 +255,7 @@ def search_allengines(query):
             try:
             ###---Engines for Title, Keyword and Abstract---###
                     _pages = pagination(records)
-                    search_googleScholar(query, headers, _pages, records, _title, _keyword, _abstract, scrpr_api,_from_yr,_to_yr_, data)  # done
+                    search_googleScholar(query, headers, _gs_pages, records, _title, _keyword, _abstract, scrpr_api,_from_yr,_to_yr_, data)  # done
             except Exception as e:  # raise e
                 pass  # print('error:', e)
             try:
