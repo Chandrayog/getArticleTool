@@ -112,7 +112,7 @@ def search_core(query, headers, _pages,records, _title, _keyword, _abstract,core
                                                                         "Type": item['_type'],
                                                                         # "Keywords": item['topics'],
                                                                         "Published Date": str(item['_source']['datePublished']).split('T',1)[0],
-                                                                        "Abstract": item['_source']['description']
+                                                                        "Abstract": str(item['_source']['description']).replace('\n', '')
                                                                         }]}}
                                     count += 1
                                     # append dict object data

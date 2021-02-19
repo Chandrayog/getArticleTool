@@ -1,210 +1,856 @@
 [
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affilfiation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors,Publication Name, IISN, Cited Count,Type, Published Date, Abstract",
+      "Search Engine": "CORE Search Engine",
       "items": [
         {
-          "Abstract": "Proceedings of the National Academy of Sciences of the United States of America",
-          "Affiliation": "Arizona State University",
-          "Authors": "Asner G.P.",
-          "Cited count": "0",
-          "DOI": "10.1073/PNAS.2017628117",
-          "ISSN": "10916490",
-          "Publication Name": "Proceedings of the National Academy of Sciences of the United States of America",
-          "Published date": "2021-12-29",
-          "Title": "Large-scale mapping of live corals to guide reef conservation",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85099171732"
+          "Abstract": "Beginning Python: Using Python 2.6 and Python 3.1 introduces this open source, portable, interpreted, object-oriented programming language that combines remarkable power with clear syntax. This book enables you to quickly create robust, reliable, and reusable Python applications by teaching the basics so you can quickly develop Web and scientific applications, incorporate databases, and master systems tasks on various operating systems, including Linux, MAC OS, and Windows. You\u2019ll get a comprehensive tutorial that guides you from writing simple, basic Python scripts all the way through complex concepts, and also features a reference of the standard modules with examples illustrating how to implement features in the various modules. Plus, the book covers using Python in specific program development domains, such as XML, databases, scientific applications, network programming, and Web developmen",
+          "Affiliation": [
+            "No Information"
+          ],
+          "Authors": [
+            "Payne, James"
+          ],
+          "Cited count": null,
+          "DOI": null,
+          "ISSN": null,
+          "Publication Name": "'Royal College of Obstetricians & Gynaecologists (RCOG)'",
+          "Published Date": "2010-01-01",
+          "Title": "Beginning Python: using Python 2.6 and Python 3.1",
+          "Type": "article",
+          "URLs": [
+            "http://cds.cern.ch/record/1244484"
+          ]
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affilfiation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors,Publication Name, IISN, Cited Count,Type, Published Date, Abstract",
+      "Search Engine": "CORE Search Engine",
       "items": [
         {
-          "Abstract": "Proceedings of the National Academy of Sciences of the United States of America",
-          "Affiliation": "Rudolf Virchow Center",
-          "Authors": "Kasaragod V.B.",
-          "Cited count": "0",
-          "DOI": "10.1073/PNAS.2008695117",
-          "ISSN": "10916490",
-          "Publication Name": "Proceedings of the National Academy of Sciences of the United States of America",
-          "Published date": "2021-12-29",
-          "Title": "Pyridoxal kinase inhibition by artemisinins down-regulates inhibitory neurotransmission",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85099172195"
+          "Abstract": "In this class we will introduce several fundamental concepts needed further ahead. We start with an introduc-tion to Python, the programming language we will use in the lab sessions, and to Matplotlib and Numpy, two modules for plotting and scientific computing in Python, respectively. Afterwards, we present several notions on probability theory and linear algebra. Finally, we focus on numerical optimization. The goal of this class is to give you the basic knowledge for you to understand the following lectures. We will not enter in too much detail in any of the topics",
+          "Affiliation": [
+            "No Information"
+          ],
+          "Authors": [],
+          "Cited count": null,
+          "DOI": null,
+          "ISSN": null,
+          "Publication Name": null,
+          "Published Date": "2014",
+          "Title": "0.1 Python 0.1.1 Python Basics Running Python code",
+          "Type": "article",
+          "URLs": [
+            "http://lxmls.it.pt/2014/guide.pdf",
+            "http://lxmls.it.pt/2014/guide.pdf",
+            "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.691.9240"
+          ]
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affilfiation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors,Publication Name, IISN, Cited Count,Type, Published Date, Abstract",
+      "Search Engine": "CORE Search Engine",
       "items": [
         {
-          "Abstract": "Proceedings of the National Academy of Sciences of the United States of America",
-          "Affiliation": "Johns Hopkins School of Medicine",
-          "Authors": "Marsh E.B.",
-          "Cited count": "0",
-          "DOI": "10.1073/PNAS.2013231117",
-          "ISSN": "10916490",
-          "Publication Name": "Proceedings of the National Academy of Sciences of the United States of America",
-          "Published date": "2021-12-29",
-          "Title": "Poststroke acute dysexecutive syndrome, a disorder resulting from minor stroke due to disruption of network dynamics",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85099172784"
+          "Abstract": "The problem with Python",
+          "Affiliation": [
+            "No Information"
+          ],
+          "Authors": [
+            "Finn A\u030arup Nielsen"
+          ],
+          "Cited count": null,
+          "DOI": null,
+          "ISSN": null,
+          "Publication Name": null,
+          "Published Date": "2013",
+          "Title": "Python programming \u2014 numeric Python Python numerics",
+          "Type": "article",
+          "URLs": [
+            "http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/5779/pdf/",
+            "http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/5779/pdf/",
+            "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.468.2231"
+          ]
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affilfiation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors,Publication Name, IISN, Cited Count,Type, Published Date, Abstract",
+      "Search Engine": "CORE Search Engine",
       "items": [
         {
-          "Abstract": "Proceedings of the National Academy of Sciences of the United States of America",
-          "Affiliation": "University of California, Los Angeles",
-          "Authors": "Hyon R.",
-          "Cited count": "0",
-          "DOI": "10.1073/PNAS.2013606117",
-          "ISSN": "10916490",
-          "Publication Name": "Proceedings of the National Academy of Sciences of the United States of America",
-          "Published date": "2021-12-29",
-          "Title": "Similarity in functional brain connectivity at rest predicts interpersonal closeness in the social network of an entire village",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85099171315"
+          "Abstract": "None",
+          "Affiliation": [
+            "No Information"
+          ],
+          "Authors": [
+            "Rasaiah",
+            "Takaiwa",
+            "Pascal",
+            "Gordillo",
+            "Choudhury",
+            "Bagchi",
+            "Bagchi",
+            "Natarajan",
+            "Prohens",
+            "Agre",
+            "Kumar",
+            "Herrebout",
+            "Janjic",
+            "Gierszal",
+            "Raschke",
+            "Suzuki",
+            "Gotch",
+            "Pimentel",
+            "Engdahl",
+            "Zwier",
+            "Pribble",
+            "Gruenloh",
+            "Chakrabarti",
+            "Steiner",
+            "Perera",
+            "Python",
+            "Tassaing",
+            "Tassaing",
+            "Furutaka",
+            "Furutaka",
+            "Kometani",
+            "Linse",
+            "Laaksonen",
+            "Schravendijk",
+            "Lopes",
+            "Raschke",
+            "Mateus",
+            "Allesch",
+            "Allesch",
+            "Nakahara",
+            "Slipchenko",
+            "Ma",
+            "Gao",
+            "Choudhary",
+            "Laage",
+            "Plugatyr",
+            "Plugatyr",
+            "Svishchev",
+            "Choudhary",
+            "Jorgensen",
+            "Berendsen",
+            "Lamoureux",
+            "Lamoureux",
+            "Lemkul",
+            "Allen",
+            "Gallagher",
+            "Beta",
+            "Yoshida",
+            "Laage",
+            "Mallik",
+            "Laage",
+            "Laage",
+            "Stirnemann",
+            "Laage",
+            "Das",
+            "Das",
+            "Gaffney",
+            "Moilanen",
+            "Rapaport",
+            "Luzar",
+            "Luzar",
+            "Chandra",
+            "Balasubramanian",
+            "Xu",
+            "Chanda",
+            "Berne"
+          ],
+          "Cited count": null,
+          "DOI": "10.1039/C7CP08109J",
+          "ISSN": null,
+          "Publication Name": "'Royal Society of Chemistry (RSC)'",
+          "Published Date": "2018-01-01",
+          "Title": "Dynamics of water in conical solvation shells around a benzene solute under different thermodynamic conditions",
+          "Type": "article",
+          "URLs": []
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affilfiation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors,Publication Name, IISN, Cited Count,Type, Published Date, Abstract",
+      "Search Engine": "CORE Search Engine",
       "items": [
         {
-          "Abstract": "Astrophysical Journal",
-          "Affiliation": "Tsinghua University",
-          "Authors": "Lin X.",
-          "Cited count": "0",
-          "DOI": "10.3847/1538-4357/abc620",
-          "ISSN": "15384357",
-          "Publication Name": "Astrophysical Journal",
-          "Published date": "2021-12-20",
-          "Title": "Constraining the Halo Mass of Damped Ly\u00ce\u00b1 Absorption Systems (DLAs) at z = 2-3.5 Using the Quasar-CMB Lensing Cross-correlation",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098876049"
+          "Abstract": "None",
+          "Affiliation": [
+            "No Information"
+          ],
+          "Authors": [],
+          "Cited count": null,
+          "DOI": null,
+          "ISSN": null,
+          "Publication Name": null,
+          "Published Date": "2010-09-13",
+          "Title": "Python Programming/Getting Python 2",
+          "Type": "article",
+          "URLs": [
+            "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.170.8263",
+            "http://upload.wikimedia.org/wikipedia/commons/9/91/Python_Programming.pdf"
+          ]
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affilfiation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors,Publication Name, IISN, Cited Count,Type, Published Date, Abstract",
+      "Search Engine": "CORE Search Engine",
       "items": [
         {
-          "Abstract": "Astrophysical Journal",
-          "Affiliation": "SLAC National Accelerator Laboratory",
-          "Authors": "Puglisi G.",
-          "Cited count": "0",
-          "DOI": "10.3847/1538-4357/abc47c",
-          "ISSN": "15384357",
-          "Publication Name": "Astrophysical Journal",
-          "Published date": "2021-12-20",
-          "Title": "Inpainting Galactic Foreground Intensity and Polarization Maps Using Convolutional Neural Networks",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098869308"
+          "Abstract": "v2.5.0, 2017-02-11Internal improvements, type hints, documentation and a new strategyNew strategy: ShortMemhttps://github.com/Axelrod-Python/Axelrod/pull/857A number of type hints added to the libraryhttps://github.com/Axelrod-Python/Axelrod/pull/828https://github.com/Axelrod-Python/Axelrod/pull/831https://github.com/Axelrod-Python/Axelrod/pull/832https://github.com/Axelrod-Python/Axelrod/pull/833https://github.com/Axelrod-Python/Axelrod/pull/834https://github.com/Axelrod-Python/Axelrod/pull/835https://github.com/Axelrod-Python/Axelrod/pull/836https://github.com/Axelrod-Python/Axelrod/pull/840https://github.com/Axelrod-Python/Axelrod/pull/846https://github.com/Axelrod-Python/Axelrod/pull/847https://github.com/Axelrod-Python/Axelrod/pull/849https://github.com/Axelrod-Python/Axelrod/pull/850https://github.com/Axelrod-Python/Axelrod/pull/851https://github.com/Axelrod-Python/Axelrod/pull/853https://github.com/Axelrod-Python/Axelrod/pull/854https://github.com/Axelrod-Python/Axelrod/pull/856https://github.com/Axelrod-Python/Axelrod/pull/858https://github.com/Axelrod-Python/Axelrod/pull/824https://github.com/Axelrod-Python/Axelrod/pull/821https://github.com/Axelrod-Python/Axelrod/pull/815https://github.com/Axelrod-Python/Axelrod/pull/814internal improvement to how players are clonedhttps://github.com/Axelrod-Python/Axelrod/pull/817Refactor/removal of dynamic classeshttps://github.com/Axelrod-Python/Axelrod/pull/852Run windows CI for py3.6https://github.com/Axelrod-Python/Axelrod/pull/844Run mypi on travishttps://github.com/Axelrod-Python/Axelrod/pull/843https://github.com/Axelrod-Python/Axelrod/pull/837Small update to the readmehttps://github.com/Axelrod-Python/Axelrod/pull/829Docstring fix for randomhttps://github.com/Axelrod-Python/Axelrod/pull/826Improve efficiency of neural network strategyhttps://github.com/Axelrod-Python/Axelrod/pull/819Improve efficiency of cycle detectionhttps://github.com/Axelrod-Python/Axelrod/pull/809Refactor of a number of tests and test documentationhttps://github.com/Axelrod-Python/Axelrod/pull/820Large refactor thanks to dropping of python 2https://github.com/Axelrod-Python/Axelrod/pull/818Here are all the commits for this PR:https://github.com/Axelrod-Python/Axelrod/compare/v2.4.0...v2.5.",
+          "Affiliation": [
+            "No Information"
+          ],
+          "Authors": [
+            "Vince Knight",
+            "Owen Campbell",
+            "Marc Harper",
+            "James Campbell",
+            "Karol M. Langner",
+            "Nikoleta",
+            "Thomas Campbell",
+            "VSN Reddy Janga",
+            "Jason Young",
+            "Geraint Palmer",
+            "Kristian Glass",
+            "Malgorzata Turzanska",
+            "Martin Jones",
+            "Cameron Davidson-Pilon",
+            "Ranjini Das",
+            "Aaron Kratz",
+            "Timothy Standen",
+            "Paul Slavin",
+            "Adam Pohl",
+            "andy boot",
+            "WonkySpecs",
+            "Jochen M\u00fcller",
+            "Georgios Koutsovoulos",
+            "Sourav Singh",
+            "Tom\u00e1\u0161 Ehrlich",
+            "Karl",
+            "Luis Visintini",
+            "Martin Chorley",
+            "Brice Fernandes",
+            "ABarriscale"
+          ],
+          "Cited count": null,
+          "DOI": "10.5281/zenodo.592406",
+          "ISSN": null,
+          "Publication Name": null,
+          "Published Date": "2017-02-11",
+          "Title": "Axelrod-Python/Axelrod: v2.5.0",
+          "Type": "article",
+          "URLs": [
+            "https://zenodo.org/record/290311"
+          ]
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affilfiation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors,Publication Name, IISN, Cited Count,Type, Published Date, Abstract",
+      "Search Engine": "CORE Search Engine",
       "items": [
         {
-          "Abstract": "Astrophysical Journal",
-          "Affiliation": "Shanghai Astronomical Observatory Chinese Academy of Sciences",
-          "Authors": "Li Z.Z.",
-          "Cited count": "0",
-          "DOI": "10.3847/1538-4357/abc481",
-          "ISSN": "15384357",
-          "Publication Name": "Astrophysical Journal",
-          "Published date": "2021-12-20",
-          "Title": "Orbital Distribution of Infalling Satellite Halos across Cosmic Time",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098874897"
+          "Abstract": "None",
+          "Affiliation": [
+            "No Information"
+          ],
+          "Authors": [
+            "Python"
+          ],
+          "Cited count": null,
+          "DOI": null,
+          "ISSN": null,
+          "Publication Name": "University of Michigan: Humanities Text Initiative",
+          "Published Date": "None",
+          "Title": "The Issues of 1860",
+          "Type": "article",
+          "URLs": [
+            "http://quod.lib.umich.edu/t/text/accesspolicy.html",
+            "http://name.umdl.umich.edu/ACG1336-1311DEBO-30",
+            "http://name.umdl.umich.edu/acg1336.1-28.003"
+          ]
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affilfiation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors,Publication Name, IISN, Cited Count,Type, Published Date, Abstract",
+      "Search Engine": "CORE Search Engine",
       "items": [
         {
-          "Abstract": "Astrophysical Journal",
-          "Affiliation": "Academia Sinica, Institute of Astronomy and Astrophysics",
-          "Authors": "Wang J.W.",
-          "Cited count": "0",
-          "DOI": "10.3847/1538-4357/abc74e",
-          "ISSN": "15384357",
-          "Publication Name": "Astrophysical Journal",
-          "Published date": "2021-12-20",
-          "Title": "Formation of the Hub-Filament System G33.92+0.11: Local Interplay between Gravity, Velocity, and Magnetic Field",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098850257"
+          "Abstract": "None",
+          "Affiliation": [
+            "No Information"
+          ],
+          "Authors": [
+            "Yablonovitch",
+            "Deckman",
+            "Kluth",
+            "Ermes",
+            "Owen",
+            "Python",
+            "H\u00e4nni",
+            "Ruske",
+            "Minami",
+            "Gordon",
+            "Lambertz",
+            "Kim",
+            "Boccard",
+            "Krc",
+            "Lai",
+            "Battaglia",
+            "Battaglia",
+            "Koida",
+            "Wimmer",
+            "Neubert",
+            "Geissb\u00fchler",
+            "M\u00fcller",
+            "Rech",
+            "Pieters",
+            "Sernelius",
+            "Burstein",
+            "Berginski",
+            "Pflug",
+            "Takata",
+            "Minami",
+            "Ulbrich",
+            "Escarre"
+          ],
+          "Cited count": 3,
+          "DOI": "10.1051/epjpv/2015001",
+          "ISSN": "2105-0716",
+          "Publication Name": "'EDP Sciences'",
+          "Published Date": "2015-01-01",
+          "Title": "Highly transparent front electrodes with metal fingers for p-i-n thin-film silicon solar cells",
+          "Type": "article",
+          "URLs": []
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affilfiation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors,Publication Name, IISN, Cited Count,Type, Published Date, Abstract",
+      "Search Engine": "CORE Search Engine",
       "items": [
         {
-          "Abstract": "Astrophysical Journal",
-          "Affiliation": "Pennsylvania State University",
-          "Authors": "Gilbertson C.",
-          "Cited count": "0",
-          "DOI": "10.3847/1538-4357/abc627",
-          "ISSN": "15384357",
-          "Publication Name": "Astrophysical Journal",
-          "Published date": "2021-12-20",
-          "Title": "Toward Extremely Precise Radial Velocities. II. A Tool for Using Multivariate Gaussian Processes to Model Stellar Activity",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098878687"
+          "Abstract": "v2.7.0, 2017-03-17New strategies, increased test coverage, refactor of some tests, documentationand minor bug fixes.New strategy: VeryBadhttps://github.com/Axelrod-Python/Axelrod/pull/869New strategy: Resurrectionhttps://github.com/Axelrod-Python/Axelrod/pull/865Documentation of docstring requirements for contributionshttps://github.com/Axelrod-Python/Axelrod/pull/872Refactor tests:https://github.com/Axelrod-Python/Axelrod/pull/875https://github.com/Axelrod-Python/Axelrod/pull/907https://github.com/Axelrod-Python/Axelrod/pull/908https://github.com/Axelrod-Python/Axelrod/pull/909https://github.com/Axelrod-Python/Axelrod/pull/911https://github.com/Axelrod-Python/Axelrod/pull/914Improved coverage:https://github.com/Axelrod-Python/Axelrod/pull/899https://github.com/Axelrod-Python/Axelrod/pull/900https://github.com/Axelrod-Python/Axelrod/pull/901https://github.com/Axelrod-Python/Axelrod/pull/902https://github.com/Axelrod-Python/Axelrod/pull/904https://github.com/Axelrod-Python/Axelrod/pull/905https://github.com/Axelrod-Python/Axelrod/pull/910Bug in plot:https://github.com/Axelrod-Python/Axelrod/pull/897Bug fix in deterministic cache:https://github.com/Axelrod-Python/Axelrod/pull/882Bug in average copier:https://github.com/Axelrod-Python/Axelrod/pull/912Minor function rename:https://github.com/Axelrod-Python/Axelrod/pull/906Here are all the commits for this PR:https://github.com/Axelrod-Python/Axelrod/compare/v2.6.0...v2.7.",
+          "Affiliation": [
+            "No Information"
+          ],
+          "Authors": [
+            "Vince Knight",
+            "Owen Campbell",
+            "Marc Harper",
+            "VSN Reddy Janga",
+            "James Campbell",
+            "Karol M. Langner",
+            "Nikoleta",
+            "Thomas Campbell",
+            "Jason Young",
+            "Sourav Singh",
+            "Geraint Palmer",
+            "Kristian Glass",
+            "Malgorzata Turzanska",
+            "Martin Jones",
+            "Cameron Davidson-Pilon",
+            "Ranjini Das",
+            "Aaron Kratz",
+            "Timothy Standen",
+            "Paul Slavin",
+            "Adam Pohl",
+            "andy boot",
+            "WonkySpecs",
+            "Jochen M\u00fcller",
+            "Georgios Koutsovoulos",
+            "Tom\u00e1\u0161 Ehrlich",
+            "Karl",
+            "Luis Visintini",
+            "Martin Chorley",
+            "Brice Fernandes",
+            "ABarriscale"
+          ],
+          "Cited count": null,
+          "DOI": "10.5281/zenodo.592406",
+          "ISSN": null,
+          "Publication Name": null,
+          "Published Date": "2017-03-17",
+          "Title": "Axelrod-Python/Axelrod: v2.7.0",
+          "Type": "article",
+          "URLs": [
+            "https://zenodo.org/record/400549"
+          ]
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affilfiation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors,Publication Name, IISN, Cited Count,Type, Published Date, Abstract",
+      "Search Engine": "CORE Search Engine",
       "items": [
         {
-          "Abstract": "Astrophysical Journal",
-          "Affiliation": "National Radio Astronomy Observatory",
-          "Authors": "Tobin J.J.",
-          "Cited count": "0",
-          "DOI": "10.3847/1538-4357/abc5bf",
-          "ISSN": "15384357",
-          "Publication Name": "Astrophysical Journal",
-          "Published date": "2021-12-20",
-          "Title": "The VLA/ALMA Nascent Disk and Multiplicity (VANDAM) Survey of Orion Protostars. IV. Unveiling the Embedded Intermediate-Mass Protostar and Disk within OMC2-FIR3/HOPS-370",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098847916"
+          "Abstract": "v2.13.0, 2017-06-01New strategies, refactor of strategy tests and minor documentation fixes.New strategy Dynamic Two Tits for Tat:https://github.com/Axelrod-Python/Axelrod/pull/1030New strategy Eugine Nierhttps://github.com/Axelrod-Python/Axelrod/pull/1016New strategies: trained FSMs, TF1, TF2, TF3https://github.com/Axelrod-Python/Axelrod/pull/1036Small documentation fix:https://github.com/Axelrod-Python/Axelrod/pull/1022Refactor of strategy tests:https://github.com/Axelrod-Python/Axelrod/pull/1016https://github.com/Axelrod-Python/Axelrod/pull/1021https://github.com/Axelrod-Python/Axelrod/pull/1022https://github.com/Axelrod-Python/Axelrod/pull/1023https://github.com/Axelrod-Python/Axelrod/pull/1024https://github.com/Axelrod-Python/Axelrod/pull/1028https://github.com/Axelrod-Python/Axelrod/pull/1029https://github.com/Axelrod-Python/Axelrod/pull/1030https://github.com/Axelrod-Python/Axelrod/pull/1031https://github.com/Axelrod-Python/Axelrod/pull/1032https://github.com/Axelrod-Python/Axelrod/pull/1033https://github.com/Axelrod-Python/Axelrod/pull/1034https://github.com/Axelrod-Python/Axelrod/pull/1035Here are all the commits for this PR:https://github.com/Axelrod-Python/Axelrod/compare/v2.12.0...v2.13.",
+          "Affiliation": [
+            "No Information"
+          ],
+          "Authors": [
+            "Vince Knight",
+            "Owen Campbell",
+            "Marc Harper",
+            "VSN Reddy Janga",
+            "James Campbell",
+            "Karol M. Langner",
+            "Sourav Singh",
+            "eric-s-s",
+            "Nikoleta",
+            "Thomas Campbell",
+            "Jason Young",
+            "Julie Rymer",
+            "Geraint Palmer",
+            "Kristian Glass",
+            "edouardArgenson",
+            "Martin Jones",
+            "Cameron Davidson-Pilon",
+            "alajara",
+            "Ranjini Das",
+            "Marios Zoulias",
+            "Aaron Kratz",
+            "Timothy Standen",
+            "Paul Slavin",
+            "Adam Pohl",
+            "andy boot",
+            "WonkySpecs",
+            "Jochen M\u00fcller",
+            "Georgios Koutsovoulos",
+            "Areeb Ahmed",
+            "Tom\u00e1\u0161 Ehrlich"
+          ],
+          "Cited count": null,
+          "DOI": "10.5281/zenodo.592406",
+          "ISSN": null,
+          "Publication Name": null,
+          "Published Date": "2017-06-01",
+          "Title": "Axelrod-Python/Axelrod: v2.13.0",
+          "Type": "article",
+          "URLs": [
+            "https://zenodo.org/record/801749"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI, Title, URLs, Authors,Publication Name, IISN, Cited Count,Type, Published Date, Abstract",
+      "Search Engine": "CORE Search Engine",
+      "items": [
+        {
+          "Abstract": "or download the PD",
+          "Affiliation": [
+            "No Information"
+          ],
+          "Authors": [
+            "Read Here"
+          ],
+          "Cited count": null,
+          "DOI": null,
+          "ISSN": null,
+          "Publication Name": null,
+          "Published Date": "2012-02-15",
+          "Title": "/ for more information Python 2 Python Choose your Python version:",
+          "Type": "article",
+          "URLs": [
+            "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.211.7191",
+            "http://www.swaroopch.com/files/byteofpython/byte_of_python_v190.pdf"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI, Title, URLs, Authors,Publication Name, IISN, Cited Count,Type, Published Date, Abstract",
+      "Search Engine": "CORE Search Engine",
+      "items": [
+        {
+          "Abstract": "If you want to learn the current Python 2.x, read here [1] or download the PDF [2] If you want to learn the new Python 3.0, read here or download the PDF [3] You can also buy a printed hardcopy. [4",
+          "Affiliation": [
+            "No Information"
+          ],
+          "Authors": [],
+          "Cited count": null,
+          "DOI": null,
+          "ISSN": null,
+          "Publication Name": null,
+          "Published Date": "2012-02-15",
+          "Title": "/ for more information Python 2 Python Choose your Python version:",
+          "Type": "article",
+          "URLs": [
+            "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.211.6991",
+            "http://www.swaroopch.com/files/byteofpython/byte_of_python_v192.pdf"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI, Title, URLs, Authors,Publication Name, IISN, Cited Count,Type, Published Date, Abstract",
+      "Search Engine": "CORE Search Engine",
+      "items": [
+        {
+          "Abstract": "v2.12.0, 2017-05-23New strategies and internal refactoring/improvementsNew strategy Alexei:https://github.com/Axelrod-Python/Axelrod/pull/997New strategy Stein And Rapaport:https://github.com/Axelrod-Python/Axelrod/pull/1012Documentation fixes/improvements:https://github.com/Axelrod-Python/Axelrod/pull/1020https://github.com/Axelrod-Python/Axelrod/pull/1018https://github.com/Axelrod-Python/Axelrod/pull/1013https://github.com/Axelrod-Python/Axelrod/pull/1011https://github.com/Axelrod-Python/Axelrod/pull/1005https://github.com/Axelrod-Python/Axelrod/pull/1004https://github.com/Axelrod-Python/Axelrod/pull/1003Internal refactoring:https://github.com/Axelrod-Python/Axelrod/pull/1017https://github.com/Axelrod-Python/Axelrod/pull/1015https://github.com/Axelrod-Python/Axelrod/pull/1010Here are all the commits for this PR:https://github.com/Axelrod-Python/Axelrod/compare/v2.11.0...v2.12.",
+          "Affiliation": [
+            "No Information"
+          ],
+          "Authors": [
+            "Vince Knight",
+            "Owen Campbell",
+            "Marc Harper",
+            "VSN Reddy Janga",
+            "James Campbell",
+            "Karol M. Langner",
+            "eric-s-s",
+            "Sourav Singh",
+            "Nikoleta",
+            "Thomas Campbell",
+            "Jason Young",
+            "Julie Rymer",
+            "Geraint Palmer",
+            "Kristian Glass",
+            "edouardArgenson",
+            "Martin Jones",
+            "Cameron Davidson-Pilon",
+            "alajara",
+            "Ranjini Das",
+            "Marios Zoulias",
+            "Aaron Kratz",
+            "Timothy Standen",
+            "Paul Slavin",
+            "Adam Pohl",
+            "andy boot",
+            "WonkySpecs",
+            "Jochen M\u00fcller",
+            "Georgios Koutsovoulos",
+            "Areeb Ahmed",
+            "Tom\u00e1\u0161 Ehrlich"
+          ],
+          "Cited count": null,
+          "DOI": "10.5281/zenodo.592406",
+          "ISSN": null,
+          "Publication Name": null,
+          "Published Date": "2017-05-23",
+          "Title": "Axelrod-Python/Axelrod: v2.12.0",
+          "Type": "article",
+          "URLs": [
+            "https://zenodo.org/record/582497"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI, Title, URLs, Authors,Publication Name, IISN, Cited Count,Type, Published Date, Abstract",
+      "Search Engine": "CORE Search Engine",
+      "items": [
+        {
+          "Abstract": "v2.8.0, 2017-04-02Source code cleanup, test refactor, new strategies and improved __repr__ ofstrategiesImproved/refactored source code:https://github.com/Axelrod-Python/Axelrod/pull/917https://github.com/Axelrod-Python/Axelrod/pull/952Internal improvement: remove the init_args decorator as superseded by thekward_args:https://github.com/Axelrod-Python/Axelrod/pull/918Strategy __repr__ now automatically includes all parameters of a strategy:https://github.com/Axelrod-Python/Axelrod/pull/953https://github.com/Axelrod-Python/Axelrod/pull/922Type hints:https://github.com/Axelrod-Python/Axelrod/pull/883https://github.com/Axelrod-Python/Axelrod/pull/935https://github.com/Axelrod-Python/Axelrod/pull/949https://github.com/Axelrod-Python/Axelrod/pull/951Refactor of tests:https://github.com/Axelrod-Python/Axelrod/pull/924https://github.com/Axelrod-Python/Axelrod/pull/927https://github.com/Axelrod-Python/Axelrod/pull/928https://github.com/Axelrod-Python/Axelrod/pull/933https://github.com/Axelrod-Python/Axelrod/pull/934https://github.com/Axelrod-Python/Axelrod/pull/937New strategy: SlowTitForTwoTats2https://github.com/Axelrod-Python/Axelrod/pull/926New strategy: GeneralSoftGrudgerhttps://github.com/Axelrod-Python/Axelrod/pull/936Here are all the commits for this PR:https://github.com/Axelrod-Python/Axelrod/compare/v2.7.0...v2.8.",
+          "Affiliation": [
+            "No Information"
+          ],
+          "Authors": [
+            "Vince Knight",
+            "Owen Campbell",
+            "Marc Harper",
+            "VSN Reddy Janga",
+            "James Campbell",
+            "Karol M. Langner",
+            "Nikoleta",
+            "Thomas Campbell",
+            "Jason Young",
+            "Sourav Singh",
+            "Julie Rymer",
+            "Geraint Palmer",
+            "Kristian Glass",
+            "eric-s-s",
+            "Malgorzata Turzanska",
+            "Martin Jones",
+            "Cameron Davidson-Pilon",
+            "Ranjini Das",
+            "alajara",
+            "Aaron Kratz",
+            "Timothy Standen",
+            "Paul Slavin",
+            "Adam Pohl",
+            "andy boot",
+            "WonkySpecs",
+            "Jochen M\u00fcller",
+            "Georgios Koutsovoulos",
+            "Areeb Ahmed",
+            "Tom\u00e1\u0161 Ehrlich",
+            "varung97"
+          ],
+          "Cited count": null,
+          "DOI": "10.5281/zenodo.592406",
+          "ISSN": null,
+          "Publication Name": null,
+          "Published Date": "2017-04-02",
+          "Title": "Axelrod-Python/Axelrod: v2.8.0",
+          "Type": "article",
+          "URLs": [
+            "https://zenodo.org/record/439693"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI, Title, URLs, Authors,Publication Name, IISN, Cited Count,Type, Published Date, Abstract",
+      "Search Engine": "CORE Search Engine",
+      "items": [
+        {
+          "Abstract": "Background: Python is one of the most popular modern programming languages. In 2008 its authors introduced a new version of the language, Python 3.0, that was not backward compatible with Python 2, initiating a transitional phase for Python software developers. Aims: The study described in this paper investigates the degree to which Python software developers are making the transition from Python 2 to Python 3. Method: We have developed a Python compliance analyser, PyComply, and have assembled a large corpus of Python applications. We use PyComply to measure and quantify the degree to which Python 3 features are being used, as well as the rate and context of their adoption. Results: In fact, Python software developers are not exploiting the new features and advantages of Python 3, but rather are choosing to retain backward compatibility with Python 2. Conclusions: Python developers are confining themselves to a language subset, governed by the diminishing intersection of Python 2, which is not under development, and Python 3, which is under development with new features being introduced as the language continues to evolve",
+          "Affiliation": [
+            "No Information"
+          ],
+          "Authors": [
+            "Malloy, Brian A.",
+            "Power, James F."
+          ],
+          "Cited count": null,
+          "DOI": "10.1109/ESEM.2017.45",
+          "ISSN": null,
+          "Publication Name": "'Institute of Electrical and Electronics Engineers (IEEE)'",
+          "Published Date": "2017-01-01",
+          "Title": "Quantifying the Transition from Python 2 to 3: An Empirical Study of Python Applications",
+          "Type": "article",
+          "URLs": [
+            "http://mural.maynoothuniversity.ie/10220/1/JP-Quantifying-2017.pdf",
+            "http://mural.maynoothuniversity.ie/10220/"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI, Title, URLs, Authors,Publication Name, IISN, Cited Count,Type, Published Date, Abstract",
+      "Search Engine": "CORE Search Engine",
+      "items": [
+        {
+          "Abstract": "v1.20.0, 2016-12-05Dropping support for python 2, bug fixes and minor tidy of code (thanks todropping python 2 support!).Dropping support for python 2https://github.com/Axelrod-Python/Axelrod/pull/774Fix bug in cachehttps://github.com/Axelrod-Python/Axelrod/pull/782Fix bug in stochastic classification of Random playerhttps://github.com/Axelrod-Python/Axelrod/pull/783Fix docstrings in fingerprinthttps://github.com/Axelrod-Python/Axelrod/pull/784Use python 3 function cachinghttps://github.com/Axelrod-Python/Axelrod/pull/775Here are all the commits for this PR:https://github.com/Axelrod-Python/Axelrod/compare/v1.19.0...v1.20.",
+          "Affiliation": [
+            "No Information"
+          ],
+          "Authors": [
+            "Vince Knight",
+            "Owen Campbell",
+            "Marc Harper",
+            "James Campbell",
+            "Karol M. Langner",
+            "Nikoleta",
+            "Thomas Campbell",
+            "Jason Young",
+            "Geraint Palmer",
+            "Kristian Glass",
+            "Malgorzata Turzanska",
+            "Martin Jones",
+            "Cameron Davidson-Pilon",
+            "Ranjini Das",
+            "Aaron Kratz",
+            "Timothy Standen",
+            "Paul Slavin",
+            "Adam Pohl",
+            "andy boot",
+            "WonkySpecs",
+            "Jochen M\u00fcller",
+            "Georgios Koutsovoulos",
+            "Tom\u00e1\u0161 Ehrlich",
+            "Karl",
+            "Luis Visintini",
+            "Martin Chorley",
+            "Brice Fernandes",
+            "ABarriscale",
+            "Gustav W Delius",
+            "Alex Carney"
+          ],
+          "Cited count": null,
+          "DOI": "10.5281/zenodo.592406",
+          "ISSN": null,
+          "Publication Name": null,
+          "Published Date": "2016-12-05",
+          "Title": "Axelrod-Python/Axelrod: v1.20.0",
+          "Type": "article",
+          "URLs": [
+            "https://zenodo.org/record/192592"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI, Title, URLs, Authors,Publication Name, IISN, Cited Count,Type, Published Date, Abstract",
+      "Search Engine": "CORE Search Engine",
+      "items": [
+        {
+          "Abstract": "v2.0.0, 2016-12-05Dropping support for python 2, bug fixes, minor tidy of code (thanks todropping python 2 support!) and progress bars for fingerprinting.Dropping support for python 2https://github.com/Axelrod-Python/Axelrod/pull/774Fix bug in cachehttps://github.com/Axelrod-Python/Axelrod/pull/782Fix bug in stochastic classification of Random playerhttps://github.com/Axelrod-Python/Axelrod/pull/783Fix docstrings in fingerprinthttps://github.com/Axelrod-Python/Axelrod/pull/784Use python 3 function cachinghttps://github.com/Axelrod-Python/Axelrod/pull/775More progress bars for fingerprintinghttps://github.com/Axelrod-Python/Axelrod/pull/778Here are all the commits for this PR:https://github.com/Axelrod-Python/Axelrod/compare/v1.19.0...v2.0.",
+          "Affiliation": [
+            "No Information"
+          ],
+          "Authors": [
+            "Vince Knight",
+            "Owen Campbell",
+            "Marc Harper",
+            "James Campbell",
+            "Karol M. Langner",
+            "Nikoleta",
+            "Thomas Campbell",
+            "Jason Young",
+            "Geraint Palmer",
+            "Kristian Glass",
+            "Malgorzata Turzanska",
+            "Martin Jones",
+            "Cameron Davidson-Pilon",
+            "Ranjini Das",
+            "Aaron Kratz",
+            "Timothy Standen",
+            "Paul Slavin",
+            "Adam Pohl",
+            "andy boot",
+            "WonkySpecs",
+            "Jochen M\u00fcller",
+            "Georgios Koutsovoulos",
+            "Tom\u00e1\u0161 Ehrlich",
+            "Karl",
+            "Luis Visintini",
+            "Martin Chorley",
+            "Brice Fernandes",
+            "ABarriscale",
+            "Gustav W Delius",
+            "Alex Carney"
+          ],
+          "Cited count": null,
+          "DOI": "10.5281/zenodo.592406",
+          "ISSN": null,
+          "Publication Name": null,
+          "Published Date": "2016-12-05",
+          "Title": "Axelrod-Python/Axelrod: v2.0.0",
+          "Type": "article",
+          "URLs": [
+            "https://zenodo.org/record/192834"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI, Title, URLs, Authors,Publication Name, IISN, Cited Count,Type, Published Date, Abstract",
+      "Search Engine": "CORE Search Engine",
+      "items": [
+        {
+          "Abstract": "Background: Python is one of the most popular modern programming languages. In 2008 its authors introduced a new version of the language, Python 3.0, that was not backward compatible with Python 2, initiating a transitional phase for Python software developers. Aims: The study described in this paper investigates the degree to which Python software developers are making the transition from Python 2 to Python 3. Method: We have developed a Python compliance analyser, PyComply, and have assembled a large corpus of Python applications. We use PyComply to measure and quantify the degree to which Python 3 features are being used, as well as the rate and context of their adoption. Results: In fact, Python software developers are not exploiting the new features and advantages of Python 3, but rather are choosing to retain backward compatibility with Python 2. Conclusions: Python developers are confining themselves to a language subset, governed by the diminishing intersection of Python 2, which is not under development, and Python 3, which is under development with new features being introduced as the language continues to evolve",
+          "Affiliation": [
+            "No Information"
+          ],
+          "Authors": [
+            "Malloy, Brian A.",
+            "Power, James F."
+          ],
+          "Cited count": 2,
+          "DOI": "10.1109/ESEM.2017.45",
+          "ISSN": null,
+          "Publication Name": "'Institute of Electrical and Electronics Engineers (IEEE)'",
+          "Published Date": "2017-01-01",
+          "Title": "Quantifying the Transition from Python 2 to 3: An Empirical Study of Python Applications",
+          "Type": "article",
+          "URLs": [
+            "http://mural.maynoothuniversity.ie/10220/1/JP-Quantifying-2017.pdf",
+            "http://mural.maynoothuniversity.ie/10220/"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI, Title, URLs, Authors,Publication Name, IISN, Cited Count,Type, Published Date, Abstract",
+      "Search Engine": "CORE Search Engine",
+      "items": [
+        {
+          "Abstract": "Background: Python is one of the most popular modern programming languages. In 2008 its authors introduced a new version of the language, Python 3.0, that was not backward compatible with Python 2, initiating a transitional phase for Python software developers. Aims: The study described in this paper investigates the degree to which Python software developers are making the transition from Python 2 to Python 3. Method: We have developed a Python compliance analyser, PyComply, and have assembled a large corpus of Python applications. We use PyComply to measure and quantify the degree to which Python 3 features are being used, as well as the rate and context of their adoption. Results: In fact, Python software developers are not exploiting the new features and advantages of Python 3, but rather are choosing to retain backward compatibility with Python 2. Conclusions: Python developers are confining themselves to a language subset, governed by the diminishing intersection of Python 2, which is not under development, and Python 3, which is under development with new features being introduced as the language continues to evolve",
+          "Affiliation": [
+            "No Information"
+          ],
+          "Authors": [
+            "Malloy, Brian A.",
+            "Power, James F."
+          ],
+          "Cited count": null,
+          "DOI": "10.1109/ESEM.2017.45",
+          "ISSN": null,
+          "Publication Name": "IEEE",
+          "Published Date": "2017",
+          "Title": "Quantifying the Transition from Python 2 to 3: An Empirical Study of Python Applications",
+          "Type": "article",
+          "URLs": [
+            "http://mural.maynoothuniversity.ie/10220/1/JP-Quantifying-2017.pdf",
+            "http://mural.maynoothuniversity.ie/10220/"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI, Title, URLs, Authors,Publication Name, IISN, Cited Count,Type, Published Date, Abstract",
+      "Search Engine": "CORE Search Engine",
+      "items": [
+        {
+          "Abstract": "Background: Python is one of the most popular modern programming languages. In 2008 its authors introduced a new version of the language, Python 3.0, that was not backward compatible with Python 2, initiating a transitional phase for Python software developers. Aims: The study described in this paper investigates the degree to which Python software developers are making the transition from Python 2 to Python 3. Method: We have developed a Python compliance analyser, PyComply, and have assembled a large corpus of Python applications. We use PyComply to measure and quantify the degree to which Python 3 features are being used, as well as the rate and context of their adoption. Results: In fact, Python software developers are not exploiting the new features and advantages of Python 3, but rather are choosing to retain backward compatibility with Python 2. Conclusions: Python developers are confining themselves to a language subset, governed by the diminishing intersection of Python 2, which is not under development, and Python 3, which is under development with new features being introduced as the language continues to evolve",
+          "Affiliation": [
+            "No Information"
+          ],
+          "Authors": [
+            "Malloy, Brian A.",
+            "Power, James F."
+          ],
+          "Cited count": null,
+          "DOI": "10.1109/ESEM.2017.45",
+          "ISSN": null,
+          "Publication Name": "'Institute of Electrical and Electronics Engineers (IEEE)'",
+          "Published Date": "2017-01-01",
+          "Title": "Quantifying the Transition from Python 2 to 3: An Empirical Study of Python Applications",
+          "Type": "article",
+          "URLs": [
+            "http://mural.maynoothuniversity.ie/10220/1/JP-Quantifying-2017.pdf",
+            "http://mural.maynoothuniversity.ie/10220/"
+          ]
         }
       ]
     }

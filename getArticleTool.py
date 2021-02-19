@@ -327,10 +327,10 @@ def pagination(records):
 
 def check_DateParams(_from, _to):
     if(len(_from_yr) and not(_to)):
-        print("Both years search options either entered or leave blank!")
+        print("Search years options either entered wrong or left blank!")
         quit()
     elif(not(_from_yr) and len(_to)):
-        print("Both years search options either entered or leave blank!")
+        print("Search years options either wrong or left blank!")
         quit()
     ###------Main Call to search-------####
 ### Call search engines
