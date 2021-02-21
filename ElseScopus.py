@@ -23,7 +23,8 @@ pd.set_option('display.width', 400)
 pd.set_option('display.max_columns', 10)
 
 
-def search_scopus(query, headers, _pages,records, _title, _keyword, _abstract,scp_api,_from_yr,_to_yr_, data):
+def search_scopus(query, headers, _pages, records, _title, _keyword, _abstract,scp_api,_from_yr,_to_yr_, data):
+    query = processInputQuery(query)
     if _title:
         url = 'https://api.elsevier.com/content/search/scopus?query=%22' + query + '%22&apiKey=' + scp_api
 
@@ -48,7 +49,7 @@ def search_scopus(query, headers, _pages,records, _title, _keyword, _abstract,sc
                         issn = item['prism:issn']
 
                     resp_obj = {"entities": {"Search Engine": "Elsevier SCOPUS Search Engine",
-                                             "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affilfiation name, Type, Published date, Abstract",
+                                             "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
                                              "items": [
                                                  {"DOI": item['prism:doi'],
                                                   "Title": item['dc:title'],
@@ -104,7 +105,7 @@ def search_scopus(query, headers, _pages,records, _title, _keyword, _abstract,sc
                                 issn = str(['No information found'])
 
                             resp_obj = {"entities": {"Search Engine": "Elsevier SCOPUS Search Engine",
-                                                     "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affilfiation name, Type, Published date, Abstract",
+                                                     "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
                                                      "items": [
                                                          {"DOI": item['prism:doi'],
                                                           "Title": item['dc:title'],
@@ -161,7 +162,7 @@ def search_scopus(query, headers, _pages,records, _title, _keyword, _abstract,sc
                                 issn = str(['No information found'])
 
                             resp_obj = {"entities": {"Search Engine": "Elsevier SCOPUS Search Engine",
-                                                     "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affilfiation name, Type, Published date, Abstract",
+                                                     "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
                                                      "items": [
                                                          {"DOI": item['prism:doi'],
                                                           "Title": item['dc:title'],
@@ -187,3 +188,8 @@ def search_scopus(query, headers, _pages,records, _title, _keyword, _abstract,sc
             print(f'Finished with total {count} records returned.')
             return data
 
+def processInputQuery(_query):
+    special_characters = "+"
+    if any(c in special_characters for c in _query):
+        new_query = str(_query).replace("+", "AND")
+        return  new_query

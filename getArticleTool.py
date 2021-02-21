@@ -151,7 +151,7 @@ else:
         else:
             print("Please provide some input!")
 
-# create dictioanry object for output
+# create dictionary object for output
 data = []
 
 
