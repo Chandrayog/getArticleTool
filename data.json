@@ -1,210 +1,420 @@
 [
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
+      "Search Engine": "ACM Library Search Engine",
       "items": [
         {
-          "Abstract": "Information Fusion",
-          "Affiliation": "Alberta Machine Intelligence Institute",
-          "Authors": "Holzinger A.",
+          "Abstract": "Based on the principle of dialectic symmetry formulated by the philosophy of dialecticpositivism, an interpretation of the concept of \"artificial intelligence\" is proposed.This principle assumes the existence of a hierarchy of information objects, ...",
+          "Affiliation": "['No information found']",
+          "Authors": "Ibragim E. Suleimenov, Yelizaveta S. Vitulyova, Akhat S. Bakirov, Oleg A. Gabrielyan",
           "Cited count": "0",
-          "DOI": "10.1016/j.inffus.2021.01.008",
-          "ISSN": "15662535",
-          "Publication Name": "Information Fusion",
-          "Published date": "2021-07-01",
-          "Title": "Towards multi-modal causability with Graph Neural Networks enabling information fusion for explainable AI",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85100313219"
+          "DOI": "/doi/10.1145/3397125.3397141",
+          "ISSN": "['No information found']",
+          "Publication Name": "['No information found']",
+          "Published date": "April 2020, ",
+          "Title": "Artificial Intelligence: what is it?",
+          "Type": "research-article",
+          "URLs": "https://doi.org/10.1145/3397125.3397141"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
+      "Search Engine": "ACM Library Search Engine",
       "items": [
         {
-          "Abstract": "Frontiers of Computer Science",
-          "Affiliation": "Northwestern Polytechnical University",
-          "Authors": "Guo B.",
+          "Abstract": "This paper is a summary of the webinar hold on October 22nd at the \u201cComputationalthinking and robotics in education\u201d track in which the LearningML project was presented.The LearningML project aims to bring the fundamentals of Artificial Intelligence (...",
+          "Affiliation": "['No information found']",
+          "Authors": "Juan David Rodr\u00edguez-Garc\u00eda, Jes\u00fas Moreno-Le\u00f3n, Marcos Rom\u00e1n-Gonz\u00e1lez, Gregorio Robles",
           "Cited count": "0",
-          "DOI": "10.1007/s11704-020-9256-0",
-          "ISSN": "20952236",
-          "Publication Name": "Frontiers of Computer Science",
-          "Published date": "2021-06-01",
-          "Title": "The mass, fake news, and cognition security",
-          "Type": "Review",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85095816965"
+          "DOI": "/doi/10.1145/3434780.3436705",
+          "ISSN": "['No information found']",
+          "Publication Name": "['No information found']",
+          "Published date": "October 2020, ",
+          "Title": "Introducing Artificial Intelligence Fundamentals with LearningML: Artificial Intelligence made easy",
+          "Type": "short-paper",
+          "URLs": "https://doi.org/10.1145/3434780.3436705"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
+      "Search Engine": "ACM Library Search Engine",
       "items": [
         {
-          "Abstract": "Applied Soft Computing",
-          "Affiliation": "Northeast University at Qinhuangdao",
-          "Authors": "Bai L.",
+          "Abstract": "In the past decades, artificial intelligence has dramatically changed the way we workand live. Moreover, it is increasingly becoming a national strategy for its rapiddevelopment and broad application in industries. However, the way artificial ...",
+          "Affiliation": "['No information found']",
+          "Authors": "Zhou Shao, Zhenting Shen, Sha Yuan, Jie Tang, Yongli Wang, Lili Wu, Wenjiang Zheng",
           "Cited count": "0",
-          "DOI": "10.1016/j.asoc.2021.107144",
-          "ISSN": "15684946",
-          "Publication Name": "Applied Soft Computing",
-          "Published date": "2021-05-01",
-          "Title": "Multi-hop reasoning over paths in temporal knowledge graphs using reinforcement learning",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85100382546"
+          "DOI": "/doi/10.1145/3394231.3397925",
+          "ISSN": "['No information found']",
+          "Publication Name": "['No information found']",
+          "Published date": "July 2020, ",
+          "Title": "AI 2000: A Decade of Artificial Intelligence",
+          "Type": "research-article",
+          "URLs": "https://doi.org/10.1145/3394231.3397925"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
+      "Search Engine": "ACM Library Search Engine",
       "items": [
         {
-          "Abstract": "Future Generation Computer Systems",
-          "Affiliation": "National Institute of Technology Karnataka",
-          "Authors": "Mayya V.",
+          "Abstract": "The advent of the era of big data has brought opportunities for the application ofartificial intelligence and mental health. From \"virtual psychotherapists\" to socialrobots for dementia and autism treatment to robots for treatment of disorders, AIis ...",
+          "Affiliation": "['No information found']",
+          "Authors": "Fan Yang, Tingting Han, Kesui Deng, Yong Han",
           "Cited count": "0",
-          "DOI": "10.1016/j.future.2021.01.013",
-          "ISSN": "0167739X",
-          "Publication Name": "Future Generation Computer Systems",
-          "Published date": "2021-05-01",
-          "Title": "Multi-channel, convolutional attention based neural model for automated diagnostic coding of unstructured patient discharge summaries",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85100018423"
+          "DOI": "/doi/10.1145/3433996.3434004",
+          "ISSN": "['No information found']",
+          "Publication Name": "['No information found']",
+          "Published date": "October 2020, ",
+          "Title": "The Application of Artificial Intelligence in the Mental Diseases",
+          "Type": "research-article",
+          "URLs": "https://doi.org/10.1145/3433996.3434004"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
+      "Search Engine": "ACM Library Search Engine",
       "items": [
         {
-          "Abstract": "Ad Hoc Networks",
-          "Affiliation": "Nankai University",
-          "Authors": "Zhang Y.",
+          "Abstract": "Artificial intelligence is changing the world. The application of the artificial intelligencein logistics has brought a significant reduction in labor costs and huge increasein logistics efficiency. Artificial intelligence will lead the logistics ...",
+          "Affiliation": "['No information found']",
+          "Authors": "Xinke Du",
           "Cited count": "0",
-          "DOI": "10.1016/j.adhoc.2020.102402",
-          "ISSN": "15708705",
-          "Publication Name": "Ad Hoc Networks",
-          "Published date": "2021-03-15",
-          "Title": "TRFR: A ternary relation link prediction framework on Knowledge graphs",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098726158"
+          "DOI": "/doi/10.1145/3421766.3421798",
+          "ISSN": "['No information found']",
+          "Publication Name": "['No information found']",
+          "Published date": "October 2020, ",
+          "Title": "Research on the Artificial Intelligence Applied in Logistics Warehousing",
+          "Type": "research-article",
+          "URLs": "https://doi.org/10.1145/3421766.3421798"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
+      "Search Engine": "ACM Library Search Engine",
       "items": [
         {
-          "Abstract": "Knowledge-Based Systems",
-          "Affiliation": "Universit\u00e0 degli Studi di Bari",
-          "Authors": "Musto C.",
+          "Abstract": "Artificial Intelligence (AI) has become the buzzword of the last decade. Advancesso far have been largely technical with a focus on machine learning (ML). Only recentlyhave we begun seeing a shift towards focusing on the human aspects of artificial ...",
+          "Affiliation": "['No information found']",
+          "Authors": "Albrecht Schmidt",
           "Cited count": "0",
-          "DOI": "10.1016/j.knosys.2021.106806",
-          "ISSN": "09507051",
-          "Publication Name": "Knowledge-Based Systems",
-          "Published date": "2021-03-15",
-          "Title": "Context-aware graph-based recommendations exploiting Personalized PageRank",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85100302846"
+          "DOI": "/doi/10.1145/3399715.3400873",
+          "ISSN": "['No information found']",
+          "Publication Name": "['No information found']",
+          "Published date": "September 2020, ",
+          "Title": "Interactive Human Centered Artificial Intelligence: A Definition and Research Challenges",
+          "Type": "keynote",
+          "URLs": "https://doi.org/10.1145/3399715.3400873"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
+      "Search Engine": "ACM Library Search Engine",
       "items": [
         {
-          "Abstract": "Expert Systems with Applications",
-          "Affiliation": "Xi'an University of Architecture and Technology",
-          "Authors": "Shao B.",
+          "Abstract": "Ideas originating in physics have informed progress in artificial intelligence andmachine learning for many decades. However the pedigree of many such ideas is oftneglected in the Computer Science community. The tutorial focuses on current and past...",
+          "Affiliation": "['No information found']",
+          "Authors": "Muhammad Aurangzeb Ahmad, \u015eener \u00d6z\u00f6nder",
           "Cited count": "0",
-          "DOI": "10.1016/j.eswa.2020.113764",
-          "ISSN": "09574174",
-          "Publication Name": "Expert Systems with Applications",
-          "Published date": "2021-03-01",
-          "Title": "A survey of research hotspots and frontier trends of recommendation systems from the perspective of knowledge graph",
-          "Type": "Review",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85090141594"
+          "DOI": "/doi/10.1145/3394486.3406464",
+          "ISSN": "['No information found']",
+          "Publication Name": "['No information found']",
+          "Published date": "August 2020, ",
+          "Title": "Physics Inspired Models in Artificial Intelligence",
+          "Type": "tutorial",
+          "URLs": "https://doi.org/10.1145/3394486.3406464"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
+      "Search Engine": "ACM Library Search Engine",
       "items": [
         {
-          "Abstract": "Information Fusion",
-          "Affiliation": "Chinese Academy of Sciences",
-          "Authors": "Zheng W.",
+          "Abstract": "As artificial intelligence (AI) technologies are more and more integrated into everydaylives, both scholarly and popular discourses on AI's often revolve around chartingthe various risks that may be associated with them. The manner and magnitude of ...",
+          "Affiliation": "['No information found']",
+          "Authors": "Aale Luusua, Johanna Ylipulli",
           "Cited count": "0",
-          "DOI": "10.1016/j.inffus.2020.10.007",
-          "ISSN": "15662535",
-          "Publication Name": "Information Fusion",
-          "Published date": "2021-03-01",
-          "Title": "KM4: Visual reasoning via Knowledge Embedding Memory Model with Mutual Modulation",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85092745169"
+          "DOI": "/doi/10.1145/3357236.3395491",
+          "ISSN": "['No information found']",
+          "Publication Name": "['No information found']",
+          "Published date": "July 2020, ",
+          "Title": "Artificial Intelligence and Risk in Design",
+          "Type": "research-article",
+          "URLs": "https://doi.org/10.1145/3357236.3395491"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
+      "Search Engine": "ACM Library Search Engine",
       "items": [
         {
-          "Abstract": "Information Sciences",
-          "Affiliation": "Chongqing University",
-          "Authors": "Gao M.",
+          "Abstract": "Today, the sheer volume of data generated by humans and computers far exceeds therange of capabilities that humans can absorb, interpret and follow on complex decisions.Computers can calculate the permutation and combination of these moves extremely ...",
+          "Affiliation": "['No information found']",
+          "Authors": "Mengyuan Zhang",
           "Cited count": "0",
-          "DOI": "10.1016/j.ins.2020.09.013",
-          "ISSN": "00200255",
-          "Publication Name": "Information Sciences",
-          "Published date": "2021-02-06",
-          "Title": "Recommender systems based on generative adversarial networks: A problem-driven perspective",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85092542463"
+          "DOI": "/doi/10.1145/3377571.3379441",
+          "ISSN": "['No information found']",
+          "Publication Name": "['No information found']",
+          "Published date": "January 2020, ",
+          "Title": "Artificial Intelligence and Application in Finance",
+          "Type": "research-article",
+          "URLs": "https://doi.org/10.1145/3377571.3379441"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
+      "Search Engine": "ACM Library Search Engine",
       "items": [
         {
-          "Abstract": "Expert Systems with Applications",
-          "Affiliation": "University of Technology Sydney",
-          "Authors": "Sang L.",
+          "Abstract": "The era of intelligence marked by artificial intelligence is coming. Accurate judgmentof research front in AI can influence the policy orientation of AI technology. Basedon Scopus database, artificial intelligence related papers between January 1, ...",
+          "Affiliation": "['No information found']",
+          "Authors": "Liqun Wen, Yao Lu, Hui Li, Suyan Long, Jiayu Li",
           "Cited count": "0",
-          "DOI": "10.1016/j.eswa.2020.113992",
-          "ISSN": "09574174",
-          "Publication Name": "Expert Systems with Applications",
-          "Published date": "2021-02-01",
-          "Title": "Knowledge graph enhanced neural collaborative recommendation",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85090965938"
+          "DOI": "/doi/10.1145/3421766.3421799",
+          "ISSN": "['No information found']",
+          "Publication Name": "['No information found']",
+          "Published date": "October 2020, ",
+          "Title": "Detecting of Research Front Topic in Artificial Intelligence Based on SciVal",
+          "Type": "research-article",
+          "URLs": "https://doi.org/10.1145/3421766.3421799"
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
+      "Search Engine": "ACM Library Search Engine",
+      "items": [
+        {
+          "Abstract": "Bankruptcy is a legal process that declares the debtor's inability to repay the debtand a subsequent chain of repayments to the creditor. Preventing the risk of companyfailure, or a long time, it has been a subject that the academic and industrial ...",
+          "Affiliation": "['No information found']",
+          "Authors": "Kun-Huang Chen, Tzu-Yun Tsai",
+          "Cited count": "0",
+          "DOI": "/doi/10.1145/3417188.3417199",
+          "ISSN": "['No information found']",
+          "Publication Name": "['No information found']",
+          "Published date": "July 2020, ",
+          "Title": "Bankruptcy Study Using Artificial Intelligence",
+          "Type": "research-article",
+          "URLs": "https://doi.org/10.1145/3417188.3417199"
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
+      "Search Engine": "ACM Library Search Engine",
+      "items": [
+        {
+          "Abstract": "Owing to the rich emerging multimedia applications and services in the past decade,super large amount of multimedia data has been produced for the purpose of advancedresearch in multimedia. Furthermore, multimedia research has made great progress on...",
+          "Affiliation": "['No information found']",
+          "Authors": "Xin Wang, Wenwu Zhu, Yonghong Tian, Wen Gao",
+          "Cited count": "0",
+          "DOI": "/doi/10.1145/3394171.3418547",
+          "ISSN": "['No information found']",
+          "Publication Name": "['No information found']",
+          "Published date": "October 2020, ",
+          "Title": "Multimedia Intelligence: When Multimedia Meets Artificial Intelligence",
+          "Type": "tutorial",
+          "URLs": "https://doi.org/10.1145/3394171.3418547"
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
+      "Search Engine": "ACM Library Search Engine",
+      "items": [
+        {
+          "Abstract": "Artificial intelligence has confronted us with a raft of dilemmas that challenge usto decide what values are important in our designs.",
+          "Affiliation": "['No information found']",
+          "Authors": "Peter J. Denning, Dorothy E. Denning",
+          "Cited count": "2",
+          "DOI": "/doi/10.1145/3379920",
+          "ISSN": "['No information found']",
+          "Publication Name": "['No information found']",
+          "Published date": "February 2020, ",
+          "Title": "Dilemmas of artificial intelligence",
+          "Type": "opinion",
+          "URLs": "https://doi.org/10.1145/3379920"
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
+      "Search Engine": "ACM Library Search Engine",
+      "items": [
+        {
+          "Abstract": "In Spain, the majority of university students are women, but the gender distributionin different fields of study is uneven and there are certain disciplines, as engineeringand some experimental sciences where less than 30% are women. This reduced ...",
+          "Affiliation": "['No information found']",
+          "Authors": "Eva Cernadas, Encina Calvo-Iglesias",
+          "Cited count": "0",
+          "DOI": "/doi/10.1145/3434780.3436658",
+          "ISSN": "['No information found']",
+          "Publication Name": "['No information found']",
+          "Published date": "October 2020, ",
+          "Title": "Gender perspective in Artificial Intelligence (AI)",
+          "Type": "research-article",
+          "URLs": "https://doi.org/10.1145/3434780.3436658"
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
+      "Search Engine": "ACM Library Search Engine",
+      "items": [
+        {
+          "Abstract": "At present, intelligent technologies such as artificial intelligence and big dataare in full swing, and various application scenarios are gradually landing. The applicationof big data and artificial intelligence technologies to digital marketing has ...",
+          "Affiliation": "['No information found']",
+          "Authors": "Fang Gao, Lan Zhang",
+          "Cited count": "0",
+          "DOI": "/doi/10.1145/3436286.3436404",
+          "ISSN": "['No information found']",
+          "Publication Name": "['No information found']",
+          "Published date": "April 2020, ",
+          "Title": "Application of Artificial Intelligence and Big Data Technology in Digital Marketing",
+          "Type": "research-article",
+          "URLs": "https://doi.org/10.1145/3436286.3436404"
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
+      "Search Engine": "ACM Library Search Engine",
+      "items": [
+        {
+          "Abstract": "Most members of scientific community would agree that Artificial Intelligence (AI)has already dramatically changed our society and all of it aspects including scienceand research. There are thousands of publications declaring the great advantages of...",
+          "Affiliation": "['No information found']",
+          "Authors": "Aleksejs Zorins",
+          "Cited count": "0",
+          "DOI": "/doi/10.1145/3407982.3408001",
+          "ISSN": "['No information found']",
+          "Publication Name": "['No information found']",
+          "Published date": "June 2020, ",
+          "Title": "Understanding the Essence of Artificial Intelligence: Towards Ecological Safety of AI in Human Society",
+          "Type": "research-article",
+          "URLs": "https://doi.org/10.1145/3407982.3408001"
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
+      "Search Engine": "ACM Library Search Engine",
+      "items": [
+        {
+          "Abstract": "The origin and emergence of innovations has been a central question in research andpractice for decades. In this context, technological progress plays a decisive role:Existing technologies and capabilities serve as building blocks for the innovations...",
+          "Affiliation": "['No information found']",
+          "Authors": "Christian M\u00fchlroth",
+          "Cited count": "0",
+          "DOI": "/doi/10.1145/3378539.3393869",
+          "ISSN": "['No information found']",
+          "Publication Name": "['No information found']",
+          "Published date": "June 2020, ",
+          "Title": "Artificial Intelligence as Innovation Accelerator",
+          "Type": "keynote",
+          "URLs": "https://doi.org/10.1145/3378539.3393869"
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
+      "Search Engine": "ACM Library Search Engine",
+      "items": [
+        {
+          "Abstract": "Hull form optimization is an important aspect of ship hydrodynamic research, and theprimary target of ship design. More and more researchers are focusing on hull formintelligent optimization in recent years. First of all, this paper summarizes the...",
+          "Affiliation": "['No information found']",
+          "Authors": "Zhang Li, Chen Weimin",
+          "Cited count": "0",
+          "DOI": "/doi/10.1145/3395260.3395296",
+          "ISSN": "['No information found']",
+          "Publication Name": "['No information found']",
+          "Published date": "April 2020, ",
+          "Title": "Key Technology of Artificial Intelligence in Hull Form Intelligent Optimization",
+          "Type": "research-article",
+          "URLs": "https://doi.org/10.1145/3395260.3395296"
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
+      "Search Engine": "ACM Library Search Engine",
+      "items": [
+        {
+          "Abstract": "Ethics Guidelines for Trustworthy AI advocate for AI technology that is, among otherthings, more inclusive. Explainable AI (XAI) aims at making state of the art opaquemodels more transparent, and defends AI-based outcomes endorsed with a rationale ...",
+          "Affiliation": "['No information found']",
+          "Authors": "Natalia D\u00edaz-Rodr\u00edguez, Galena Pisoni",
+          "Cited count": "2",
+          "DOI": "/doi/10.1145/3386392.3399276",
+          "ISSN": "['No information found']",
+          "Publication Name": "['No information found']",
+          "Published date": "July 2020, ",
+          "Title": "Accessible Cultural Heritage through Explainable Artificial Intelligence",
+          "Type": "research-article",
+          "URLs": "https://doi.org/10.1145/3386392.3399276"
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
+      "Search Engine": "ACM Library Search Engine",
+      "items": [
+        {
+          "Abstract": "This keynote will explore the broader issue of using socio-technical artificial intelligence(AI) systems in criminology for responding to cybercrime and cybersecurity issues.It will focus upon the importance of matching the delivery of AI with the ...",
+          "Affiliation": "['No information found']",
+          "Authors": "David S. Wall",
+          "Cited count": "0",
+          "DOI": "/doi/10.1145/3394332.3402837",
+          "ISSN": "['No information found']",
+          "Publication Name": "['No information found']",
+          "Published date": "July 2020, ",
+          "Title": "AI (Artificial Intelligence) and Cybercrime: balancing expectations with delivery",
+          "Type": "research-article",
+          "URLs": "https://doi.org/10.1145/3394332.3402837"
         }
       ]
     }

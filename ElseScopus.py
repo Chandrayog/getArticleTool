@@ -1,19 +1,12 @@
+import sys
+
 import requests
 import json
-import urllib3
-import urllib
-from requests import get
 from bs4 import BeautifulSoup
-import xml.etree.ElementTree as ET
 import pandas as pd
-import numpy as n
 import time
-from time import sleep
-from openpyxl import load_workbook
 from tqdm import tqdm
-import re
-import os
-from scraper_api import ScraperAPIClient
+import logger
 
 # ignore warning messages
 import warnings
@@ -22,8 +15,9 @@ warnings.filterwarnings('ignore')
 pd.set_option('display.width', 400)
 pd.set_option('display.max_columns', 10)
 
+_engine="Elsevier Scopus"
 
-def search_scopus(query, headers, _pages, records, _title, _keyword, _abstract,scp_api,_from_yr,_to_yr_, data):
+def search_scopus(query, headers, _pages, records, _title, _keyword, _abstract,scp_api,_from_yr,_to_yr_, logging_flag, data):
     query = processInputQuery(query)
     if _title:
         url = 'https://api.elsevier.com/content/search/scopus?query=%22' + query + '%22&apiKey=' + scp_api
@@ -69,9 +63,12 @@ def search_scopus(query, headers, _pages, records, _title, _keyword, _abstract,s
                     data.append(resp_obj)
                 except Exception as e:  # raise e
                     pass
-                    # print('error scopus:', e)
+                    exception_type, exception_object, exception_traceback = sys.exc_info()
+                    filename = exception_traceback.tb_frame.f_code.co_filename
+                    line_number = exception_traceback.tb_lineno
+                    logger.writeError(e, None, _engine, logging_flag, filename, line_number)
         time.sleep(1)
-
+        logger.writeRecords("Logging:", None, _engine, count, count, logging_flag)
         print(f'Finished with total {count} records returned.')
         return data
     if (not _from_yr):
@@ -125,9 +122,12 @@ def search_scopus(query, headers, _pages, records, _title, _keyword, _abstract,s
                             data.append(resp_obj)
                         except Exception as e:  # raise e
                             pass
-                            print('error scopus:', e)
+                            exception_type, exception_object, exception_traceback = sys.exc_info()
+                            filename = exception_traceback.tb_frame.f_code.co_filename
+                            line_number = exception_traceback.tb_lineno
+                            logger.writeError(e, None, _engine, logging_flag, filename, line_number)
             time.sleep(1)
-
+            logger.writeRecords("Logging:", None, _engine, count, count, logging_flag)
             print(f'Finished with total {count} records returned.')
             return data
 
@@ -182,9 +182,12 @@ def search_scopus(query, headers, _pages, records, _title, _keyword, _abstract,s
                             data.append(resp_obj)
                         except Exception as e:  # raise e
                             pass
-                            #print('error scopus:', e)
+                            exception_type, exception_object, exception_traceback = sys.exc_info()
+                            filename = exception_traceback.tb_frame.f_code.co_filename
+                            line_number = exception_traceback.tb_lineno
+                            logger.writeError(e, None, _engine, logging_flag, filename, line_number)
             time.sleep(1)
-
+            logger.writeRecords("Logging:", None, _engine, count, count, logging_flag)
             print(f'Finished with total {count} records returned.')
             return data
 
@@ -192,4 +195,6 @@ def processInputQuery(_query):
     special_characters = "+"
     if any(c in special_characters for c in _query):
         new_query = str(_query).replace("+", "AND")
-        return  new_query
+        return new_query
+    else:
+        return _query
