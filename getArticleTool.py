@@ -167,10 +167,8 @@ def search_engines(query, x):
                 try:
                     if 1 in x:
                        _pages = pagination(records)
-
-                  search_googleScholar(query,headers,_gs_pages,records,_title,_keyword,_abstract, scrpr_api,_from_yr,_to_yr_,logging_flag, data)   # done
+                       search_googleScholar(query,headers,_gs_pages,records,_title,_keyword,_abstract, scrpr_api,_from_yr,_to_yr_,logging_flag, data)   # done
                 except Exception as e:  # raise e
->>>>>>> 0e82d262fd05    7a722fb087e441b64c67933b31e2
                     pass
                     exception_type, exception_object, exception_traceback = sys.exc_info()
                     filename = exception_traceback.tb_frame.f_code.co_filename
@@ -179,45 +177,65 @@ def search_engines(query, x):
                 try:
                    if 2 in x:
                        _pages = pagination(records)
-                       search_msAcademic(query,headers, _pages,records,_title,_keyword,_abstract,ms_api,_from_yr,_to_yr_, data)  # done
+                       search_msAcademic(query,headers, _pages,records,_title,_keyword,_abstract,ms_api,_from_yr,_to_yr_,logging_flag, data)  # done
                 except Exception as e:  # raise e
                     #pass
-                    print('error:', e)
+                    exception_type, exception_object, exception_traceback = sys.exc_info()
+                    filename = exception_traceback.tb_frame.f_code.co_filename
+                    line_number = exception_traceback.tb_lineno
+                    logger.writeError(e, None, "MS Academic", logging_flag, filename, line_number)
                 try:
                     if 3 in x:
                        _pages = pagination(records)
-                       search_core(query,headers, _pages,records,_title,_keyword,_abstract,core_api,_search_yr, data)  # done
+                       search_core(query,headers, _pages,records,_title,_keyword,_abstract,core_api,_search_yr,logging_flag,  data)  # done
                 except Exception as e:  # raise e
-                    pass  # print('error:', e)
+                    pass
+                    exception_type, exception_object, exception_traceback = sys.exc_info()
+                    filename = exception_traceback.tb_frame.f_code.co_filename
+                    line_number = exception_traceback.tb_lineno
+                    logger.writeError(e, None, "CORE Engine", logging_flag, filename, line_number)
                 try:
                     if 4 in x:
                        _pages = pagination(records)
-                       search_pubMed(query,headers, _pages,_title,_keyword,_abstract,_from_yr,_to_yr_, data)  # done
+                       search_pubMed(query,headers, _pages,_title,_keyword,_abstract,_from_yr,_to_yr_, logging_flag, data)  # done
                 except Exception as e:  # raise e
                     #pass
-                    print('error:', e)
+                    exception_type, exception_object, exception_traceback = sys.exc_info()
+                    filename = exception_traceback.tb_frame.f_code.co_filename
+                    line_number = exception_traceback.tb_lineno
+                    logger.writeError(e, None, "PubMed Engine", logging_flag, filename, line_number)
                 try:
                     if 5 in x:
                        _pages = pagination(records)
-                       search_acmlibrary(query,headers, _pages,records,_title,_keyword,_abstract,_from_yr,_to_yr_, data)  # done
+                       search_acmlibrary(query,headers, _pages,records,_title,_keyword,_abstract,_from_yr,_to_yr_,logging_flag, data)  # done
                 except Exception as e:  # raise e
                      pass
-                    #print('error:', e)
+                     exception_type, exception_object, exception_traceback = sys.exc_info()
+                     filename = exception_traceback.tb_frame.f_code.co_filename
+                     line_number = exception_traceback.tb_lineno
+                     logger.writeError(e, None, "ACM Library Engine", logging_flag, filename, line_number)
 
                 ##---Engines only for Keyword and Abstract---###
                 try:
                     if 6 in x:
                        _pages = pagination(records)
-                       search_PlosOne(query,headers, _pages,records,_title,_keyword,_abstract,_from_yr,_to_yr_, data)  # done
+                       search_PlosOne(query,headers, _pages,records,_title,_keyword,_abstract,_from_yr,_to_yr_,logging_flag, data)  # done
                 except Exception as e:  # raise e
                     #pass
-                    print('error:', e)
+                    exception_type, exception_object, exception_traceback = sys.exc_info()
+                    filename = exception_traceback.tb_frame.f_code.co_filename
+                    line_number = exception_traceback.tb_lineno
+                    logger.writeError(e, None, "PLOSE One Engine", logging_flag, filename, line_number)
                 try:
                     if 7 in x:
                        _pages = pagination(records)
-                       search_academia(query,headers, _pages,records,_title,_keyword,_abstract,_search_yr, data)
+                       search_academia(query,headers, _pages,records,_title,_keyword,_abstract,_search_yr, logging_flag, data)
                 except Exception as e:  # raise e
-                    pass  # print('error:', e)
+                    pass
+                    exception_type, exception_object, exception_traceback = sys.exc_info()
+                    filename = exception_traceback.tb_frame.f_code.co_filename
+                    line_number = exception_traceback.tb_lineno
+                    logger.writeError(e, None, "Academia Engine", logging_flag, filename, line_number)
                 try:
                     if 8 in x:
                        _pages = pagination(records)
@@ -232,16 +250,24 @@ def search_engines(query, x):
                 try:
                     if 9 in x:
                        _pages = pagination(records)
-                       search_springer(query,headers, _pages,records,_title,_keyword,_abstract,spr_api,_search_yr, data)  # done
+                       search_springer(query,headers, _pages,records,_title,_keyword,_abstract,spr_api,_search_yr,logging_flag, data)  # done
                 except Exception as e:  # raise e
-                    pass  # print('error:', e)
+                    pass
+                    exception_type, exception_object, exception_traceback = sys.exc_info()
+                    filename = exception_traceback.tb_frame.f_code.co_filename
+                    line_number = exception_traceback.tb_lineno
+                    logger.writeError(e, None, "Springer", logging_flag, filename, line_number)
 
                 try:
                     if 10 in x:
                       _pages = pagination(records)
-                      search_sciDirect(query,headers, _pages,records,_title,_keyword,_abstract,sd1_api, sd2_api,_from_yr,_to_yr_, data)
+                      search_sciDirect(query,headers, _pages,records,_title,_keyword,_abstract,sd1_api, sd2_api,_from_yr,_to_yr_,logging_flag, data)
                 except Exception as e:  # raise e
-                    pass  # print('error:', e)
+                    pass
+                    exception_type, exception_object, exception_traceback = sys.exc_info()
+                    filename = exception_traceback.tb_frame.f_code.co_filename
+                    line_number = exception_traceback.tb_lineno
+                    logger.writeError(e, None, "Science Direct", logging_flag, filename, line_number)
 
             else:
                 print('Select search engine!')
@@ -257,50 +283,69 @@ def search_allengines(query):
             try:
             ###---Engines for Title, Keyword and Abstract---###
                     _pages = pagination(records)
-<<<<<<< HEAD
-                    search_googleScholar(query, headers, _gs_pages, records, _title, _keyword, _abstract, scrpr_api,_from_yr,_to_yr_, data)  # done
-=======
                     search_googleScholar(query, headers, _pages, records, _title, _keyword, _abstract, scrpr_api,_from_yr,_to_yr_,logging_flag, data)  # done
->>>>>>> 0e82d262fd057a722fb087e441b64c67933b31e2
             except Exception as e:  # raise e
                 pass  # print('error:', e)
-                logger.writeError(e, None, "Google Schloar", logging_flag)
+                exception_type, exception_object, exception_traceback = sys.exc_info()
+                filename = exception_traceback.tb_frame.f_code.co_filename
+                line_number = exception_traceback.tb_lineno
+                logger.writeError(e, None, "Google Scholar", logging_flag, filename, line_number)
             try:
                     _pages = pagination(records)
-                    search_msAcademic(query, headers, _pages, records, _title, _keyword, _abstract, ms_api,_from_yr,_to_yr_,data)  # done
+                    search_msAcademic(query, headers, _pages, records, _title, _keyword, _abstract, ms_api,_from_yr,_to_yr_,logging_flag, data)  # done
             except Exception as e:  # raise e
                  pass
-                #print('error:', e)
+                 exception_type, exception_object, exception_traceback = sys.exc_info()
+                 filename = exception_traceback.tb_frame.f_code.co_filename
+                 line_number = exception_traceback.tb_lineno
+                 logger.writeError(e, None, "MS Academic Engine", logging_flag, filename, line_number)
             try:
                     _pages = pagination(records)
-                    search_core(query, headers, _pages, records, _title, _keyword, _abstract, core_api,_search_yr, data)  # done
-            except Exception as e:  # raise e
-                pass  # print('error:', e)
-            try:
-                    _pages = pagination(records)
-                    search_pubMed(query, headers, _pages, _title, _keyword, _abstract, _from_yr,_to_yr_,data)  # done
-            except Exception as e:  # raise e
-                 pass
-                #print('error:', e)
-            try:
-                    _pages = pagination(records)
-                    search_acmlibrary(query, headers, _pages, records, _title, _keyword, _abstract,_from_yr,_to_yr_, data)  # done
+                    search_core(query, headers, _pages, records, _title, _keyword, _abstract, core_api,_search_yr,logging_flag, data)  # done
             except Exception as e:  # raise e
                 pass
-                # print('error:', e)
+                exception_type, exception_object, exception_traceback = sys.exc_info()
+                filename = exception_traceback.tb_frame.f_code.co_filename
+                line_number = exception_traceback.tb_lineno
+                logger.writeError(e, None, "CORE Engine", logging_flag, filename, line_number)
+            try:
+                    _pages = pagination(records)
+                    search_pubMed(query, headers, _pages, _title, _keyword, _abstract, _from_yr,_to_yr_,logging_flag, data)  # done
+            except Exception as e:  # raise e
+                 pass
+                 exception_type, exception_object, exception_traceback = sys.exc_info()
+                 filename = exception_traceback.tb_frame.f_code.co_filename
+                 line_number = exception_traceback.tb_lineno
+                 logger.writeError(e, None, "PubMed Engine", logging_flag, filename, line_number)
+            try:
+                    _pages = pagination(records)
+                    search_acmlibrary(query, headers, _pages, records, _title, _keyword, _abstract,_from_yr,_to_yr_,logging_flag, data)  # done
+            except Exception as e:  # raise e
+                pass
+                exception_type, exception_object, exception_traceback = sys.exc_info()
+                filename = exception_traceback.tb_frame.f_code.co_filename
+                line_number = exception_traceback.tb_lineno
+                logger.writeError(e, None, "ACM Library", logging_flag, filename, line_number)
 
             ##---Engines only for Keyword and Abstract---###
             try:
                     _pages = pagination(records)
-                    search_PlosOne(query, headers, _pages, records, _title, _keyword, _abstract, _from_yr,_to_yr_,data)  # done
+                    search_PlosOne(query, headers, _pages, records, _title, _keyword, _abstract, _from_yr,_to_yr_,logging_flag, data)  # done
             except Exception as e:  # raise e
                 pass
-                #print('error:', e)
+                exception_type, exception_object, exception_traceback = sys.exc_info()
+                filename = exception_traceback.tb_frame.f_code.co_filename
+                line_number = exception_traceback.tb_lineno
+                logger.writeError(e, None, "PLOS One Engine", logging_flag, filename, line_number)
             try:
                     _pages = pagination(records)
-                    search_academia(query, headers, _pages, records, _title, _keyword, _abstract,_search_yr, data)
+                    search_academia(query, headers, _pages, records, _title, _keyword, _abstract,_search_yr,logging_flag, data)
             except Exception as e:  # raise e
-                pass  # print('error:', e)
+                pass
+                exception_type, exception_object, exception_traceback = sys.exc_info()
+                filename = exception_traceback.tb_frame.f_code.co_filename
+                line_number = exception_traceback.tb_lineno
+                logger.writeError(e, None, "Academia Engine", logging_flag, filename, line_number)
             try:
                     _pages = pagination(records)
                     search_scopus(query, headers, _pages, records, _title, _keyword, _abstract, scp_api,_from_yr,_to_yr_, logging_flag, data)  # done
@@ -313,18 +358,31 @@ def search_allengines(query):
 
             try:
                     _pages = pagination(records)
-                    search_springer(query, headers, _pages, records, _title, _keyword, _abstract, spr_api,_search_yr, data)  # done
+                    search_springer(query, headers, _pages, records, _title, _keyword, _abstract, spr_api,_search_yr,logging_flag, data)  # done
             except Exception as e:  # raise e
-                pass  # print('error:', e)
+                pass
+                exception_type, exception_object, exception_traceback = sys.exc_info()
+                filename = exception_traceback.tb_frame.f_code.co_filename
+                line_number = exception_traceback.tb_lineno
+                logger.writeError(e, None, "Springer Engine", logging_flag, filename, line_number)
 
             try:
                     _pages = pagination(records)
-                    search_sciDirect(query, headers, _pages, records, _title, _keyword, _abstract, sd1_api, sd2_api,_from_yr,_to_yr_, data)
+                    search_sciDirect(query, headers, _pages, records, _title, _keyword, _abstract, sd1_api, sd2_api,_from_yr,_to_yr_,logging_flag, data)
             except Exception as e:  # raise e
-                pass  # print('error:', e)
+                pass
+                exception_type, exception_object, exception_traceback = sys.exc_info()
+                filename = exception_traceback.tb_frame.f_code.co_filename
+                line_number = exception_traceback.tb_lineno
+                logger.writeError(e, None, "Science Direct", logging_flag, filename, line_number)
 
         except Exception as e:  # raise e
-            pass  # print('error:', e)
+            pass
+            exception_type, exception_object, exception_traceback = sys.exc_info()
+            filename = exception_traceback.tb_frame.f_code.co_filename
+            line_number = exception_traceback.tb_lineno
+            logger.writeError(e, None, "Search Exception :", logging_flag, filename, line_number)
+
 
 ### method to find no of pages for webscrapping engines
 def pagination(records):
