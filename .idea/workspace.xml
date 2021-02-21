@@ -213,7 +213,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ElseScopus.py</url>
-          <line>26</line>
+          <line>21</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>

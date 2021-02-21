@@ -14,6 +14,7 @@ from tqdm import tqdm
 import re
 import os
 from scraper_api import ScraperAPIClient
+import logger
 
 # ignore warning messages
 import warnings
@@ -22,8 +23,9 @@ warnings.filterwarnings('ignore')
 pd.set_option('display.width', 400)
 pd.set_option('display.max_columns', 10)
 
+_engine="ACM Library"
 
-def search_acmlibrary(query, headers, _pages,records, _title, _keyword, _abstract,_from_yr,_to_yr_, data):
+def search_acmlibrary(query, headers, _pages,records, _title, _keyword, _abstract,_from_yr,_to_yr_, logging_flag, data):
     query = processInputQuery(query)
     if _title:
 
@@ -76,9 +78,12 @@ def search_acmlibrary(query, headers, _pages,records, _title, _keyword, _abstrac
                     data.append(resp_obj)
                 except Exception as e:  # raise e
                     pass
-                    # print('error:', e)
+                    exception_type, exception_object, exception_traceback = sys.exc_info()
+                    filename = exception_traceback.tb_frame.f_code.co_filename
+                    line_number = exception_traceback.tb_lineno
+                    logger.writeError(e, None, _engine, logging_flag, filename, line_number)
         time.sleep(1)
-
+        logger.writeRecords("Logging", None, _engine, count, count, logging_flag)
         print(f'Finished with total {count} records returned.')
         return data
 
@@ -139,9 +144,12 @@ def search_acmlibrary(query, headers, _pages,records, _title, _keyword, _abstrac
                             data.append(resp_obj)
                         except Exception as e:  # raise e
                             pass
-                            # print('error:', e)
+                            exception_type, exception_object, exception_traceback = sys.exc_info()
+                            filename = exception_traceback.tb_frame.f_code.co_filename
+                            line_number = exception_traceback.tb_lineno
+                            logger.writeError(e, None, _engine, logging_flag, filename, line_number)
             time.sleep(1)
-
+            logger.writeRecords("Logging", None, _engine, count, count, logging_flag)
             print(f'Finished with total {count} records returned.')
             return data
         else:
@@ -200,9 +208,12 @@ def search_acmlibrary(query, headers, _pages,records, _title, _keyword, _abstrac
                             data.append(resp_obj)
                         except Exception as e:  # raise e
                             pass
-                            # print('error:', e)
+                            exception_type, exception_object, exception_traceback = sys.exc_info()
+                            filename = exception_traceback.tb_frame.f_code.co_filename
+                            line_number = exception_traceback.tb_lineno
+                            logger.writeError(e, None, _engine, logging_flag, filename, line_number)
             time.sleep(1)
-
+            logger.writeRecords("Logging", None, _engine, count, count, logging_flag)
             print(f'Finished with total {count} records returned.')
             return data
 

@@ -14,6 +14,7 @@ from tqdm import tqdm
 import re
 import os
 from scraper_api import ScraperAPIClient
+import logger
 
 # ignore warning messages
 import warnings
@@ -22,8 +23,9 @@ warnings.filterwarnings('ignore')
 pd.set_option('display.width', 400)
 pd.set_option('display.max_columns', 10)
 
+_engine = "Academia"
 
-def search_academia(query, headers, _pages,records, _title, _keyword, _abstract,_search_yr, data):
+def search_academia(query, headers, _pages,records, _title, _keyword, _abstract,_search_yr, logging_flag, data):
 
     if _title:
         print('Searching in Academia...')
@@ -84,11 +86,12 @@ def search_academia(query, headers, _pages,records, _title, _keyword, _abstract,
 
                     except Exception as e:  # raise e
                         pass
+                        logger.writeError("Logging Erorr:" + str(e), None, _engine, logging_flag)
 
             else:
                 pass
             time.sleep(1)
-
+            logger.writeRecords("Logging", None, _engine, count, count, logging_flag)
             print(f'Finished with total {count} records returned.')
             return data
 
@@ -207,11 +210,11 @@ def search_academia(query, headers, _pages,records, _title, _keyword, _abstract,
 
                             except Exception as e:  # raise e
                                 # pass
-                                print('error core:', e)
+                                logger.writeError("Logging Erorr:" + str(e), None, _engine, logging_flag)
 
                         else:
                             pass
             time.sleep(1)
-
+            logger.writeRecords("Logging", None, _engine, count, count, logging_flag)
             print(f'Finished with total {count} records returned.')
             return data

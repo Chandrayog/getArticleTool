@@ -167,14 +167,10 @@ def search_engines(query, x):
                 try:
                     if 1 in x:
                        _pages = pagination(records)
-<<<<<<< HEAD
-                       search_googleScholar(query,headers,_gs_pages,records,_title,_keyword,_abstract, scrpr_api,_from_yr,_to_yr_, data)   # done
-                except Exception as e:  # raise egit push -f
 
-=======
-                       search_googleScholar(query,headers,_gs_pages,records,_title,_keyword,_abstract, scrpr_api,_from_yr,_to_yr_,logging_flag, data)   # done
+                  search_googleScholar(query,headers,_gs_pages,records,_title,_keyword,_abstract, scrpr_api,_from_yr,_to_yr_,logging_flag, data)   # done
                 except Exception as e:  # raise e
->>>>>>> 0e82d262fd057a722fb087e441b64c67933b31e2
+>>>>>>> 0e82d262fd05    7a722fb087e441b64c67933b31e2
                     pass
                     exception_type, exception_object, exception_traceback = sys.exc_info()
                     filename = exception_traceback.tb_frame.f_code.co_filename

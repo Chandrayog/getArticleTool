@@ -14,6 +14,7 @@ from tqdm import tqdm
 import re
 import os
 from scraper_api import ScraperAPIClient
+import logger
 
 
 search_query = ''
@@ -21,9 +22,10 @@ _title = False
 _keyword = False
 _abstract = False
 _records = str(10)
+_engine = "PubMed Engine"
 
 ### 2. PubMed Search Engine
-def search_pubMed(query, headers, _pages, _title, _keyword, _abstract,_from_yr,_to_yr_, data):
+def search_pubMed(query, headers, _pages, _title, _keyword, _abstract,_from_yr,_to_yr_, logging_flag, data):
     if _title:
         print('Searching in PubMed...')
         count = 0
@@ -78,10 +80,13 @@ def search_pubMed(query, headers, _pages, _title, _keyword, _abstract,_from_yr,_
 
                     except Exception as e:  # raise e
                         pass
-                    # print('error pubmed:', e)
+                        exception_type, exception_object, exception_traceback = sys.exc_info()
+                        filename = exception_traceback.tb_frame.f_code.co_filename
+                        line_number = exception_traceback.tb_lineno
+                        logger.writeError(e, None, _engine, logging_flag, filename, line_number)
 
         time.sleep(1)
-
+        logger.writeRecords("Logging", None, _engine, count, count, logging_flag)
         print(f'Finished with total {count} records returned.')
         return data
 
@@ -141,9 +146,13 @@ def search_pubMed(query, headers, _pages, _title, _keyword, _abstract,_from_yr,_
 
                         except Exception as e:  # raise e
                          pass
-                         #rint('error pubmed:', e)
+                         exception_type, exception_object, exception_traceback = sys.exc_info()
+                         filename = exception_traceback.tb_frame.f_code.co_filename
+                         line_number = exception_traceback.tb_lineno
+                         logger.writeError(e, None, _engine, logging_flag, filename, line_number)
 
             time.sleep(1)
+            logger.writeRecords("Logging", None, _engine, count, count, logging_flag)
             print(f'Finished with total {count} records returned.')
             return data
         else:
@@ -208,9 +217,13 @@ def search_pubMed(query, headers, _pages, _title, _keyword, _abstract,_from_yr,_
 
                         except Exception as e:  # raise e
                             pass
-                            # print('error pubmed:', e)
+                            exception_type, exception_object, exception_traceback = sys.exc_info()
+                            filename = exception_traceback.tb_frame.f_code.co_filename
+                            line_number = exception_traceback.tb_lineno
+                            logger.writeError(e, None, _engine, logging_flag, filename, line_number)
 
             time.sleep(1)
+            logger.writeRecords("Logging", None, _engine, count, count, logging_flag)
             print(f'Finished with total {count} records returned.')
             return data
 

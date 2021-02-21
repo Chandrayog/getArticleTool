@@ -14,6 +14,7 @@ from tqdm import tqdm
 import re
 import os
 from scraper_api import ScraperAPIClient
+import logger
 
 # ignore warning messages
 import warnings
@@ -22,7 +23,9 @@ warnings.filterwarnings('ignore')
 pd.set_option('display.width', 400)
 pd.set_option('display.max_columns', 10)
 
-def search_core(query, headers, _pages,records, _title, _keyword, _abstract,core_api,_search_yr, data):
+_engine="CORE Engine"
+
+def search_core(query, headers, _pages,records, _title, _keyword, _abstract,core_api,_search_yr,logging_flag, data):
         if _title:
             print('Searching in CORE...')
             url = 'https://core.ac.uk:443/api-v2/articles/search/%22' + query + '%22?page=1&pageSize=10&apiKey=' + core_api
@@ -68,11 +71,15 @@ def search_core(query, headers, _pages,records, _title, _keyword, _abstract,core
                             data.append(resp_obj)
                         except Exception as e:  # raise e
                             pass
+                            exception_type, exception_object, exception_traceback = sys.exc_info()
+                            filename = exception_traceback.tb_frame.f_code.co_filename
+                            line_number = exception_traceback.tb_lineno
+                            logger.writeError(e, None, _engine, logging_flag, filename, line_number)
                 else:
                     pass
                     # print('error core:', e)
             time.sleep(1)
-
+            logger.writeRecords("Logging", None, _engine, count, count, logging_flag)
             print(f'Finished with total {count} records returned.')
             return data
 
@@ -119,12 +126,15 @@ def search_core(query, headers, _pages,records, _title, _keyword, _abstract,core
                                     data.append(resp_obj)
                                 except Exception as e:  # raise e
                                     pass
-                                    # print('error core:', e)
+                                    exception_type, exception_object, exception_traceback = sys.exc_info()
+                                    filename = exception_traceback.tb_frame.f_code.co_filename
+                                    line_number = exception_traceback.tb_lineno
+                                    logger.writeError(e, None, _engine, logging_flag, filename, line_number)
                         else:
                             pass
 
                 time.sleep(1)
-
+                logger.writeRecords("Logging", None, _engine, count, count, logging_flag)
                 print(f'Finished with total {count} records returned.')
                 return data
         else:
