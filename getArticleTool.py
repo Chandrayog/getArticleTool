@@ -175,7 +175,8 @@ def search_engines(query, x):
                     if 1 in x:
                        _pages = pagination(records)
                        search_googleScholar(query,headers,_gs_pages,records,_title,_keyword,_abstract, scrpr_api,_from_yr,_to_yr_, data)   # done
-                except Exception as e:  # raise e
+                except Exception as e:  # raise egit push -f
+
                     pass
                     #print('error:', e)
                 try:
