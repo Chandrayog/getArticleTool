@@ -24,7 +24,7 @@ pd.set_option('display.max_columns', 10)
 
 
 def search_acmlibrary(query, headers, _pages,records, _title, _keyword, _abstract,_from_yr,_to_yr_, data):
-
+    query = processInputQuery(query)
     if _title:
 
         # url = 'https://dl.acm.org/action/doSearch?AllField=%22' + query + '%22'
@@ -206,5 +206,11 @@ def search_acmlibrary(query, headers, _pages,records, _title, _keyword, _abstrac
             print(f'Finished with total {count} records returned.')
             return data
 
-
+def processInputQuery(_query):
+    special_characters = "+"
+    if any(c in special_characters for c in _query):
+        new_query = str(_query).replace("+", "++")
+        return new_query
+    else:
+        return _query
 

@@ -1,23 +1,21 @@
+import sys
+
 import requests
 import json
 import urllib3
 import urllib
 from requests import get
 from bs4 import BeautifulSoup
-import xml.etree.ElementTree as ET
 import pandas as pd
 import numpy as n
 import time
 from time import sleep
-from openpyxl import load_workbook
 from tqdm import tqdm
 import re
 import os
 from scraper_api import ScraperAPIClient
 import requests
-from lxml.html import fromstring
-#from Proxy_List_Scrapper import Scrapper, Proxy, ScrapperException
-#from fp.fp import FreeProxy
+import logger
 
 # ignore warning messages
 import warnings
@@ -26,8 +24,10 @@ warnings.filterwarnings('ignore')
 pd.set_option('display.width', 400)
 pd.set_option('display.max_columns', 10)
 
-def search_googleScholar(query,headers,_gs_pages,records, _title, _keyword, _abstract, scrpr_api, _from_yr,_to_yr_, data):
+_engine="Google Scholar"
 
+def search_googleScholar(query,headers,_gs_pages,records, _title, _keyword, _abstract, scrpr_api, _from_yr,_to_yr_,logging_flag, data):
+    rec = 0
     if _title:
         # request url
         url = 'https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22' + query + '%22&btnG='
@@ -80,10 +80,14 @@ def search_googleScholar(query,headers,_gs_pages,records, _title, _keyword, _abs
                     data.append(resp_obj)
                 except Exception as e:  # raise e
                     pass
-                    # print('error Google:', e)
+                    exception_type, exception_object, exception_traceback = sys.exc_info()
+                    filename = exception_traceback.tb_frame.f_code.co_filename
+                    line_number = exception_traceback.tb_lineno
+                    logger.writeError(e,None, _engine, logging_flag, filename,line_number)
         time.sleep(1)
 
         print(f'Finished with total {count} records returned.')
+        logger.writeRecords("Logging:", None, _engine, "1", count,logging_flag)
         return data
 
     if _keyword or _abstract:
@@ -99,6 +103,7 @@ def search_googleScholar(query,headers,_gs_pages,records, _title, _keyword, _abs
             client = ScraperAPIClient(scrpr_api)
             count = 0
 
+
             for i in tqdm(range(1)):
                 print("Searching Google Scholar Engine now please wait...")
                 url = 'https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=' + query + '&as_ylo=' + _from_yr + '&as_yhi=' + _to_yr_ + '&btnG='
@@ -108,6 +113,7 @@ def search_googleScholar(query,headers,_gs_pages,records, _title, _keyword, _abs
 
                 if response.status_code != 200:
                     print("Request failed with stauts", response.status_code)
+                    logger.writeError("Logging Erorr:" + str(response.status_code), None, _engine, logging_flag)
                     exit()
                 else:
                     soup = BeautifulSoup(response.content, 'lxml')
@@ -190,7 +196,10 @@ def search_googleScholar(query,headers,_gs_pages,records, _title, _keyword, _abs
                                     data.append(resp_obj)
                                 except Exception as e:  # raise e
                                     pass
-                                    # print('error Google:', e)
+                                    exception_type, exception_object, exception_traceback = sys.exc_info()
+                                    filename = exception_traceback.tb_frame.f_code.co_filename
+                                    line_number = exception_traceback.tb_lineno
+                                    logger.writeError(e, None, _engine, logging_flag, filename, line_number)
 
                     else:
                         for i in range(pages):
@@ -202,6 +211,7 @@ def search_googleScholar(query,headers,_gs_pages,records, _title, _keyword, _abs
                             response = client.get(url, headers={'User-agent': 'your bot 0.1'})
                             if response.status_code != 200:
                                 print("Request failed with stauts", response.status_code)
+                                logger.writeError("Logging Erorr:" + str(response.status_code), None, _engine, logging_flag)
                                 exit()
                             else:
                                 soup = BeautifulSoup(response.content, 'lxml')
@@ -257,10 +267,14 @@ def search_googleScholar(query,headers,_gs_pages,records, _title, _keyword, _abs
                                         data.append(resp_obj)
                                     except Exception as e:  # raise e
                                         pass
-                                        # print('error Google:', e)
+                                        exception_type, exception_object, exception_traceback = sys.exc_info()
+                                        filename = exception_traceback.tb_frame.f_code.co_filename
+                                        line_number = exception_traceback.tb_lineno
+                                        logger.writeError(e, None, _engine, logging_flag, filename, line_number)
                     time.sleep(1)
 
                     print(f'Finished with total {count} records returned.')
+                    logger.writeRecords("Logging", None,_engine,rec,count,logging_flag)
                     return data
 
         # search without dates
@@ -279,6 +293,12 @@ def search_googleScholar(query,headers,_gs_pages,records, _title, _keyword, _abs
                     #                         proxies={"http": list(proxies)[:proxy_val],
                     #                                  "https": list(proxies)[:proxy_val]},
                     #                         headers=headers)
+
+                    if response.status_code != 200:
+                        print("Request failed with stauts", response.status_code)
+                        logger.writeError("Logging Erorr:" + str(response.status_code), None, _engine, logging_flag)
+                        exit()
+
                     soup = BeautifulSoup(response.content, 'lxml')
 
                     ######## Find required attributes in the response object by checking tag [data-lid]'))
@@ -335,10 +355,14 @@ def search_googleScholar(query,headers,_gs_pages,records, _title, _keyword, _abs
                             data.append(resp_obj)
                         except Exception as e:  # raise e
                             pass
-                            # print('error Google:', e)
+                            exception_type, exception_object, exception_traceback = sys.exc_info()
+                            filename = exception_traceback.tb_frame.f_code.co_filename
+                            line_number = exception_traceback.tb_lineno
+                            logger.writeError(e, None, _engine, logging_flag, filename, line_number)
             time.sleep(1)
 
             print(f'Finished with total {count} records returned.')
+            logger.writeRecords("Logging", None, _engine, rec, count, logging_flag)
             return data
 
 

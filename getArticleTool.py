@@ -1,20 +1,10 @@
-import requests
+
 import json
-import urllib3
 import urllib
-from requests import get
-from bs4 import BeautifulSoup
-import xml.etree.ElementTree as ET
 import pandas as pd
-import numpy as n
-import time
-from time import sleep
-from openpyxl import load_workbook
-from tqdm import tqdm
-import re
 import os
-from scraper_api import ScraperAPIClient
 import sys
+import logger
 sys.path.insert(1,os.getcwd())
 #sys.path.insert(1,'Users/chandrayogyadav/Desktop/getArticleTool/')
 from GoogleScholar import search_googleScholar
@@ -105,7 +95,10 @@ output_path = input("Path:")
 # Input var 3- Dataframe output option
 out=input("Do you also want Excel output? Y/N :").lower()
 
-# Input var 4- No of records option
+# Input var 4- Dataframe output option
+logging_flag = input("Do you also want Logging? Y/N :").lower()
+
+# Input var 5- No of records option
 rec = str(input("Enter No of records to search(Minimum 10 or press enter):")).split()
 if len(rec) != 0:
     records = rec[0]
@@ -114,14 +107,14 @@ else:
     records = str(10)
     _gs_pages=0
 
-# Input 5- Search year parameter option
+# Input 6- Search year parameter option
 year1=str(input("Enter the FROM year (optional):")).strip()
 if len(year1)!=0:
     _from_yr=year1
 else:
     _from_yr=''
 
-# Input 6- Search year parameter option
+# Input 7- Search year parameter option
 year2=str(input("Enter the TO year (optional):")).strip()
 if len(year2)!=0:
     _to_yr_=year2
@@ -129,7 +122,7 @@ else:
     _to_yr_=''
 
 
-# Input 7,8,9 - Title, Keyword, Abstract search options
+# Input 8,9,10 - Title, Keyword, Abstract search options
 print('Choose either Title, Keyword, or Abstract Info as options to search:')
 param1 = str(input("Enter Keyword to search (if not then press enter to go to next option):")).capitalize().strip()
 NoneType = type(None)
@@ -151,7 +144,7 @@ else:
         else:
             print("Please provide some input!")
 
-# create dictioanry object for output
+# create dictionary object for output
 data = []
 
 
@@ -174,11 +167,19 @@ def search_engines(query, x):
                 try:
                     if 1 in x:
                        _pages = pagination(records)
+<<<<<<< HEAD
                        search_googleScholar(query,headers,_gs_pages,records,_title,_keyword,_abstract, scrpr_api,_from_yr,_to_yr_, data)   # done
                 except Exception as e:  # raise egit push -f
 
+=======
+                       search_googleScholar(query,headers,_gs_pages,records,_title,_keyword,_abstract, scrpr_api,_from_yr,_to_yr_,logging_flag, data)   # done
+                except Exception as e:  # raise e
+>>>>>>> 0e82d262fd057a722fb087e441b64c67933b31e2
                     pass
-                    #print('error:', e)
+                    exception_type, exception_object, exception_traceback = sys.exc_info()
+                    filename = exception_traceback.tb_frame.f_code.co_filename
+                    line_number = exception_traceback.tb_lineno
+                    logger.writeError(e, None, "Google Scholar", logging_flag, filename, line_number)
                 try:
                    if 2 in x:
                        _pages = pagination(records)
@@ -224,9 +225,13 @@ def search_engines(query, x):
                 try:
                     if 8 in x:
                        _pages = pagination(records)
-                       search_scopus(query,headers, _pages,records,_title,_keyword,_abstract,scp_api,_from_yr,_to_yr_, data)  # done
+                       search_scopus(query,headers, _pages,records,_title,_keyword,_abstract,scp_api,_from_yr,_to_yr_,logging_flag, data)  # done
                 except Exception as e:  # raise e
                     pass  # print('error:', e)
+                    exception_type, exception_object, exception_traceback = sys.exc_info()
+                    filename = exception_traceback.tb_frame.f_code.co_filename
+                    line_number = exception_traceback.tb_lineno
+                    logger.writeError(e, None, "Elsevier Scopus", logging_flag, filename, line_number)
 
                 try:
                     if 9 in x:
@@ -256,9 +261,14 @@ def search_allengines(query):
             try:
             ###---Engines for Title, Keyword and Abstract---###
                     _pages = pagination(records)
+<<<<<<< HEAD
                     search_googleScholar(query, headers, _gs_pages, records, _title, _keyword, _abstract, scrpr_api,_from_yr,_to_yr_, data)  # done
+=======
+                    search_googleScholar(query, headers, _pages, records, _title, _keyword, _abstract, scrpr_api,_from_yr,_to_yr_,logging_flag, data)  # done
+>>>>>>> 0e82d262fd057a722fb087e441b64c67933b31e2
             except Exception as e:  # raise e
                 pass  # print('error:', e)
+                logger.writeError(e, None, "Google Schloar", logging_flag)
             try:
                     _pages = pagination(records)
                     search_msAcademic(query, headers, _pages, records, _title, _keyword, _abstract, ms_api,_from_yr,_to_yr_,data)  # done
@@ -297,9 +307,13 @@ def search_allengines(query):
                 pass  # print('error:', e)
             try:
                     _pages = pagination(records)
-                    search_scopus(query, headers, _pages, records, _title, _keyword, _abstract, scp_api,_from_yr,_to_yr_, data)  # done
+                    search_scopus(query, headers, _pages, records, _title, _keyword, _abstract, scp_api,_from_yr,_to_yr_, logging_flag, data)  # done
             except Exception as e:  # raise e
                 pass  # print('error:', e)
+                exception_type, exception_object, exception_traceback = sys.exc_info()
+                filename = exception_traceback.tb_frame.f_code.co_filename
+                line_number = exception_traceback.tb_lineno
+                logger.writeError(e, None, "Elsevier Scopus", logging_flag, filename, line_number)
 
             try:
                     _pages = pagination(records)
@@ -328,10 +342,10 @@ def pagination(records):
 
 def check_DateParams(_from, _to):
     if(len(_from_yr) and not(_to)):
-        print("Both years search options either entered or leave blank!")
+        print("Search years options either entered wrong or left blank!")
         quit()
     elif(not(_from_yr) and len(_to)):
-        print("Both years search options either entered or leave blank!")
+        print("Search years options either wrong or left blank!")
         quit()
     ###------Main Call to search-------####
 ### Call search engines

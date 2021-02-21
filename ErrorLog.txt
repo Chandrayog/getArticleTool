@@ -1,0 +1,18 @@
+
+Logged at:2021-02-21 01:19:28.193541 Error returned by - Google Scholar:can only concatenate str (not "int") to str location/line: /Users/chandra/Documents/localBranch/getArticleTool.py
+
+Logged at:2021-02-21 01:19:28.193595 Error returned by - Google Scholar:can only concatenate str (not "int") to str location/line: 170
+
+Logged at:2021-02-21 01:23:30.909304 Error returned by - Google Scholar:can only concatenate str (not "int") to str location/line: /Users/chandra/Documents/localBranch/getArticleTool.py
+
+Logged at:2021-02-21 01:23:32.959821 Error returned by - Google Scholar:can only concatenate str (not "int") to str location/line: 170
+
+
+Logged at:2021-02-21 01:30:20.398617 Error returned by - Google Scholar:'NoneType' object has no attribute 'tb_frame' location/line: /Users/chandra/Documents/localBranch/getArticleTool.py
+
+Logged at:2021-02-21 01:30:20.398655 Error returned by - Google Scholar:'NoneType' object has no attribute 'tb_frame' location/line: 170
+
+
+
+
+Logged at:2021-02-21 01:37:35.370884 Error returned by - Google Scholar:Logging Erorr:403
