@@ -14,6 +14,7 @@ from tqdm import tqdm
 import re
 import os
 from scraper_api import ScraperAPIClient
+import sys
 import logger
 
 

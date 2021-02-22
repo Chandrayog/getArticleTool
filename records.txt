@@ -4,3 +4,42 @@ Logged at:2021-02-21 01:07:44.225599 Records Captured by - Elsevier Scopus:10
 
 Logged at:2021-02-21 01:18:22.223578 Total Records Returned by - Elsevier Scopus:20
 Logged at:2021-02-21 01:18:22.223617 Records Captured by - Elsevier Scopus:20
+
+Logged at:2021-02-21 18:05:30.290919 Total Records Returned by - Google Scholar:0
+Logged at:2021-02-21 18:05:30.290953 Records Captured by - Google Scholar:0
+
+Logged at:2021-02-21 18:05:32.619349 Total Records Returned by - Microsoft Academic:10
+Logged at:2021-02-21 18:05:32.619394 Records Captured by - Microsoft Academic:10
+
+Logged at:2021-02-21 18:05:35.854994 Total Records Returned by - CORE Engine:20
+Logged at:2021-02-21 18:05:35.855027 Records Captured by - CORE Engine:20
+
+Logged at:2021-02-21 18:05:44.581055 Total Records Returned by - Academia:20
+Logged at:2021-02-21 18:05:44.581088 Records Captured by - Academia:20
+
+Logged at:2021-02-21 18:05:47.383435 Total Records Returned by - Elsevier Scopus:10
+Logged at:2021-02-21 18:05:47.383458 Records Captured by - Elsevier Scopus:10
+
+Logged at:2021-02-21 18:05:49.328291 Total Records Returned by - Springer:10
+Logged at:2021-02-21 18:05:49.328325 Records Captured by - Springer:10
+
+Logged at:2021-02-21 18:06:03.103006 Total Records Returned by - Science Direct Engine:10
+Logged at:2021-02-21 18:06:03.103034 Records Captured by - Science Direct Engine:10
+
+Logged at:2021-02-21 18:12:41.116438 Total Records Returned by - PubMed Engine:12
+Logged at:2021-02-21 18:12:41.116470 Records Captured by - PubMed Engine:12
+
+Logged at:2021-02-22 01:30:12.651773 Total Records Returned by - Elsevier Scopus:10
+Logged at:2021-02-22 01:30:12.651793 Records Captured by - Elsevier Scopus:10
+
+Logged at:2021-02-22 01:37:44.758892 Total Records Returned by - ACM Library:1754
+Logged at:2021-02-22 01:37:44.758917 Records Captured by - ACM Library:1754
+
+Logged at:2021-02-22 02:06:36.561041 Total Records Returned by - Elsevier Scopus:448
+Logged at:2021-02-22 02:06:36.561075 Records Captured by - Elsevier Scopus:0
+
+Logged at:2021-02-22 02:12:49.832218 Total Records Returned by - Elsevier Scopus:448
+Logged at:2021-02-22 02:12:49.832250 Records Captured by - Elsevier Scopus:419
+
+Logged at:2021-02-22 02:25:47.436162 Total Records Returned by - Elsevier Scopus:145578
+Logged at:2021-02-22 02:25:48.644240 Records Captured by - Elsevier Scopus:20

@@ -114,7 +114,7 @@ def search_googleScholar(query,headers,_gs_pages,records, _title, _keyword, _abs
                 if response.status_code != 200:
                     print("Request failed with stauts", response.status_code)
                     logger.writeError("Logging Erorr:" + str(response.status_code), None, _engine, logging_flag)
-                    exit()
+
                 else:
                     soup = BeautifulSoup(response.content, 'lxml')
 
@@ -212,7 +212,7 @@ def search_googleScholar(query,headers,_gs_pages,records, _title, _keyword, _abs
                             if response.status_code != 200:
                                 print("Request failed with stauts", response.status_code)
                                 logger.writeError("Logging Erorr:" + str(response.status_code), None, _engine, logging_flag)
-                                exit()
+
                             else:
                                 soup = BeautifulSoup(response.content, 'lxml')
 
@@ -297,7 +297,7 @@ def search_googleScholar(query,headers,_gs_pages,records, _title, _keyword, _abs
                     if response.status_code != 200:
                         print("Request failed with stauts", response.status_code)
                         logger.writeError("Logging Erorr:" + str(response.status_code), None, _engine, logging_flag)
-                        exit()
+
 
                     soup = BeautifulSoup(response.content, 'lxml')
 
@@ -378,7 +378,7 @@ def pagination(records):
     return page
 
 # method to get list of proxies
-Proxies = []
+#Proxies = []
 # def get_proxies():
 #
 #     scrapper = Scrapper(category='ALL', print_err_trace=False)

@@ -1,420 +1,420 @@
 [
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Elsevier SCOPUS Search Engine",
       "items": [
         {
-          "Abstract": "Based on the principle of dialectic symmetry formulated by the philosophy of dialecticpositivism, an interpretation of the concept of \"artificial intelligence\" is proposed.This principle assumes the existence of a hierarchy of information objects, ...",
-          "Affiliation": "['No information found']",
-          "Authors": "Ibragim E. Suleimenov, Yelizaveta S. Vitulyova, Akhat S. Bakirov, Oleg A. Gabrielyan",
+          "Abstract": "Proceedings of the National Academy of Sciences of the United States of America",
+          "Affiliation": "Arizona State University",
+          "Authors": "Asner G.P.",
           "Cited count": "0",
-          "DOI": "/doi/10.1145/3397125.3397141",
-          "ISSN": "['No information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "April 2020, ",
-          "Title": "Artificial Intelligence: what is it?",
-          "Type": "research-article",
-          "URLs": "https://doi.org/10.1145/3397125.3397141"
+          "DOI": "10.1073/PNAS.2017628117",
+          "ISSN": "10916490",
+          "Publication Name": "Proceedings of the National Academy of Sciences of the United States of America",
+          "Published date": "2021-12-29",
+          "Title": "Large-scale mapping of live corals to guide reef conservation",
+          "Type": "Article",
+          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85099171732"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Elsevier SCOPUS Search Engine",
       "items": [
         {
-          "Abstract": "This paper is a summary of the webinar hold on October 22nd at the \u201cComputationalthinking and robotics in education\u201d track in which the LearningML project was presented.The LearningML project aims to bring the fundamentals of Artificial Intelligence (...",
-          "Affiliation": "['No information found']",
-          "Authors": "Juan David Rodr\u00edguez-Garc\u00eda, Jes\u00fas Moreno-Le\u00f3n, Marcos Rom\u00e1n-Gonz\u00e1lez, Gregorio Robles",
+          "Abstract": "Proceedings of the National Academy of Sciences of the United States of America",
+          "Affiliation": "Rudolf Virchow Center",
+          "Authors": "Kasaragod V.B.",
           "Cited count": "0",
-          "DOI": "/doi/10.1145/3434780.3436705",
-          "ISSN": "['No information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "October 2020, ",
-          "Title": "Introducing Artificial Intelligence Fundamentals with LearningML: Artificial Intelligence made easy",
-          "Type": "short-paper",
-          "URLs": "https://doi.org/10.1145/3434780.3436705"
+          "DOI": "10.1073/PNAS.2008695117",
+          "ISSN": "10916490",
+          "Publication Name": "Proceedings of the National Academy of Sciences of the United States of America",
+          "Published date": "2021-12-29",
+          "Title": "Pyridoxal kinase inhibition by artemisinins down-regulates inhibitory neurotransmission",
+          "Type": "Article",
+          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85099172195"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Elsevier SCOPUS Search Engine",
       "items": [
         {
-          "Abstract": "In the past decades, artificial intelligence has dramatically changed the way we workand live. Moreover, it is increasingly becoming a national strategy for its rapiddevelopment and broad application in industries. However, the way artificial ...",
-          "Affiliation": "['No information found']",
-          "Authors": "Zhou Shao, Zhenting Shen, Sha Yuan, Jie Tang, Yongli Wang, Lili Wu, Wenjiang Zheng",
+          "Abstract": "Proceedings of the National Academy of Sciences of the United States of America",
+          "Affiliation": "Johns Hopkins School of Medicine",
+          "Authors": "Marsh E.B.",
           "Cited count": "0",
-          "DOI": "/doi/10.1145/3394231.3397925",
-          "ISSN": "['No information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "July 2020, ",
-          "Title": "AI 2000: A Decade of Artificial Intelligence",
-          "Type": "research-article",
-          "URLs": "https://doi.org/10.1145/3394231.3397925"
+          "DOI": "10.1073/PNAS.2013231117",
+          "ISSN": "10916490",
+          "Publication Name": "Proceedings of the National Academy of Sciences of the United States of America",
+          "Published date": "2021-12-29",
+          "Title": "Poststroke acute dysexecutive syndrome, a disorder resulting from minor stroke due to disruption of network dynamics",
+          "Type": "Article",
+          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85099172784"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Elsevier SCOPUS Search Engine",
       "items": [
         {
-          "Abstract": "The advent of the era of big data has brought opportunities for the application ofartificial intelligence and mental health. From \"virtual psychotherapists\" to socialrobots for dementia and autism treatment to robots for treatment of disorders, AIis ...",
-          "Affiliation": "['No information found']",
-          "Authors": "Fan Yang, Tingting Han, Kesui Deng, Yong Han",
+          "Abstract": "Proceedings of the National Academy of Sciences of the United States of America",
+          "Affiliation": "University of California, Los Angeles",
+          "Authors": "Hyon R.",
           "Cited count": "0",
-          "DOI": "/doi/10.1145/3433996.3434004",
-          "ISSN": "['No information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "October 2020, ",
-          "Title": "The Application of Artificial Intelligence in the Mental Diseases",
-          "Type": "research-article",
-          "URLs": "https://doi.org/10.1145/3433996.3434004"
+          "DOI": "10.1073/PNAS.2013606117",
+          "ISSN": "10916490",
+          "Publication Name": "Proceedings of the National Academy of Sciences of the United States of America",
+          "Published date": "2021-12-29",
+          "Title": "Similarity in functional brain connectivity at rest predicts interpersonal closeness in the social network of an entire village",
+          "Type": "Article",
+          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85099171315"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Elsevier SCOPUS Search Engine",
       "items": [
         {
-          "Abstract": "Artificial intelligence is changing the world. The application of the artificial intelligencein logistics has brought a significant reduction in labor costs and huge increasein logistics efficiency. Artificial intelligence will lead the logistics ...",
-          "Affiliation": "['No information found']",
-          "Authors": "Xinke Du",
+          "Abstract": "Astrophysical Journal",
+          "Affiliation": "Shanghai Astronomical Observatory Chinese Academy of Sciences",
+          "Authors": "Li Z.Z.",
           "Cited count": "0",
-          "DOI": "/doi/10.1145/3421766.3421798",
-          "ISSN": "['No information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "October 2020, ",
-          "Title": "Research on the Artificial Intelligence Applied in Logistics Warehousing",
-          "Type": "research-article",
-          "URLs": "https://doi.org/10.1145/3421766.3421798"
+          "DOI": "10.3847/1538-4357/abc481",
+          "ISSN": "15384357",
+          "Publication Name": "Astrophysical Journal",
+          "Published date": "2021-12-20",
+          "Title": "Orbital Distribution of Infalling Satellite Halos across Cosmic Time",
+          "Type": "Article",
+          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098874897"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Elsevier SCOPUS Search Engine",
       "items": [
         {
-          "Abstract": "Artificial Intelligence (AI) has become the buzzword of the last decade. Advancesso far have been largely technical with a focus on machine learning (ML). Only recentlyhave we begun seeing a shift towards focusing on the human aspects of artificial ...",
-          "Affiliation": "['No information found']",
-          "Authors": "Albrecht Schmidt",
+          "Abstract": "Astrophysical Journal",
+          "Affiliation": "Academia Sinica, Institute of Astronomy and Astrophysics",
+          "Authors": "Wang J.W.",
           "Cited count": "0",
-          "DOI": "/doi/10.1145/3399715.3400873",
-          "ISSN": "['No information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "September 2020, ",
-          "Title": "Interactive Human Centered Artificial Intelligence: A Definition and Research Challenges",
-          "Type": "keynote",
-          "URLs": "https://doi.org/10.1145/3399715.3400873"
+          "DOI": "10.3847/1538-4357/abc74e",
+          "ISSN": "15384357",
+          "Publication Name": "Astrophysical Journal",
+          "Published date": "2021-12-20",
+          "Title": "Formation of the Hub-Filament System G33.92+0.11: Local Interplay between Gravity, Velocity, and Magnetic Field",
+          "Type": "Article",
+          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098850257"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Elsevier SCOPUS Search Engine",
       "items": [
         {
-          "Abstract": "Ideas originating in physics have informed progress in artificial intelligence andmachine learning for many decades. However the pedigree of many such ideas is oftneglected in the Computer Science community. The tutorial focuses on current and past...",
-          "Affiliation": "['No information found']",
-          "Authors": "Muhammad Aurangzeb Ahmad, \u015eener \u00d6z\u00f6nder",
+          "Abstract": "Astrophysical Journal",
+          "Affiliation": "Pennsylvania State University",
+          "Authors": "Gilbertson C.",
           "Cited count": "0",
-          "DOI": "/doi/10.1145/3394486.3406464",
-          "ISSN": "['No information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "August 2020, ",
-          "Title": "Physics Inspired Models in Artificial Intelligence",
-          "Type": "tutorial",
-          "URLs": "https://doi.org/10.1145/3394486.3406464"
+          "DOI": "10.3847/1538-4357/abc627",
+          "ISSN": "15384357",
+          "Publication Name": "Astrophysical Journal",
+          "Published date": "2021-12-20",
+          "Title": "Toward Extremely Precise Radial Velocities. II. A Tool for Using Multivariate Gaussian Processes to Model Stellar Activity",
+          "Type": "Article",
+          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098878687"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Elsevier SCOPUS Search Engine",
       "items": [
         {
-          "Abstract": "As artificial intelligence (AI) technologies are more and more integrated into everydaylives, both scholarly and popular discourses on AI's often revolve around chartingthe various risks that may be associated with them. The manner and magnitude of ...",
-          "Affiliation": "['No information found']",
-          "Authors": "Aale Luusua, Johanna Ylipulli",
+          "Abstract": "Astrophysical Journal",
+          "Affiliation": "Tsinghua University",
+          "Authors": "Lin X.",
           "Cited count": "0",
-          "DOI": "/doi/10.1145/3357236.3395491",
-          "ISSN": "['No information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "July 2020, ",
-          "Title": "Artificial Intelligence and Risk in Design",
-          "Type": "research-article",
-          "URLs": "https://doi.org/10.1145/3357236.3395491"
+          "DOI": "10.3847/1538-4357/abc620",
+          "ISSN": "15384357",
+          "Publication Name": "Astrophysical Journal",
+          "Published date": "2021-12-20",
+          "Title": "Constraining the Halo Mass of Damped Ly\u00ce\u00b1 Absorption Systems (DLAs) at z = 2-3.5 Using the Quasar-CMB Lensing Cross-correlation",
+          "Type": "Article",
+          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098876049"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Elsevier SCOPUS Search Engine",
       "items": [
         {
-          "Abstract": "Today, the sheer volume of data generated by humans and computers far exceeds therange of capabilities that humans can absorb, interpret and follow on complex decisions.Computers can calculate the permutation and combination of these moves extremely ...",
-          "Affiliation": "['No information found']",
-          "Authors": "Mengyuan Zhang",
+          "Abstract": "Astrophysical Journal",
+          "Affiliation": "SLAC National Accelerator Laboratory",
+          "Authors": "Puglisi G.",
           "Cited count": "0",
-          "DOI": "/doi/10.1145/3377571.3379441",
-          "ISSN": "['No information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "January 2020, ",
-          "Title": "Artificial Intelligence and Application in Finance",
-          "Type": "research-article",
-          "URLs": "https://doi.org/10.1145/3377571.3379441"
+          "DOI": "10.3847/1538-4357/abc47c",
+          "ISSN": "15384357",
+          "Publication Name": "Astrophysical Journal",
+          "Published date": "2021-12-20",
+          "Title": "Inpainting Galactic Foreground Intensity and Polarization Maps Using Convolutional Neural Networks",
+          "Type": "Article",
+          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098869308"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Elsevier SCOPUS Search Engine",
       "items": [
         {
-          "Abstract": "The era of intelligence marked by artificial intelligence is coming. Accurate judgmentof research front in AI can influence the policy orientation of AI technology. Basedon Scopus database, artificial intelligence related papers between January 1, ...",
-          "Affiliation": "['No information found']",
-          "Authors": "Liqun Wen, Yao Lu, Hui Li, Suyan Long, Jiayu Li",
+          "Abstract": "Astrophysical Journal",
+          "Affiliation": "National Radio Astronomy Observatory",
+          "Authors": "Tobin J.J.",
           "Cited count": "0",
-          "DOI": "/doi/10.1145/3421766.3421799",
-          "ISSN": "['No information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "October 2020, ",
-          "Title": "Detecting of Research Front Topic in Artificial Intelligence Based on SciVal",
-          "Type": "research-article",
-          "URLs": "https://doi.org/10.1145/3421766.3421799"
+          "DOI": "10.3847/1538-4357/abc5bf",
+          "ISSN": "15384357",
+          "Publication Name": "Astrophysical Journal",
+          "Published date": "2021-12-20",
+          "Title": "The VLA/ALMA Nascent Disk and Multiplicity (VANDAM) Survey of Orion Protostars. IV. Unveiling the Embedded Intermediate-Mass Protostar and Disk within OMC2-FIR3/HOPS-370",
+          "Type": "Article",
+          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098847916"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Elsevier SCOPUS Search Engine",
       "items": [
         {
-          "Abstract": "Bankruptcy is a legal process that declares the debtor's inability to repay the debtand a subsequent chain of repayments to the creditor. Preventing the risk of companyfailure, or a long time, it has been a subject that the academic and industrial ...",
-          "Affiliation": "['No information found']",
-          "Authors": "Kun-Huang Chen, Tzu-Yun Tsai",
+          "Abstract": "Proceedings of the National Academy of Sciences of the United States of America",
+          "Affiliation": "Rudolf Virchow Center",
+          "Authors": "Kasaragod V.B.",
           "Cited count": "0",
-          "DOI": "/doi/10.1145/3417188.3417199",
-          "ISSN": "['No information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "July 2020, ",
-          "Title": "Bankruptcy Study Using Artificial Intelligence",
-          "Type": "research-article",
-          "URLs": "https://doi.org/10.1145/3417188.3417199"
+          "DOI": "10.1073/PNAS.2008695117",
+          "ISSN": "10916490",
+          "Publication Name": "Proceedings of the National Academy of Sciences of the United States of America",
+          "Published date": "2021-12-29",
+          "Title": "Pyridoxal kinase inhibition by artemisinins down-regulates inhibitory neurotransmission",
+          "Type": "Article",
+          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85099172195"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Elsevier SCOPUS Search Engine",
       "items": [
         {
-          "Abstract": "Owing to the rich emerging multimedia applications and services in the past decade,super large amount of multimedia data has been produced for the purpose of advancedresearch in multimedia. Furthermore, multimedia research has made great progress on...",
-          "Affiliation": "['No information found']",
-          "Authors": "Xin Wang, Wenwu Zhu, Yonghong Tian, Wen Gao",
+          "Abstract": "Proceedings of the National Academy of Sciences of the United States of America",
+          "Affiliation": "Johns Hopkins School of Medicine",
+          "Authors": "Marsh E.B.",
           "Cited count": "0",
-          "DOI": "/doi/10.1145/3394171.3418547",
-          "ISSN": "['No information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "October 2020, ",
-          "Title": "Multimedia Intelligence: When Multimedia Meets Artificial Intelligence",
-          "Type": "tutorial",
-          "URLs": "https://doi.org/10.1145/3394171.3418547"
+          "DOI": "10.1073/PNAS.2013231117",
+          "ISSN": "10916490",
+          "Publication Name": "Proceedings of the National Academy of Sciences of the United States of America",
+          "Published date": "2021-12-29",
+          "Title": "Poststroke acute dysexecutive syndrome, a disorder resulting from minor stroke due to disruption of network dynamics",
+          "Type": "Article",
+          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85099172784"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Elsevier SCOPUS Search Engine",
       "items": [
         {
-          "Abstract": "Artificial intelligence has confronted us with a raft of dilemmas that challenge usto decide what values are important in our designs.",
-          "Affiliation": "['No information found']",
-          "Authors": "Peter J. Denning, Dorothy E. Denning",
-          "Cited count": "2",
-          "DOI": "/doi/10.1145/3379920",
-          "ISSN": "['No information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "February 2020, ",
-          "Title": "Dilemmas of artificial intelligence",
-          "Type": "opinion",
-          "URLs": "https://doi.org/10.1145/3379920"
-        }
-      ]
-    }
-  },
-  {
-    "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
-      "items": [
-        {
-          "Abstract": "In Spain, the majority of university students are women, but the gender distributionin different fields of study is uneven and there are certain disciplines, as engineeringand some experimental sciences where less than 30% are women. This reduced ...",
-          "Affiliation": "['No information found']",
-          "Authors": "Eva Cernadas, Encina Calvo-Iglesias",
+          "Abstract": "Proceedings of the National Academy of Sciences of the United States of America",
+          "Affiliation": "University of California, Los Angeles",
+          "Authors": "Hyon R.",
           "Cited count": "0",
-          "DOI": "/doi/10.1145/3434780.3436658",
-          "ISSN": "['No information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "October 2020, ",
-          "Title": "Gender perspective in Artificial Intelligence (AI)",
-          "Type": "research-article",
-          "URLs": "https://doi.org/10.1145/3434780.3436658"
+          "DOI": "10.1073/PNAS.2013606117",
+          "ISSN": "10916490",
+          "Publication Name": "Proceedings of the National Academy of Sciences of the United States of America",
+          "Published date": "2021-12-29",
+          "Title": "Similarity in functional brain connectivity at rest predicts interpersonal closeness in the social network of an entire village",
+          "Type": "Article",
+          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85099171315"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Elsevier SCOPUS Search Engine",
       "items": [
         {
-          "Abstract": "At present, intelligent technologies such as artificial intelligence and big dataare in full swing, and various application scenarios are gradually landing. The applicationof big data and artificial intelligence technologies to digital marketing has ...",
-          "Affiliation": "['No information found']",
-          "Authors": "Fang Gao, Lan Zhang",
+          "Abstract": "Astrophysical Journal",
+          "Affiliation": "Shanghai Astronomical Observatory Chinese Academy of Sciences",
+          "Authors": "Li Z.Z.",
           "Cited count": "0",
-          "DOI": "/doi/10.1145/3436286.3436404",
-          "ISSN": "['No information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "April 2020, ",
-          "Title": "Application of Artificial Intelligence and Big Data Technology in Digital Marketing",
-          "Type": "research-article",
-          "URLs": "https://doi.org/10.1145/3436286.3436404"
+          "DOI": "10.3847/1538-4357/abc481",
+          "ISSN": "15384357",
+          "Publication Name": "Astrophysical Journal",
+          "Published date": "2021-12-20",
+          "Title": "Orbital Distribution of Infalling Satellite Halos across Cosmic Time",
+          "Type": "Article",
+          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098874897"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Elsevier SCOPUS Search Engine",
       "items": [
         {
-          "Abstract": "Most members of scientific community would agree that Artificial Intelligence (AI)has already dramatically changed our society and all of it aspects including scienceand research. There are thousands of publications declaring the great advantages of...",
-          "Affiliation": "['No information found']",
-          "Authors": "Aleksejs Zorins",
+          "Abstract": "Astrophysical Journal",
+          "Affiliation": "Academia Sinica, Institute of Astronomy and Astrophysics",
+          "Authors": "Wang J.W.",
           "Cited count": "0",
-          "DOI": "/doi/10.1145/3407982.3408001",
-          "ISSN": "['No information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "June 2020, ",
-          "Title": "Understanding the Essence of Artificial Intelligence: Towards Ecological Safety of AI in Human Society",
-          "Type": "research-article",
-          "URLs": "https://doi.org/10.1145/3407982.3408001"
+          "DOI": "10.3847/1538-4357/abc74e",
+          "ISSN": "15384357",
+          "Publication Name": "Astrophysical Journal",
+          "Published date": "2021-12-20",
+          "Title": "Formation of the Hub-Filament System G33.92+0.11: Local Interplay between Gravity, Velocity, and Magnetic Field",
+          "Type": "Article",
+          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098850257"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Elsevier SCOPUS Search Engine",
       "items": [
         {
-          "Abstract": "The origin and emergence of innovations has been a central question in research andpractice for decades. In this context, technological progress plays a decisive role:Existing technologies and capabilities serve as building blocks for the innovations...",
-          "Affiliation": "['No information found']",
-          "Authors": "Christian M\u00fchlroth",
+          "Abstract": "Astrophysical Journal",
+          "Affiliation": "Pennsylvania State University",
+          "Authors": "Gilbertson C.",
           "Cited count": "0",
-          "DOI": "/doi/10.1145/3378539.3393869",
-          "ISSN": "['No information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "June 2020, ",
-          "Title": "Artificial Intelligence as Innovation Accelerator",
-          "Type": "keynote",
-          "URLs": "https://doi.org/10.1145/3378539.3393869"
+          "DOI": "10.3847/1538-4357/abc627",
+          "ISSN": "15384357",
+          "Publication Name": "Astrophysical Journal",
+          "Published date": "2021-12-20",
+          "Title": "Toward Extremely Precise Radial Velocities. II. A Tool for Using Multivariate Gaussian Processes to Model Stellar Activity",
+          "Type": "Article",
+          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098878687"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Elsevier SCOPUS Search Engine",
       "items": [
         {
-          "Abstract": "Hull form optimization is an important aspect of ship hydrodynamic research, and theprimary target of ship design. More and more researchers are focusing on hull formintelligent optimization in recent years. First of all, this paper summarizes the...",
-          "Affiliation": "['No information found']",
-          "Authors": "Zhang Li, Chen Weimin",
+          "Abstract": "Astrophysical Journal",
+          "Affiliation": "Tsinghua University",
+          "Authors": "Lin X.",
           "Cited count": "0",
-          "DOI": "/doi/10.1145/3395260.3395296",
-          "ISSN": "['No information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "April 2020, ",
-          "Title": "Key Technology of Artificial Intelligence in Hull Form Intelligent Optimization",
-          "Type": "research-article",
-          "URLs": "https://doi.org/10.1145/3395260.3395296"
+          "DOI": "10.3847/1538-4357/abc620",
+          "ISSN": "15384357",
+          "Publication Name": "Astrophysical Journal",
+          "Published date": "2021-12-20",
+          "Title": "Constraining the Halo Mass of Damped Ly\u00ce\u00b1 Absorption Systems (DLAs) at z = 2-3.5 Using the Quasar-CMB Lensing Cross-correlation",
+          "Type": "Article",
+          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098876049"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Elsevier SCOPUS Search Engine",
       "items": [
         {
-          "Abstract": "Ethics Guidelines for Trustworthy AI advocate for AI technology that is, among otherthings, more inclusive. Explainable AI (XAI) aims at making state of the art opaquemodels more transparent, and defends AI-based outcomes endorsed with a rationale ...",
-          "Affiliation": "['No information found']",
-          "Authors": "Natalia D\u00edaz-Rodr\u00edguez, Galena Pisoni",
-          "Cited count": "2",
-          "DOI": "/doi/10.1145/3386392.3399276",
-          "ISSN": "['No information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "July 2020, ",
-          "Title": "Accessible Cultural Heritage through Explainable Artificial Intelligence",
-          "Type": "research-article",
-          "URLs": "https://doi.org/10.1145/3386392.3399276"
-        }
-      ]
-    }
-  },
-  {
-    "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
-      "items": [
-        {
-          "Abstract": "This keynote will explore the broader issue of using socio-technical artificial intelligence(AI) systems in criminology for responding to cybercrime and cybersecurity issues.It will focus upon the importance of matching the delivery of AI with the ...",
-          "Affiliation": "['No information found']",
-          "Authors": "David S. Wall",
+          "Abstract": "Astrophysical Journal",
+          "Affiliation": "SLAC National Accelerator Laboratory",
+          "Authors": "Puglisi G.",
           "Cited count": "0",
-          "DOI": "/doi/10.1145/3394332.3402837",
-          "ISSN": "['No information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "July 2020, ",
-          "Title": "AI (Artificial Intelligence) and Cybercrime: balancing expectations with delivery",
-          "Type": "research-article",
-          "URLs": "https://doi.org/10.1145/3394332.3402837"
+          "DOI": "10.3847/1538-4357/abc47c",
+          "ISSN": "15384357",
+          "Publication Name": "Astrophysical Journal",
+          "Published date": "2021-12-20",
+          "Title": "Inpainting Galactic Foreground Intensity and Polarization Maps Using Convolutional Neural Networks",
+          "Type": "Article",
+          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098869308"
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "items": [
+        {
+          "Abstract": "Astrophysical Journal",
+          "Affiliation": "National Radio Astronomy Observatory",
+          "Authors": "Tobin J.J.",
+          "Cited count": "0",
+          "DOI": "10.3847/1538-4357/abc5bf",
+          "ISSN": "15384357",
+          "Publication Name": "Astrophysical Journal",
+          "Published date": "2021-12-20",
+          "Title": "The VLA/ALMA Nascent Disk and Multiplicity (VANDAM) Survey of Orion Protostars. IV. Unveiling the Embedded Intermediate-Mass Protostar and Disk within OMC2-FIR3/HOPS-370",
+          "Type": "Article",
+          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098847916"
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "items": [
+        {
+          "Abstract": "Astrophysical Journal",
+          "Affiliation": "Tohoku University",
+          "Authors": "Miyoshi T.",
+          "Cited count": "0",
+          "DOI": "10.3847/1538-4357/abc486",
+          "ISSN": "15384357",
+          "Publication Name": "Astrophysical Journal",
+          "Published date": "2021-12-20",
+          "Title": "Long-term Orbital Evolution of Galactic Satellites and the Effects on Their Star Formation Histories",
+          "Type": "Article",
+          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098847945"
         }
       ]
     }

@@ -103,9 +103,14 @@ rec = str(input("Enter No of records to search(Minimum 10 or press enter):")).sp
 if len(rec) != 0:
     records = rec[0]
     _gs_pages=records
+    _acm_pages = records
+    _els_pages = records
+
 else:
     records = str(10)
     _gs_pages=0
+    _acm_pages = 0
+    _els_pages = 0
 
 # Input 6- Search year parameter option
 year1=str(input("Enter the FROM year (optional):")).strip()
@@ -207,7 +212,7 @@ def search_engines(query, x):
                 try:
                     if 5 in x:
                        _pages = pagination(records)
-                       search_acmlibrary(query,headers, _pages,records,_title,_keyword,_abstract,_from_yr,_to_yr_,logging_flag, data)  # done
+                       search_acmlibrary(query,headers, _acm_pages,records,_title,_keyword,_abstract,_from_yr,_to_yr_,logging_flag, data)  # done
                 except Exception as e:  # raise e
                      pass
                      exception_type, exception_object, exception_traceback = sys.exc_info()
@@ -239,7 +244,7 @@ def search_engines(query, x):
                 try:
                     if 8 in x:
                        _pages = pagination(records)
-                       search_scopus(query,headers, _pages,records,_title,_keyword,_abstract,scp_api,_from_yr,_to_yr_,logging_flag, data)  # done
+                       search_scopus(query,headers, _els_pages,records,_title,_keyword,_abstract,scp_api,_from_yr,_to_yr_,logging_flag, data)  # done
                 except Exception as e:  # raise e
                     pass  # print('error:', e)
                     exception_type, exception_object, exception_traceback = sys.exc_info()
@@ -285,11 +290,11 @@ def search_allengines(query):
                     _pages = pagination(records)
                     search_googleScholar(query, headers, _pages, records, _title, _keyword, _abstract, scrpr_api,_from_yr,_to_yr_,logging_flag, data)  # done
             except Exception as e:  # raise e
-                pass  # print('error:', e)
                 exception_type, exception_object, exception_traceback = sys.exc_info()
                 filename = exception_traceback.tb_frame.f_code.co_filename
                 line_number = exception_traceback.tb_lineno
                 logger.writeError(e, None, "Google Scholar", logging_flag, filename, line_number)
+                pass  # print('error:', e)
             try:
                     _pages = pagination(records)
                     search_msAcademic(query, headers, _pages, records, _title, _keyword, _abstract, ms_api,_from_yr,_to_yr_,logging_flag, data)  # done
@@ -319,7 +324,7 @@ def search_allengines(query):
                  logger.writeError(e, None, "PubMed Engine", logging_flag, filename, line_number)
             try:
                     _pages = pagination(records)
-                    search_acmlibrary(query, headers, _pages, records, _title, _keyword, _abstract,_from_yr,_to_yr_,logging_flag, data)  # done
+                    search_acmlibrary(query, headers, _acm_pages, records, _title, _keyword, _abstract,_from_yr,_to_yr_,logging_flag, data)  # done
             except Exception as e:  # raise e
                 pass
                 exception_type, exception_object, exception_traceback = sys.exc_info()
@@ -348,7 +353,7 @@ def search_allengines(query):
                 logger.writeError(e, None, "Academia Engine", logging_flag, filename, line_number)
             try:
                     _pages = pagination(records)
-                    search_scopus(query, headers, _pages, records, _title, _keyword, _abstract, scp_api,_from_yr,_to_yr_, logging_flag, data)  # done
+                    search_scopus(query, headers, _els_pages, records, _title, _keyword, _abstract, scp_api,_from_yr,_to_yr_, logging_flag, data)  # done
             except Exception as e:  # raise e
                 pass  # print('error:', e)
                 exception_type, exception_object, exception_traceback = sys.exc_info()

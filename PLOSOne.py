@@ -13,6 +13,7 @@ from openpyxl import load_workbook
 from tqdm import tqdm
 import re
 import os
+import sys
 from scraper_api import ScraperAPIClient
 import logger
 
