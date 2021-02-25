@@ -1,84 +1,68 @@
-Global Health
+Breast Neoplasms
+Chemoprevention
+Female
+Humans
+Risk Factors
+Breast Neoplasms
+Chemoprevention
+Female
+Humans
+Risk Factors
+Breast Neoplasms
+Chemoprevention
+Female
+Humans
+Risk Factors
+Breast Neoplasms
+Chemoprevention
+Female
+Humans
+Risk Factors
+Breast Neoplasms
+Chemoprevention
+Female
+Humans
+Risk Factors
+Breast Neoplasms
+Female
 Humans
 Incidence
-Mortality
-Neoplasms
-Prognosis
-Survival Rate
-Global Health
+Mass Screening
+Adult
+Age Factors
+Biomarkers, Tumor
+Breast Neoplasms
+Female
+Humans
+Young Adult
+Breast Neoplasms
+Female
+Humans
+Life Style
+Secondary Prevention
+Breast Neoplasms
+Early Detection of Cancer
+Female
 Humans
 Incidence
-Mortality
-Neoplasms
-Prognosis
+Mammography
+Palpation
+Poverty
+Practice Guidelines as Topic
+Risk Assessment
+Risk Factors
+Societies, Medical
 Survival Rate
-Global Health
+United States
+Breast Neoplasms
+Female
 Humans
-Incidence
-Mortality
-Neoplasms
-Prognosis
-Survival Rate
-Global Health
+Breast Neoplasms
+Female
+Genetic Predisposition to Disease
 Humans
-Incidence
-Mortality
-Neoplasms
-Prognosis
+Quality of Life
 Survival Rate
-Global Health
-Humans
-Incidence
-Mortality
-Neoplasms
-Prognosis
-Survival Rate
-Global Health
-Humans
-Incidence
-Mortality
-Neoplasms
-Prognosis
-Survival Rate
-Global Health
-Humans
-Incidence
-Mortality
-Neoplasms
-Prognosis
-Survival Rate
-Global Health
-Humans
-Incidence
-Mortality
-Neoplasms
-Prognosis
-Survival Rate
-Global Health
-Humans
-Incidence
-Mortality
-Neoplasms
-Prognosis
-Survival Rate
-Global Health
-Humans
-Incidence
-Mortality
-Neoplasms
-Prognosis
-Survival Rate
-Global Health
-Humans
-Incidence
-Mortality
-Neoplasms
-Prognosis
-Survival Rate
-Global Health
-Humans
-Incidence
-Mortality
-Neoplasms
-Prognosis
-Survival Rate
+Survivors
+Syndrome
+Treatment Outcome

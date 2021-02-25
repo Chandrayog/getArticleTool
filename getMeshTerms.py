@@ -39,13 +39,9 @@ def getMeshIDs(data, email):
 def parseUrlforIDs(data):
 
     articelID=[]
-    print(len(data))
-
-    for item in data:
-        i=0
-        for key in data[i]['entities']['items']:
-            articelID.append(str(key['URLs']).split('gov',1)[1].replace('/',''))
-        i +=1
+    for i in range(len(data)):
+        for item in data[i]['entities']['items']:
+            articelID.append(str(item['URLs']).split('gov',1)[1].replace('/',''))
 
     return articelID
 
