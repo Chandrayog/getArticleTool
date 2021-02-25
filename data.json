@@ -1,420 +1,410 @@
 [
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
+      "Search Engine": "PubMed Engine",
       "items": [
         {
-          "Abstract": "Proceedings of the National Academy of Sciences of the United States of America",
-          "Affiliation": "Arizona State University",
-          "Authors": "Asner G.P.",
-          "Cited count": "0",
-          "DOI": "10.1073/PNAS.2017628117",
-          "ISSN": "10916490",
-          "Publication Name": "Proceedings of the National Academy of Sciences of the United States of America",
-          "Published date": "2021-12-29",
-          "Title": "Large-scale mapping of live corals to guide reef conservation",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85099171732"
+          "Abstract": "There are limited published data on recent cancer incidence and mortality trends worldwide. We used the International Agency for Research on Cancer's CANCERMondial clearinghouse to present age-standardized cancer incidence and death rates for 2003-2007. We also present trends in incidence through 2007 and mortality through 2012 for select countries from five continents. High-income countries (HIC) continue to have the highest incidence rates for all sites, as well as for lung, colorectal, breast, and prostate cancer, although some low- and middle-income countries (LMIC) now count among those with the highest rates. Mortality rates from these cancers are declining in many HICs while they are increasing in LMICs. LMICs have the highest rates of stomach, liver, esophageal, and cervical cancer. Although rates remain high in HICs, they are plateauing or decreasing for the most common cancers due to decreases in known risk factors, screening and early detection, and improved treatment (mortality only). In contrast, rates in several LMICs are increasing for these cancers due to increases in smoking, excess body weight, and physical inactivity. LMICs also have a disproportionate burden of infection-related cancers. Applied cancer control measures are needed to reduce rates in HICs and arrest the growing burden in LMICs.",
+          "Affiliation": "1 American Cancer Society Surveillance and Health Services Research, Atlanta, Georgia. Lindsey.Torre@cancer.org.",
+          "Authors": [
+            "No information found",
+            "Lindsey A Torre",
+            "1",
+            "Rebecca L Siegel",
+            "2",
+            "Elizabeth M Ward",
+            "3",
+            "Ahmedin Jemal",
+            "2"
+          ],
+          "Cited count": "['No information found']",
+          "DOI": ": 10.1158/1055-9965.EPI-15-0578.      ",
+          "ISSN": "['No information found']",
+          "Publication Name": "\u00a92015 American Association for Cancer Research.",
+          "Published date": " 2015 Dec 14.      ",
+          "Title": "Global Cancer Incidence and Mortality Rates and Trends--An Update",
+          "Type": "['article']",
+          "URLs": "https://pubmed.ncbi.nlm.nih.gov/26667886/"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
+      "Search Engine": "PubMed Engine",
       "items": [
         {
-          "Abstract": "Proceedings of the National Academy of Sciences of the United States of America",
-          "Affiliation": "Rudolf Virchow Center",
-          "Authors": "Kasaragod V.B.",
-          "Cited count": "0",
-          "DOI": "10.1073/PNAS.2008695117",
-          "ISSN": "10916490",
-          "Publication Name": "Proceedings of the National Academy of Sciences of the United States of America",
-          "Published date": "2021-12-29",
-          "Title": "Pyridoxal kinase inhibition by artemisinins down-regulates inhibitory neurotransmission",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85099172195"
+          "Abstract": "There are limited published data on recent cancer incidence and mortality trends worldwide. We used the International Agency for Research on Cancer's CANCERMondial clearinghouse to present age-standardized cancer incidence and death rates for 2003-2007. We also present trends in incidence through 2007 and mortality through 2012 for select countries from five continents. High-income countries (HIC) continue to have the highest incidence rates for all sites, as well as for lung, colorectal, breast, and prostate cancer, although some low- and middle-income countries (LMIC) now count among those with the highest rates. Mortality rates from these cancers are declining in many HICs while they are increasing in LMICs. LMICs have the highest rates of stomach, liver, esophageal, and cervical cancer. Although rates remain high in HICs, they are plateauing or decreasing for the most common cancers due to decreases in known risk factors, screening and early detection, and improved treatment (mortality only). In contrast, rates in several LMICs are increasing for these cancers due to increases in smoking, excess body weight, and physical inactivity. LMICs also have a disproportionate burden of infection-related cancers. Applied cancer control measures are needed to reduce rates in HICs and arrest the growing burden in LMICs.",
+          "Affiliation": "1 American Cancer Society Surveillance and Health Services Research, Atlanta, Georgia. Lindsey.Torre@cancer.org.",
+          "Authors": [
+            "No information found",
+            "Lindsey A Torre",
+            "1",
+            "Rebecca L Siegel",
+            "2",
+            "Elizabeth M Ward",
+            "3",
+            "Ahmedin Jemal",
+            "2"
+          ],
+          "Cited count": "['No information found']",
+          "DOI": ": 10.1158/1055-9965.EPI-15-0578.      ",
+          "ISSN": "['No information found']",
+          "Publication Name": "\u00a92015 American Association for Cancer Research.",
+          "Published date": " 2015 Dec 14.      ",
+          "Title": "Global Cancer Incidence and Mortality Rates and Trends--An Update",
+          "Type": "['article']",
+          "URLs": "https://pubmed.ncbi.nlm.nih.gov/26667886/"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
+      "Search Engine": "PubMed Engine",
       "items": [
         {
-          "Abstract": "Proceedings of the National Academy of Sciences of the United States of America",
-          "Affiliation": "Johns Hopkins School of Medicine",
-          "Authors": "Marsh E.B.",
-          "Cited count": "0",
-          "DOI": "10.1073/PNAS.2013231117",
-          "ISSN": "10916490",
-          "Publication Name": "Proceedings of the National Academy of Sciences of the United States of America",
-          "Published date": "2021-12-29",
-          "Title": "Poststroke acute dysexecutive syndrome, a disorder resulting from minor stroke due to disruption of network dynamics",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85099172784"
+          "Abstract": "There are limited published data on recent cancer incidence and mortality trends worldwide. We used the International Agency for Research on Cancer's CANCERMondial clearinghouse to present age-standardized cancer incidence and death rates for 2003-2007. We also present trends in incidence through 2007 and mortality through 2012 for select countries from five continents. High-income countries (HIC) continue to have the highest incidence rates for all sites, as well as for lung, colorectal, breast, and prostate cancer, although some low- and middle-income countries (LMIC) now count among those with the highest rates. Mortality rates from these cancers are declining in many HICs while they are increasing in LMICs. LMICs have the highest rates of stomach, liver, esophageal, and cervical cancer. Although rates remain high in HICs, they are plateauing or decreasing for the most common cancers due to decreases in known risk factors, screening and early detection, and improved treatment (mortality only). In contrast, rates in several LMICs are increasing for these cancers due to increases in smoking, excess body weight, and physical inactivity. LMICs also have a disproportionate burden of infection-related cancers. Applied cancer control measures are needed to reduce rates in HICs and arrest the growing burden in LMICs.",
+          "Affiliation": "1 American Cancer Society Surveillance and Health Services Research, Atlanta, Georgia. Lindsey.Torre@cancer.org.",
+          "Authors": [
+            "No information found",
+            "Lindsey A Torre",
+            "1",
+            "Rebecca L Siegel",
+            "2",
+            "Elizabeth M Ward",
+            "3",
+            "Ahmedin Jemal",
+            "2",
+            "Lindsey A Torre",
+            "1",
+            "Rebecca L Siegel",
+            "2",
+            "Elizabeth M Ward",
+            "3",
+            "Ahmedin Jemal",
+            "2"
+          ],
+          "Cited count": "['No information found']",
+          "DOI": ": 10.1158/1055-9965.EPI-15-0578.      ",
+          "ISSN": "['No information found']",
+          "Publication Name": "\u00a92015 American Association for Cancer Research.",
+          "Published date": " 2015 Dec 14.      ",
+          "Title": "Global Cancer Incidence and Mortality Rates and Trends--An Update",
+          "Type": "['article']",
+          "URLs": "https://pubmed.ncbi.nlm.nih.gov/26667886/"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
+      "Search Engine": "PubMed Engine",
       "items": [
         {
-          "Abstract": "Proceedings of the National Academy of Sciences of the United States of America",
-          "Affiliation": "University of California, Los Angeles",
-          "Authors": "Hyon R.",
-          "Cited count": "0",
-          "DOI": "10.1073/PNAS.2013606117",
-          "ISSN": "10916490",
-          "Publication Name": "Proceedings of the National Academy of Sciences of the United States of America",
-          "Published date": "2021-12-29",
-          "Title": "Similarity in functional brain connectivity at rest predicts interpersonal closeness in the social network of an entire village",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85099171315"
+          "Abstract": "There are limited published data on recent cancer incidence and mortality trends worldwide. We used the International Agency for Research on Cancer's CANCERMondial clearinghouse to present age-standardized cancer incidence and death rates for 2003-2007. We also present trends in incidence through 2007 and mortality through 2012 for select countries from five continents. High-income countries (HIC) continue to have the highest incidence rates for all sites, as well as for lung, colorectal, breast, and prostate cancer, although some low- and middle-income countries (LMIC) now count among those with the highest rates. Mortality rates from these cancers are declining in many HICs while they are increasing in LMICs. LMICs have the highest rates of stomach, liver, esophageal, and cervical cancer. Although rates remain high in HICs, they are plateauing or decreasing for the most common cancers due to decreases in known risk factors, screening and early detection, and improved treatment (mortality only). In contrast, rates in several LMICs are increasing for these cancers due to increases in smoking, excess body weight, and physical inactivity. LMICs also have a disproportionate burden of infection-related cancers. Applied cancer control measures are needed to reduce rates in HICs and arrest the growing burden in LMICs.",
+          "Affiliation": "1 American Cancer Society Surveillance and Health Services Research, Atlanta, Georgia. Lindsey.Torre@cancer.org.",
+          "Authors": [
+            "No information found",
+            "Lindsey A Torre",
+            "1",
+            "Rebecca L Siegel",
+            "2",
+            "Elizabeth M Ward",
+            "3",
+            "Ahmedin Jemal",
+            "2",
+            "Lindsey A Torre",
+            "1",
+            "Rebecca L Siegel",
+            "2",
+            "Elizabeth M Ward",
+            "3",
+            "Ahmedin Jemal",
+            "2"
+          ],
+          "Cited count": "['No information found']",
+          "DOI": ": 10.1158/1055-9965.EPI-15-0578.      ",
+          "ISSN": "['No information found']",
+          "Publication Name": "\u00a92015 American Association for Cancer Research.",
+          "Published date": " 2015 Dec 14.      ",
+          "Title": "Global Cancer Incidence and Mortality Rates and Trends--An Update",
+          "Type": "['article']",
+          "URLs": "https://pubmed.ncbi.nlm.nih.gov/26667886/"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
+      "Search Engine": "PubMed Engine",
       "items": [
         {
-          "Abstract": "Astrophysical Journal",
-          "Affiliation": "Shanghai Astronomical Observatory Chinese Academy of Sciences",
-          "Authors": "Li Z.Z.",
-          "Cited count": "0",
-          "DOI": "10.3847/1538-4357/abc481",
-          "ISSN": "15384357",
-          "Publication Name": "Astrophysical Journal",
-          "Published date": "2021-12-20",
-          "Title": "Orbital Distribution of Infalling Satellite Halos across Cosmic Time",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098874897"
+          "Abstract": "There are limited published data on recent cancer incidence and mortality trends worldwide. We used the International Agency for Research on Cancer's CANCERMondial clearinghouse to present age-standardized cancer incidence and death rates for 2003-2007. We also present trends in incidence through 2007 and mortality through 2012 for select countries from five continents. High-income countries (HIC) continue to have the highest incidence rates for all sites, as well as for lung, colorectal, breast, and prostate cancer, although some low- and middle-income countries (LMIC) now count among those with the highest rates. Mortality rates from these cancers are declining in many HICs while they are increasing in LMICs. LMICs have the highest rates of stomach, liver, esophageal, and cervical cancer. Although rates remain high in HICs, they are plateauing or decreasing for the most common cancers due to decreases in known risk factors, screening and early detection, and improved treatment (mortality only). In contrast, rates in several LMICs are increasing for these cancers due to increases in smoking, excess body weight, and physical inactivity. LMICs also have a disproportionate burden of infection-related cancers. Applied cancer control measures are needed to reduce rates in HICs and arrest the growing burden in LMICs.",
+          "Affiliation": "1 American Cancer Society Surveillance and Health Services Research, Atlanta, Georgia. Lindsey.Torre@cancer.org.",
+          "Authors": [
+            "No information found",
+            "Lindsey A Torre",
+            "1",
+            "Rebecca L Siegel",
+            "2",
+            "Elizabeth M Ward",
+            "3",
+            "Ahmedin Jemal",
+            "2"
+          ],
+          "Cited count": "['No information found']",
+          "DOI": ": 10.1158/1055-9965.EPI-15-0578.      ",
+          "ISSN": "['No information found']",
+          "Publication Name": "\u00a92015 American Association for Cancer Research.",
+          "Published date": " 2015 Dec 14.      ",
+          "Title": "Global Cancer Incidence and Mortality Rates and Trends--An Update",
+          "Type": "['article']",
+          "URLs": "https://pubmed.ncbi.nlm.nih.gov/26667886/"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
+      "Search Engine": "PubMed Engine",
       "items": [
         {
-          "Abstract": "Astrophysical Journal",
-          "Affiliation": "Academia Sinica, Institute of Astronomy and Astrophysics",
-          "Authors": "Wang J.W.",
-          "Cited count": "0",
-          "DOI": "10.3847/1538-4357/abc74e",
-          "ISSN": "15384357",
-          "Publication Name": "Astrophysical Journal",
-          "Published date": "2021-12-20",
-          "Title": "Formation of the Hub-Filament System G33.92+0.11: Local Interplay between Gravity, Velocity, and Magnetic Field",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098850257"
+          "Abstract": "Objectives:\n        \n      \n      The recent discovery of the earliest hominin cancer, a 1.7-million-year-old osteosarcoma from South Africa has raised the question of the origin of cancer and its determinants. We aimed to determine whether malignant and benign tumors exist in the past societies.\n    \n\n\n          Methods:\n        \n      \n      A review of literature using Medline database and Google about benign and malignant tumors in prehistory and antiquity. Only cases with morphological and paraclinical analysis were included. The following keywords were used: cancer; paleopathology; malignant neoplasia; benign tumor; leiomyoma; myoma; breast cancer; mummies; soft tissue tumor; Antiquity.\n    \n\n\n          Results:\n        \n      \n      Thirty-five articles were found in wich there were 34 malignant tumors, 10 benign tumors and 11 gynecological benign tumors.\n    \n\n\n          Conclusions:\n        \n      \n      The fact that there were some malignant tumors, even few tumors and probably underdiagnosed, in the past may be evidence that cancer is not only a disease of the modern world. Cancer may be indeed a moving target: we have likely predisposing genes to cancer inherited from our ancestors. The malignant disease could therefore appear because of our modern lifestyle (carcinogens and risk factors related to the modern industrial society).",
+          "Affiliation": "1 D\u00e9partement de gyn\u00e9cologie, h\u00f4pital Femme-M\u00e8re-Enfant, HFME, hospices civils de Lyon, CHU de Lyon, 59, boulevard Pinel, 69000 Lyon, France; EMR 3738, universit\u00e9 Claude-Bernard Lyon 1, 69000 Lyon, France. Electronic address: chenegautier@yahoo.fr.",
+          "Authors": [
+            "No information found",
+            "G Chene",
+            "1",
+            "G Lamblin",
+            "2",
+            "K Le Bail-Carval",
+            "2",
+            "E Beaufils",
+            "2",
+            "P Chabert",
+            "2",
+            "P Gaucherand",
+            "2",
+            "G Mellier",
+            "2",
+            "Y Coppens",
+            "3"
+          ],
+          "Cited count": "['No information found']",
+          "DOI": ": 10.1016/j.gyobfe.2016.10.001.      ",
+          "ISSN": "['No information found']",
+          "Publication Name": "Copyright \u00c2\u00a9 2016 Elsevier Masson SAS. All rights reserved.",
+          "Published date": " 2016 Nov 7.      ",
+          "Title": "[Lucy's cancer(s): A prehistorical origin?]",
+          "Type": "['article']",
+          "URLs": "https://pubmed.ncbi.nlm.nih.gov/27839715/"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
+      "Search Engine": "PubMed Engine",
       "items": [
         {
-          "Abstract": "Astrophysical Journal",
-          "Affiliation": "Pennsylvania State University",
-          "Authors": "Gilbertson C.",
-          "Cited count": "0",
-          "DOI": "10.3847/1538-4357/abc627",
-          "ISSN": "15384357",
-          "Publication Name": "Astrophysical Journal",
-          "Published date": "2021-12-20",
-          "Title": "Toward Extremely Precise Radial Velocities. II. A Tool for Using Multivariate Gaussian Processes to Model Stellar Activity",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098878687"
+          "Abstract": "The temporal dynamics of cancer evolution remain elusive, because it is impractical to longitudinally observe cancers unperturbed by treatment. Consequently, our knowledge of how cancers grow largely derives from inferences made from a single point in time - the endpoint in the cancer's evolution, when it is removed from the body and studied in the laboratory. Fortuitously however, the cancer genome, by virtue of ongoing mutations that uniquely mark clonal lineages within the tumour, provides a rich, yet surreptitious, record of cancer development. In this review, we describe how a cancer's genome can be analysed to reveal the temporal history of mutation and selection, and discuss why both selective and neutral evolution feature prominently in carcinogenesis. We argue that selection in cancer can only be properly studied once we have some understanding of what the absence of selection looks like. We review the data describing punctuated evolution in cancer, and reason that punctuated phenotype evolution is consistent with both gradual and punctuated genome evolution. We conclude that, to map and predict evolutionary trajectories during carcinogenesis, it is critical to better understand the relationship between genotype change and phenotype change. Copyright \u00a9 2016 Pathological Society of Great Britain and Ireland. Published by John Wiley & Sons, Ltd.",
+          "Affiliation": "1 Evolution and Cancer Laboratory, Barts Cancer Institute, Queen Mary University of London, London, UK.",
+          "Authors": [
+            "No information found",
+            "Trevor A Graham",
+            "1",
+            "Andrea Sottoriva",
+            "2"
+          ],
+          "Cited count": "['No information found']",
+          "DOI": ": 10.1002/path.4821.      ",
+          "ISSN": "['No information found']",
+          "Publication Name": "Copyright \u00a9 2016 Pathological Society of Great Britain and Ireland. Published by John Wiley & Sons, Ltd.",
+          "Published date": " 2016 Nov 18.      ",
+          "Title": "Measuring cancer evolution from the genome",
+          "Type": "['article']",
+          "URLs": "https://pubmed.ncbi.nlm.nih.gov/27741350/"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
+      "Search Engine": "PubMed Engine",
       "items": [
         {
-          "Abstract": "Astrophysical Journal",
-          "Affiliation": "Tsinghua University",
-          "Authors": "Lin X.",
-          "Cited count": "0",
-          "DOI": "10.3847/1538-4357/abc620",
-          "ISSN": "15384357",
-          "Publication Name": "Astrophysical Journal",
-          "Published date": "2021-12-20",
-          "Title": "Constraining the Halo Mass of Damped Ly\u00ce\u00b1 Absorption Systems (DLAs) at z = 2-3.5 Using the Quasar-CMB Lensing Cross-correlation",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098876049"
+          "Abstract": "This is a review regarding different types of cancer treatments. We aimed at analyzing the tumor microenvironment and the recent trends for the therapeutic applications and effectiveness for several kinds of cancers. Traditionally the cancer treatment was based on the neoplastic cells. Methods such as surgery, radiation, chemotherapy, and immunotherapy, which were targeted on the highly proliferating mutated tumor cells, have been investigated. The tumor microenvironment describes the non-cancerous cells in the tumor and has enabled to investigate the behavior and response of the cancer cells to a treatment process; it consists in a tissue that may have a predictive significance for tumor behavior and response to therapy. These include fibroblasts, immune cells and cells that comprise the blood vessels. It also includes the proteins produced by all of the cells present in the tumor that support the growth of the cancer cells. By monitoring changes in the tumor microenvironment using its molecular and cellular profiles as the tumor progresses will be vital for identifying cell or protein targets for the cancer prevention and its therapeutic purposes.",
+          "Affiliation": "1 Department of General Surgery, Chun'an First People's Hospital, (Zhejiang Provincial People's Hospital Chun'an Branch), Hangzhou, Zhejiang Province, China. 25852832@qq.com.",
+          "Authors": [
+            "No information found",
+            "J-J Wang",
+            "1",
+            "K-F Lei",
+            "F Han"
+          ],
+          "Cited count": "['No information found']",
+          "DOI": ": 10.26355/eurrev_201806_15270.      ",
+          "ISSN": "['No information found']",
+          "Publication Name": [
+            "No information found"
+          ],
+          "Published date": [
+            "No information found"
+          ],
+          "Title": "Tumor microenvironment: recent advances in various cancer treatments",
+          "Type": "['article']",
+          "URLs": "https://pubmed.ncbi.nlm.nih.gov/29949179/"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
+      "Search Engine": "PubMed Engine",
       "items": [
         {
-          "Abstract": "Astrophysical Journal",
-          "Affiliation": "SLAC National Accelerator Laboratory",
-          "Authors": "Puglisi G.",
-          "Cited count": "0",
-          "DOI": "10.3847/1538-4357/abc47c",
-          "ISSN": "15384357",
-          "Publication Name": "Astrophysical Journal",
-          "Published date": "2021-12-20",
-          "Title": "Inpainting Galactic Foreground Intensity and Polarization Maps Using Convolutional Neural Networks",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098869308"
+          "Abstract": "Autoimmune pancreatitis (AIP) is now considered a pancreatic manifestation of a newly proposed disease condition, IgG4-related disease (IgG4-RD). IgG4-RD is characterized by enhanced IgG4 antibody responses and multiple organ involvements. Recent epidemiological studies have addressed the incidence of cancer in patients with AIP and/or IgG4-RD. Surprisingly, a significant number of AIP patients were detected with cancer at or within one year of the diagnosis of AIP. Furthermore, around 50% of all cancers detected in AIP patients comprised mainly 3 types (gastric, lung, and prostate cancer). Thus, AIP appears to be associated with cancer of other organs rather than the pancreas itself, which suggests that AIP is not a pre-cancerous condition of the pancreas. Moreover, the simultaneous occurrence of cancer and AIP in many patients has led to the establishment of an attractive concept that AIP might sometimes arise from co-existing cancers as a paraneoplastic syndrome.",
+          "Affiliation": "1 Department of Gastroenterology and Hepatology, Kindai University Faculty of Medicine, Japan.",
+          "Authors": [
+            "No information found",
+            "Ayana Okamoto",
+            "1",
+            "Tomohiro Watanabe",
+            "1",
+            "Ken Kamata",
+            "1",
+            "Kosuke Minaga",
+            "1",
+            "Masatoshi Kudo",
+            "1"
+          ],
+          "Cited count": "['No information found']",
+          "DOI": ": 10.2169/internalmedicine.2210-18.      ",
+          "ISSN": "['No information found']",
+          "Publication Name": [
+            "No information found"
+          ],
+          "Published date": " 2019 Feb 1.      ",
+          "Title": "Recent Updates on the Relationship between Cancer and Autoimmune Pancreatitis",
+          "Type": "['article']",
+          "URLs": "https://pubmed.ncbi.nlm.nih.gov/30713326/"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
+      "Search Engine": "PubMed Engine",
       "items": [
         {
-          "Abstract": "Astrophysical Journal",
-          "Affiliation": "National Radio Astronomy Observatory",
-          "Authors": "Tobin J.J.",
-          "Cited count": "0",
-          "DOI": "10.3847/1538-4357/abc5bf",
-          "ISSN": "15384357",
-          "Publication Name": "Astrophysical Journal",
-          "Published date": "2021-12-20",
-          "Title": "The VLA/ALMA Nascent Disk and Multiplicity (VANDAM) Survey of Orion Protostars. IV. Unveiling the Embedded Intermediate-Mass Protostar and Disk within OMC2-FIR3/HOPS-370",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098847916"
+          "Abstract": "Background:\n        \n      \n      Heat Shock Proteins (HSPs) constitute a group of proteins that play a crucial role in the process of protein folding. HSPs are also known to modulate a number of key apoptotic factors. High expression of these proteins is reported in an array of cancers, such as breast, prostate, colorectal, lung, ovarian, gastric, oral and esophageal cancer. Ample amount of investigations were carried out on a variety of cancers suggesting HSPs as a promising hallmark in cancers. Their expression profile in several tumors elucidates that they help in proliferation, invasion, metastasis and death of cancerous cells. Detection of the levels of heat shock proteins and their specific antibodies in the sera of diseased individuals can play an important role in cancer diagnosis.\n    \n\n\n          Objectives:\n        \n      \n      This review will present and summarize latest research being carried out on heat shock proteins. It will also highlight the clinical and prognostic features of HSP27, HSP60, HSP70, HSP90 and HSP110, and will discuss future implications of HSPs in the diagnosis and prognosis of cancer. Furthermore, the role of heat shock proteins as a therapeutic target in cancer will be discussed. In addition, the review article will report various studies, where HSPs have been targeted for their therapeutic potential.\n    \n\n\n          Conclusion:\n        \n      \n      In summary, multiple experimental investigations have been successful in suggesting the role of heat shock protein as a clinical biomarker and therapeutic target in cancer. HSPs are associated with a number of cancer hallmarks such as cell proliferation, invasion and metastasis. Inhibition of HSPs has resulted in successful therapeutic outcome in cancer. It has served as a novel anti-cancer therapy for the treatment of several cancer forms. However, more experimental studies are required to elucidate the reliability and efficacy of heat shock proteins in combination with other conventional markers for cancer diagnosis and prognosis. Novel and effective interventions through HSP inhibition are expected to decrease the burden of cancer in the near future.",
+          "Affiliation": "1 Department of Biotechnology, Sri Guru Granth Sahib Word University, Fatehgarh Sahib, Pb, 140406, India.",
+          "Authors": [
+            "No information found",
+            "Jasleen Saini",
+            "1",
+            "Pushpender Kumar Sharma",
+            "1"
+          ],
+          "Cited count": "['No information found']",
+          "DOI": ": 10.2174/1389450118666170823121248.      ",
+          "ISSN": "['No information found']",
+          "Publication Name": "Copyright\u00a9 Bentham Science Publishers; For any queries, please email at epub@benthamscience.org.",
+          "Published date": [
+            "No information found"
+          ],
+          "Title": "Clinical, Prognostic and Therapeutic Significance of Heat Shock Proteins in Cancer",
+          "Type": "['article']",
+          "URLs": "https://pubmed.ncbi.nlm.nih.gov/28831912/"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
+      "Search Engine": "PubMed Engine",
       "items": [
         {
-          "Abstract": "Proceedings of the National Academy of Sciences of the United States of America",
-          "Affiliation": "Rudolf Virchow Center",
-          "Authors": "Kasaragod V.B.",
-          "Cited count": "0",
-          "DOI": "10.1073/PNAS.2008695117",
-          "ISSN": "10916490",
-          "Publication Name": "Proceedings of the National Academy of Sciences of the United States of America",
-          "Published date": "2021-12-29",
-          "Title": "Pyridoxal kinase inhibition by artemisinins down-regulates inhibitory neurotransmission",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85099172195"
+          "Abstract": "Cancer is one of the leading cause of death in the world with the prevalence of >10 million mortalities annually. Current cancer treatments include surgical intervention, radiation, and taking chemotherapeutic drugs, which often kill the healthy cells and result in toxicity in patients. Therefore, researchers are looking for ways to be able to eliminate just cancerous cells. Intra-tumor heterogeneity of cancerous cells is the main obstacle on the way of an effective cancer treatment. However, better comprehension of molecular basis of tumor and the advent of new diagnostic technologies can help to improve the treatment of various cancers. Therefore, study of epigenetic changes, gene expression of cancerous cells and employing methods that enable us to correct or minimize these changes is critically important. In this paper, we will review the recent advanced strategies being used in the field of cancer research.",
+          "Affiliation": "1 Department of Medical Genetics, School of Medicine, Tehran University of Medical Sciences, Tehran, Iran.",
+          "Authors": [
+            "No information found",
+            "M A Zaimy",
+            "1",
+            "N Saffarzadeh",
+            "1",
+            "A Mohammadi",
+            "2",
+            "H Pourghadamyari",
+            "3",
+            "P Izadi",
+            "1",
+            "A Sarli",
+            "4",
+            "L K Moghaddam",
+            "5",
+            "S R Paschepari",
+            "5",
+            "H Azizi",
+            "6",
+            "S Torkamandi",
+            "7",
+            "J Tavakkoly-Bazzaz",
+            "1"
+          ],
+          "Cited count": "['No information found']",
+          "DOI": ": 10.1038/cgt.2017.16.      ",
+          "ISSN": "['No information found']",
+          "Publication Name": [
+            "No information found"
+          ],
+          "Published date": " 2017 Jun 2.      ",
+          "Title": "New methods in the diagnosis of cancer and gene therapy of cancer based on nanoparticles",
+          "Type": "['article']",
+          "URLs": "https://pubmed.ncbi.nlm.nih.gov/28574057/"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
+      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
+      "Search Engine": "PubMed Engine",
       "items": [
         {
-          "Abstract": "Proceedings of the National Academy of Sciences of the United States of America",
-          "Affiliation": "Johns Hopkins School of Medicine",
-          "Authors": "Marsh E.B.",
-          "Cited count": "0",
-          "DOI": "10.1073/PNAS.2013231117",
-          "ISSN": "10916490",
-          "Publication Name": "Proceedings of the National Academy of Sciences of the United States of America",
-          "Published date": "2021-12-29",
-          "Title": "Poststroke acute dysexecutive syndrome, a disorder resulting from minor stroke due to disruption of network dynamics",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85099172784"
-        }
-      ]
-    }
-  },
-  {
-    "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
-      "items": [
-        {
-          "Abstract": "Proceedings of the National Academy of Sciences of the United States of America",
-          "Affiliation": "University of California, Los Angeles",
-          "Authors": "Hyon R.",
-          "Cited count": "0",
-          "DOI": "10.1073/PNAS.2013606117",
-          "ISSN": "10916490",
-          "Publication Name": "Proceedings of the National Academy of Sciences of the United States of America",
-          "Published date": "2021-12-29",
-          "Title": "Similarity in functional brain connectivity at rest predicts interpersonal closeness in the social network of an entire village",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85099171315"
-        }
-      ]
-    }
-  },
-  {
-    "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
-      "items": [
-        {
-          "Abstract": "Astrophysical Journal",
-          "Affiliation": "Shanghai Astronomical Observatory Chinese Academy of Sciences",
-          "Authors": "Li Z.Z.",
-          "Cited count": "0",
-          "DOI": "10.3847/1538-4357/abc481",
-          "ISSN": "15384357",
-          "Publication Name": "Astrophysical Journal",
-          "Published date": "2021-12-20",
-          "Title": "Orbital Distribution of Infalling Satellite Halos across Cosmic Time",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098874897"
-        }
-      ]
-    }
-  },
-  {
-    "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
-      "items": [
-        {
-          "Abstract": "Astrophysical Journal",
-          "Affiliation": "Academia Sinica, Institute of Astronomy and Astrophysics",
-          "Authors": "Wang J.W.",
-          "Cited count": "0",
-          "DOI": "10.3847/1538-4357/abc74e",
-          "ISSN": "15384357",
-          "Publication Name": "Astrophysical Journal",
-          "Published date": "2021-12-20",
-          "Title": "Formation of the Hub-Filament System G33.92+0.11: Local Interplay between Gravity, Velocity, and Magnetic Field",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098850257"
-        }
-      ]
-    }
-  },
-  {
-    "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
-      "items": [
-        {
-          "Abstract": "Astrophysical Journal",
-          "Affiliation": "Pennsylvania State University",
-          "Authors": "Gilbertson C.",
-          "Cited count": "0",
-          "DOI": "10.3847/1538-4357/abc627",
-          "ISSN": "15384357",
-          "Publication Name": "Astrophysical Journal",
-          "Published date": "2021-12-20",
-          "Title": "Toward Extremely Precise Radial Velocities. II. A Tool for Using Multivariate Gaussian Processes to Model Stellar Activity",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098878687"
-        }
-      ]
-    }
-  },
-  {
-    "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
-      "items": [
-        {
-          "Abstract": "Astrophysical Journal",
-          "Affiliation": "Tsinghua University",
-          "Authors": "Lin X.",
-          "Cited count": "0",
-          "DOI": "10.3847/1538-4357/abc620",
-          "ISSN": "15384357",
-          "Publication Name": "Astrophysical Journal",
-          "Published date": "2021-12-20",
-          "Title": "Constraining the Halo Mass of Damped Ly\u00ce\u00b1 Absorption Systems (DLAs) at z = 2-3.5 Using the Quasar-CMB Lensing Cross-correlation",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098876049"
-        }
-      ]
-    }
-  },
-  {
-    "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
-      "items": [
-        {
-          "Abstract": "Astrophysical Journal",
-          "Affiliation": "SLAC National Accelerator Laboratory",
-          "Authors": "Puglisi G.",
-          "Cited count": "0",
-          "DOI": "10.3847/1538-4357/abc47c",
-          "ISSN": "15384357",
-          "Publication Name": "Astrophysical Journal",
-          "Published date": "2021-12-20",
-          "Title": "Inpainting Galactic Foreground Intensity and Polarization Maps Using Convolutional Neural Networks",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098869308"
-        }
-      ]
-    }
-  },
-  {
-    "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
-      "items": [
-        {
-          "Abstract": "Astrophysical Journal",
-          "Affiliation": "National Radio Astronomy Observatory",
-          "Authors": "Tobin J.J.",
-          "Cited count": "0",
-          "DOI": "10.3847/1538-4357/abc5bf",
-          "ISSN": "15384357",
-          "Publication Name": "Astrophysical Journal",
-          "Published date": "2021-12-20",
-          "Title": "The VLA/ALMA Nascent Disk and Multiplicity (VANDAM) Survey of Orion Protostars. IV. Unveiling the Embedded Intermediate-Mass Protostar and Disk within OMC2-FIR3/HOPS-370",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098847916"
-        }
-      ]
-    }
-  },
-  {
-    "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Elsevier SCOPUS Search Engine",
-      "items": [
-        {
-          "Abstract": "Astrophysical Journal",
-          "Affiliation": "Tohoku University",
-          "Authors": "Miyoshi T.",
-          "Cited count": "0",
-          "DOI": "10.3847/1538-4357/abc486",
-          "ISSN": "15384357",
-          "Publication Name": "Astrophysical Journal",
-          "Published date": "2021-12-20",
-          "Title": "Long-term Orbital Evolution of Galactic Satellites and the Effects on Their Star Formation Histories",
-          "Type": "Article",
-          "URLs": "https://api.elsevier.com/content/abstract/scopus_id/85098847945"
+          "Abstract": "There is much cellular heterogeneity in the tumor microenvironment. The tumor epithelia and stromal cells co-evolve, and this reciprocal relationship dictates almost every step of cancer development and progression. Despite this, many anticancer therapies are designed around druggable features of tumor epithelia, ignoring the supportive role of stromal cells. Cancer-associated fibroblasts (CAFs) are the dominant cell type within the reactive stroma of many tumor types. Numerous previous studies have highlighted a pro-tumorigenic role for CAFs via secretion of various growth factors, cytokines, chemokines, and the degradation of extracellular matrix. Recent works showed that CAFs secrete H2O2 to effect stromal-mediated field cancerization, transform primary epithelial cells, and aggravate cancer cell aggressiveness, in addition to inflammatory and mitogenic factors. Molecular characterization of CAFs also underscores the importance of Notch and specific nuclear receptor signaling in the activation of CAFs. This review consolidates recent findings of CAFs and highlights areas for future investigations.",
+          "Affiliation": "1 School of Biological Sciences, Nanyang Technological University, 60 Nanyang Drive, Singapore 637551, Singapore.",
+          "Authors": [
+            "No information found",
+            "Zehuan Liao",
+            "1",
+            "Zhen Wei Tan",
+            "2",
+            "Pengcheng Zhu",
+            "1",
+            "Nguan Soon Tan",
+            "3"
+          ],
+          "Cited count": "['No information found']",
+          "DOI": ": 10.1016/j.cellimm.2017.12.003.      ",
+          "ISSN": "['No information found']",
+          "Publication Name": "Copyright \u00a9 2018 Elsevier Inc. All rights reserved.",
+          "Published date": " 2018 Feb 13.      ",
+          "Title": "Cancer-associated fibroblasts in tumor microenvironment - Accomplices in tumor malignancy",
+          "Type": "['article']",
+          "URLs": "https://pubmed.ncbi.nlm.nih.gov/29397066/"
         }
       ]
     }

@@ -16,6 +16,7 @@ import os
 from scraper_api import ScraperAPIClient
 import sys
 import logger
+import getMeshTerms
 
 
 search_query = ''
@@ -24,6 +25,7 @@ _keyword = False
 _abstract = False
 _records = str(10)
 _engine = "PubMed Engine"
+_email = ''
 
 ### 2. PubMed Search Engine
 def search_pubMed(query, headers, _pages, _title, _keyword, _abstract,_from_yr,_to_yr_, logging_flag, data):
@@ -50,7 +52,7 @@ def search_pubMed(query, headers, _pages, _title, _keyword, _abstract,_from_yr,_
                             abs = ['No information found']
 
                         if bool(item.select('.secondary-date')):
-                            pub_datestr(item.find_all('span', class_='secondary-date')[0].get_text()).split(';', -1)[0]
+                            pub_date=str(item.find_all('span', class_='secondary-date')[0].get_text()).split(';', -1)[0]
                         else:
                             pub_date = ['No information found']
 
@@ -89,6 +91,7 @@ def search_pubMed(query, headers, _pages, _title, _keyword, _abstract,_from_yr,_
         time.sleep(1)
         logger.writeRecords("Logging", None, _engine, count, count, logging_flag)
         print(f'Finished with total {count} records returned.')
+        getMeshTerms.getMeshIDs(data, _email)
         return data
 
     if _keyword or _abstract:
@@ -155,6 +158,7 @@ def search_pubMed(query, headers, _pages, _title, _keyword, _abstract,_from_yr,_
             time.sleep(1)
             logger.writeRecords("Logging", None, _engine, count, count, logging_flag)
             print(f'Finished with total {count} records returned.')
+            getMeshTerms.getMeshIDs(data, _email)
             return data
         else:
             for i in tqdm(range(1)):
@@ -226,5 +230,10 @@ def search_pubMed(query, headers, _pages, _title, _keyword, _abstract,_from_yr,_
             time.sleep(1)
             logger.writeRecords("Logging", None, _engine, count, count, logging_flag)
             print(f'Finished with total {count} records returned.')
+            getMeshTerms.getMeshIDs(data,_email)
             return data
+
+
+
+
 

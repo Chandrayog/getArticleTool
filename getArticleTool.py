@@ -1,4 +1,3 @@
-
 import json
 import urllib
 import pandas as pd
@@ -246,7 +245,7 @@ def search_engines(query, x):
                        _pages = pagination(records)
                        search_scopus(query,headers, _els_pages,records,_title,_keyword,_abstract,scp_api,_from_yr,_to_yr_,logging_flag, data)  # done
                 except Exception as e:  # raise e
-                    pass  # print('error:', e)
+                    pass
                     exception_type, exception_object, exception_traceback = sys.exc_info()
                     filename = exception_traceback.tb_frame.f_code.co_filename
                     line_number = exception_traceback.tb_lineno
