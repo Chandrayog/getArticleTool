@@ -46,3 +46,9 @@ Logged at:2021-03-07 20:25:24.635141 Records Captured by - PubMed Engine for sea
 
 Logged at:2021-03-07 20:49:28.859580 Total Records Returned by - PubMed Engine for search query Python:12
 Logged at:2021-03-07 20:49:28.859958 Records Captured by - PubMed Engine for search query Python:12
+
+Logged at:2021-03-08 00:18:05.607462 Total Records Returned by - Elsevier Scopus for search query "explainable" AND "artificial intelligence" AND "ontology":475
+Logged at:2021-03-08 00:18:05.607825 Records Captured by - Elsevier Scopus for search query "explainable" AND "artificial intelligence" AND "ontology":460
+
+Logged at:2021-03-08 11:02:50.085669 Total Records Returned by - PubMed Engine for search query Python:12
+Logged at:2021-03-08 11:02:50.086194 Records Captured by - PubMed Engine for search query Python:12

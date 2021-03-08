@@ -1,210 +1,435 @@
 [
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Microsoft Academy",
+      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
+      "Search Engine": "PubMed Engine",
       "items": [
         {
-          "Abstract": "[deeper neural networks more difficult train residual learning framework ease training substantially previously explicitly reformulate layers functions reference layer inputs instead unreferenced provide comprehensive empirical evidence showing easier optimize gain accuracy considerably depth imagenet dataset evaluate nets 152 8 vgg 40 still lower complexity ensemble achieves 3 57 error test set won 1st place ilsvrc 2015 classification task cifar 10 100 1000 representations central importance visual recognition tasks solely extremely deep obtain 28 relative improvement coco object detection foundations submissions competitions1 places localization segmentation]",
-          "Affiliation": "Microsoft",
-          "Authors": "kaiming he",
-          "Cited count": 49987,
-          "DOI": "['No information found']",
-          "ISSN": "['No Information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "2016-06-27",
-          "Title": "deep residual learning for image recognition",
-          "Type": "Conference Paper",
-          "URLs": "https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf"
+          "Abstract": "The Florida Everglades is infested with Burmese pythons caused by the release of exotic pets in the 1980s. The current estimates are between 30,000 and 300,000 pythons, where the result is a severe decline in Everglade mammals: 90% reductions in raccoon, opossum, bobcats, and foxes. The marsh rabbits are completely gone. The population of the pythons is rapidly increasing exponentially with 20-50 eggs per snake with a life span of up to 20 years. Pythons have been captured in the Everglades with lengths of nearly 6 m. Researchers in the state of Florida are concerned that these pythons are (1) permanently damaging the Everglades, (2) migrating further north into populated areas of Florida, and (3) endangering wildlife, pets, and eventually, people. There have been a number of sensing efforts attempted in the large-area detection of pythons, where limited success has been achieved. For example, infrared sensors have been applied to the problem, but the pythons are cold-blooded, so the infrared bands do not work well. Imec has leveraged its expertise and infrastructure in semiconductor processing to produce highly compact, higher performance, and relatively cheaper hyperspectral image sensors and camera systems. In this work, Imec teamed with the University of Florida and Extended Reality Systems to obtain hyperspectral reflectivity measurements of Burmese pythons along with natural Florida background foliage to determine bands or band combinations that may be exploited in the large-area detection of pythons. The bands investigated are the visible-near infrared (or VisNIR) and the shortwave infrared (SWIR) bands. The results show that there are enough differences in the data collection such that a single band, inexpensive VisNIR band camera may provide reasonable results and a two-band, VisNIR/SWIR combination may provide higher performance results. In this paper, we provide the VisNIR results.",
+          "Affiliation": "1 Veterinary Clinic of Auteuil Village, 35 rue Leconte de Lisle, 75016 Paris, France.",
+          "Authors": [
+            "No information found",
+            "Ronald Driggers",
+            "Orges Furxhi",
+            "Gonzalo Vaca",
+            "Veerle Reumers",
+            "Milad Vazimali",
+            "Robert Short",
+            "Prashant Agrawal",
+            "Andy Lambrechts",
+            "Wouter Charle",
+            "Kathleen Vunckx",
+            "Carl Arvidson"
+          ],
+          "Cited count": "['No information found']",
+          "DOI": ": 10.1364/AO.58.000D98.      ",
+          "ISSN": "['No information found']",
+          "Publication Name": "Copyright \u00a9 2019 Elsevier Ltd. All rights reserved.",
+          "Published date": " 2019 Jun 29.      ",
+          "Title": "Burmese python target reflectivity compared to natural Florida foliage background reflectivity",
+          "Type": "['article']",
+          "URLs": "https://pubmed.ncbi.nlm.nih.gov/31044871/"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Microsoft Academy",
+      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
+      "Search Engine": "PubMed Engine",
       "items": [
         {
-          "Abstract": "[trained large deep convolutional neural network classify 1 2 million high resolution images imagenet lsvrc 2010 contest 1000 different classes test data achieved top 5 error rates 37 17 0 considerably better previous state art 60 parameters 650 000 neurons consists five layers followed max pooling three fully connected final way softmax make training faster saturating efficient gpu implementation convolution operation reduce overriding employed recently developed regularization called dropout proved effective entered variant model ilsvrc 2012 competition winning rate 15 3 26 second best entry]",
-          "Affiliation": "University of Toronto",
-          "Authors": "alex krizhevsky",
-          "Cited count": 38521,
-          "DOI": "['No information found']",
-          "ISSN": "['No Information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "2012-12-03",
-          "Title": "imagenet classification with deep convolutional neural networks",
-          "Type": "Conference Paper",
-          "URLs": "https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf"
+          "Abstract": "The Florida Everglades is infested with Burmese pythons caused by the release of exotic pets in the 1980s. The current estimates are between 30,000 and 300,000 pythons, where the result is a severe decline in Everglade mammals: 90% reductions in raccoon, opossum, bobcats, and foxes. The marsh rabbits are completely gone. The population of the pythons is rapidly increasing exponentially with 20-50 eggs per snake with a life span of up to 20 years. Pythons have been captured in the Everglades with lengths of nearly 6 m. Researchers in the state of Florida are concerned that these pythons are (1) permanently damaging the Everglades, (2) migrating further north into populated areas of Florida, and (3) endangering wildlife, pets, and eventually, people. There have been a number of sensing efforts attempted in the large-area detection of pythons, where limited success has been achieved. For example, infrared sensors have been applied to the problem, but the pythons are cold-blooded, so the infrared bands do not work well. Imec has leveraged its expertise and infrastructure in semiconductor processing to produce highly compact, higher performance, and relatively cheaper hyperspectral image sensors and camera systems. In this work, Imec teamed with the University of Florida and Extended Reality Systems to obtain hyperspectral reflectivity measurements of Burmese pythons along with natural Florida background foliage to determine bands or band combinations that may be exploited in the large-area detection of pythons. The bands investigated are the visible-near infrared (or VisNIR) and the shortwave infrared (SWIR) bands. The results show that there are enough differences in the data collection such that a single band, inexpensive VisNIR band camera may provide reasonable results and a two-band, VisNIR/SWIR combination may provide higher performance results. In this paper, we provide the VisNIR results.",
+          "Affiliation": "1 Veterinary Clinic of Auteuil Village, 35 rue Leconte de Lisle, 75016 Paris, France.",
+          "Authors": [
+            "No information found",
+            "Ronald Driggers",
+            "Orges Furxhi",
+            "Gonzalo Vaca",
+            "Veerle Reumers",
+            "Milad Vazimali",
+            "Robert Short",
+            "Prashant Agrawal",
+            "Andy Lambrechts",
+            "Wouter Charle",
+            "Kathleen Vunckx",
+            "Carl Arvidson"
+          ],
+          "Cited count": "['No information found']",
+          "DOI": ": 10.1364/AO.58.000D98.      ",
+          "ISSN": "['No information found']",
+          "Publication Name": "Copyright \u00a9 2019 Elsevier Ltd. All rights reserved.",
+          "Published date": " 2019 Jun 29.      ",
+          "Title": "Burmese python target reflectivity compared to natural Florida foliage background reflectivity",
+          "Type": "['article']",
+          "URLs": "https://pubmed.ncbi.nlm.nih.gov/31044871/"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Microsoft Academy",
+      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
+      "Search Engine": "PubMed Engine",
       "items": [
         {
-          "Abstract": "[propose deep convolutional neural network architecture codenamed inception achieves state art classification detection imagenet large scale visual recognition challenge 2014 ilsvrc14 main hallmark utilization computing resources inside carefully crafted design depth width keeping computational budget constant optimize quality architectural decisions hebbian principle intuition multi processing one incarnation submission called googlenet 22 layers assessed context]",
-          "Affiliation": "Google",
-          "Authors": "christian szegedy",
-          "Cited count": 17245,
-          "DOI": "['No information found']",
-          "ISSN": "['No Information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "2015-06-07",
-          "Title": "going deeper with convolutions",
-          "Type": "Conference Paper",
-          "URLs": "http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/43022.pdf"
+          "Abstract": "The Florida Everglades is infested with Burmese pythons caused by the release of exotic pets in the 1980s. The current estimates are between 30,000 and 300,000 pythons, where the result is a severe decline in Everglade mammals: 90% reductions in raccoon, opossum, bobcats, and foxes. The marsh rabbits are completely gone. The population of the pythons is rapidly increasing exponentially with 20-50 eggs per snake with a life span of up to 20 years. Pythons have been captured in the Everglades with lengths of nearly 6 m. Researchers in the state of Florida are concerned that these pythons are (1) permanently damaging the Everglades, (2) migrating further north into populated areas of Florida, and (3) endangering wildlife, pets, and eventually, people. There have been a number of sensing efforts attempted in the large-area detection of pythons, where limited success has been achieved. For example, infrared sensors have been applied to the problem, but the pythons are cold-blooded, so the infrared bands do not work well. Imec has leveraged its expertise and infrastructure in semiconductor processing to produce highly compact, higher performance, and relatively cheaper hyperspectral image sensors and camera systems. In this work, Imec teamed with the University of Florida and Extended Reality Systems to obtain hyperspectral reflectivity measurements of Burmese pythons along with natural Florida background foliage to determine bands or band combinations that may be exploited in the large-area detection of pythons. The bands investigated are the visible-near infrared (or VisNIR) and the shortwave infrared (SWIR) bands. The results show that there are enough differences in the data collection such that a single band, inexpensive VisNIR band camera may provide reasonable results and a two-band, VisNIR/SWIR combination may provide higher performance results. In this paper, we provide the VisNIR results.",
+          "Affiliation": "1 Veterinary Clinic of Auteuil Village, 35 rue Leconte de Lisle, 75016 Paris, France.",
+          "Authors": [
+            "No information found",
+            "Ronald Driggers",
+            "Orges Furxhi",
+            "Gonzalo Vaca",
+            "Veerle Reumers",
+            "Milad Vazimali",
+            "Robert Short",
+            "Prashant Agrawal",
+            "Andy Lambrechts",
+            "Wouter Charle",
+            "Kathleen Vunckx",
+            "Carl Arvidson",
+            "Ronald Driggers",
+            "Orges Furxhi",
+            "Gonzalo Vaca",
+            "Veerle Reumers",
+            "Milad Vazimali",
+            "Robert Short",
+            "Prashant Agrawal",
+            "Andy Lambrechts",
+            "Wouter Charle",
+            "Kathleen Vunckx",
+            "Carl Arvidson"
+          ],
+          "Cited count": "['No information found']",
+          "DOI": ": 10.1364/AO.58.000D98.      ",
+          "ISSN": "['No information found']",
+          "Publication Name": "Copyright \u00a9 2019 Elsevier Ltd. All rights reserved.",
+          "Published date": " 2019 Jun 29.      ",
+          "Title": "Burmese python target reflectivity compared to natural Florida foliage background reflectivity",
+          "Type": "['article']",
+          "URLs": "https://pubmed.ncbi.nlm.nih.gov/31044871/"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Microsoft Academy",
+      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
+      "Search Engine": "PubMed Engine",
       "items": [
         {
-          "Abstract": "[paper extracting distinctive invariant features images perform reliable matching different views object scene image scale rotation shown provide robust across substantial range affine distortion change 3d viewpoint addition noise illumination highly sense single feature correctly matched high probability against large database describes approach recognition proceeds individual objects fast nearest neighbor algorithm followed hough transform identify clusters belonging finally performing verification least squares solution consistent pose parameters robustly clutter occlusion achieving real time performance]",
-          "Affiliation": "University of British Columbia",
-          "Authors": "david g lowe",
-          "Cited count": 38952,
-          "DOI": "['No information found']",
-          "ISSN": "['No Information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "2004-11-01",
-          "Title": "distinctive image features from scale invariant keypoints",
-          "Type": "Journal/Article",
-          "URLs": "https://rd.springer.com/article/10.1023%2FB%3AVISI.0000029664.99615.94"
+          "Abstract": "The Florida Everglades is infested with Burmese pythons caused by the release of exotic pets in the 1980s. The current estimates are between 30,000 and 300,000 pythons, where the result is a severe decline in Everglade mammals: 90% reductions in raccoon, opossum, bobcats, and foxes. The marsh rabbits are completely gone. The population of the pythons is rapidly increasing exponentially with 20-50 eggs per snake with a life span of up to 20 years. Pythons have been captured in the Everglades with lengths of nearly 6 m. Researchers in the state of Florida are concerned that these pythons are (1) permanently damaging the Everglades, (2) migrating further north into populated areas of Florida, and (3) endangering wildlife, pets, and eventually, people. There have been a number of sensing efforts attempted in the large-area detection of pythons, where limited success has been achieved. For example, infrared sensors have been applied to the problem, but the pythons are cold-blooded, so the infrared bands do not work well. Imec has leveraged its expertise and infrastructure in semiconductor processing to produce highly compact, higher performance, and relatively cheaper hyperspectral image sensors and camera systems. In this work, Imec teamed with the University of Florida and Extended Reality Systems to obtain hyperspectral reflectivity measurements of Burmese pythons along with natural Florida background foliage to determine bands or band combinations that may be exploited in the large-area detection of pythons. The bands investigated are the visible-near infrared (or VisNIR) and the shortwave infrared (SWIR) bands. The results show that there are enough differences in the data collection such that a single band, inexpensive VisNIR band camera may provide reasonable results and a two-band, VisNIR/SWIR combination may provide higher performance results. In this paper, we provide the VisNIR results.",
+          "Affiliation": "1 Veterinary Clinic of Auteuil Village, 35 rue Leconte de Lisle, 75016 Paris, France.",
+          "Authors": [
+            "No information found",
+            "Ronald Driggers",
+            "Orges Furxhi",
+            "Gonzalo Vaca",
+            "Veerle Reumers",
+            "Milad Vazimali",
+            "Robert Short",
+            "Prashant Agrawal",
+            "Andy Lambrechts",
+            "Wouter Charle",
+            "Kathleen Vunckx",
+            "Carl Arvidson",
+            "Ronald Driggers",
+            "Orges Furxhi",
+            "Gonzalo Vaca",
+            "Veerle Reumers",
+            "Milad Vazimali",
+            "Robert Short",
+            "Prashant Agrawal",
+            "Andy Lambrechts",
+            "Wouter Charle",
+            "Kathleen Vunckx",
+            "Carl Arvidson"
+          ],
+          "Cited count": "['No information found']",
+          "DOI": ": 10.1364/AO.58.000D98.      ",
+          "ISSN": "['No information found']",
+          "Publication Name": "Copyright \u00a9 2019 Elsevier Ltd. All rights reserved.",
+          "Published date": " 2019 Jun 29.      ",
+          "Title": "Burmese python target reflectivity compared to natural Florida foliage background reflectivity",
+          "Type": "['article']",
+          "URLs": "https://pubmed.ncbi.nlm.nih.gov/31044871/"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Microsoft Academy",
+      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
+      "Search Engine": "PubMed Engine",
       "items": [
         {
-          "Abstract": "[dominant sequence transduction models complex recurrent convolutional neural networks encoder decoder configuration best performing connect attention mechanism propose simple network architecture transformer solely mechanisms dispensing recurrence convolutions entirely experiments two machine translation tasks show superior quality more parallelizable requiring significantly less time train model achieves 28 4 bleu wmt 2014 english german task improving over existing ensembles 2 french establishes single state art score 41 8 training 3 5 days eight gpus small fraction costs literature generalizes applying successfully constituency parsing both large limited data]",
-          "Affiliation": "Google",
-          "Authors": "ashish vaswani",
-          "Cited count": 3473,
-          "DOI": "['No information found']",
-          "ISSN": "['No Information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "2017-06-12",
-          "Title": "attention is all you need",
-          "Type": "Journal/Article",
-          "URLs": "http://export.arxiv.org/pdf/1706.03762"
+          "Abstract": "Reptiles can suffer from infectious and noninfectious cardiac pathologies, requiring the need for standardized diagnostic approaches and reference intervals. Despite the popularity of ball pythons (Python regius) as pets, echocardiographic measurements are unknown in this species. Twenty healthy adult ball pythons were evaluated to identify imaging planes, establish reference intervals for cardiac assessment by two-dimensional echocardiography, and study the effects of sex, body length, and body mass on heart rate, fractional shortening, and vascular, atrial, and ventricular dimensions. Echocardiography was performed under manual restraint. Most cardiac measurements were positively correlated with body length and mass, with the strongest correlation between ventricular end-systolic measurements and body length. The only significant difference found between sexes was for right and left atrial lengths. This study provides guidelines and reference intervals for two-dimensional echocardiographic measurements in adult healthy ball pythons.",
+          "Affiliation": "1 Veterinary Clinic of Auteuil Village, 35 rue Leconte de Lisle, 75016 Paris, France.",
+          "Authors": [
+            "No information found",
+            "Cl\u00e9ment Paillusseau",
+            "1",
+            "Fr\u00e9d\u00e9ric Gandar",
+            "1",
+            "Lionel Schilliger",
+            "2",
+            "Val\u00e9rie Chetboul",
+            "3",
+            "4"
+          ],
+          "Cited count": "['No information found']",
+          "DOI": ": 10.1638/2019-0032.      ",
+          "ISSN": "['No information found']",
+          "Publication Name": [
+            "No information found"
+          ],
+          "Published date": [
+            "No information found"
+          ],
+          "Title": "TWO-DIMENSIONAL ECHOCARDIOGRAPHIC MEASUREMENTS IN THE BALL PYTHON ( PYTHON REGIUS)",
+          "Type": "['article']",
+          "URLs": "https://pubmed.ncbi.nlm.nih.gov/31926531/"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Microsoft Academy",
+      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
+      "Search Engine": "PubMed Engine",
       "items": [
         {
-          "Abstract": "[training deep neural networks complicated fact distribution layer inputs changes parameters previous layers change slows down requiring lower learning rates careful parameter initialization makes notoriously hard train models saturating nonlinearities refer phenomenon internal covariate shift address problem normalizing draws strength normalization part model architecture performing mini batch allows us higher less eliminates dropout applied state art image classification achieves same accuracy 14 times fewer steps beats original significant margin ensemble normalized upon best published imagenet reaching 4 82 top 5 test error exceeding human raters]",
-          "Affiliation": "Google",
-          "Authors": "sergey ioffe",
-          "Cited count": 5764,
-          "DOI": "['No information found']",
-          "ISSN": "['No Information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "2015-07-06",
-          "Title": "batch normalization accelerating deep network training by reducing internal covariate shift",
-          "Type": "Conference Paper",
-          "URLs": "https://jmlr.csail.mit.edu/proceedings/papers/v37/ioffe15.html"
+          "Abstract": "We determined mercury (Hg) concentrations in various tissues of Burmese pythons (Python bivitattus; n = 227) caught in southwest Florida from 2012-2018 as part of a program to control this invasive species. Mercury ranged as high as 4.86 mg/kg in liver tissue from a snake that was 4.7 m long but overall averaged 0.12 \u00b1 0.19 mg/kg in tail tips (n = 123). These levels were relatively low as compared to concentrations reported in pythons from Everglades National Park, a recognized Hg hotspot. These results show that snakes, particularly watersnakes, present another opportunity to biomonitor Hg at the aquatic-terrestrial interface. Although capturing snakes presents obvious challenges, which differ from sampling other taxa typically used in monitoring programs, taking advantage of this program to control an invasive species was cost effective and alleviated concerns about sampling and possibly reducing native snake populations.",
+          "Affiliation": "1 Florida Gulf Coast University, 0501 FGCU Blvd. South, Fort Myers, FL, 33965, USA. drumbold@fgcu.edu.",
+          "Authors": [
+            "No information found",
+            "Darren G Rumbold",
+            "1",
+            "Ian A Bartoszek",
+            "2"
+          ],
+          "Cited count": "['No information found']",
+          "DOI": ": 10.1007/s00128-019-02670-6.      ",
+          "ISSN": "['No information found']",
+          "Publication Name": [
+            "No information found"
+          ],
+          "Published date": " 2019 Jun 29.      ",
+          "Title": "Mercury Concentrations in Invasive Burmese Pythons (Python bivitattus) of Southwest Florida",
+          "Type": "['article']",
+          "URLs": "https://pubmed.ncbi.nlm.nih.gov/31256202/"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Microsoft Academy",
+      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
+      "Search Engine": "PubMed Engine",
       "items": [
         {
-          "Abstract": "[libsvm library support vector machines svms actively developing package year 2000 goal help users easily apply svm applications gained wide popularity machine learning areas article implementation details issues solving optimization problems theoretical convergence multiclass classification probability estimates parameter selection detail]",
-          "Affiliation": "National Taiwan University",
-          "Authors": "chihchung chang",
-          "Cited count": 33918,
-          "DOI": "['No information found']",
-          "ISSN": "['No Information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "2011-04-01",
-          "Title": "libsvm a library for support vector machines",
-          "Type": "Journal/Article",
-          "URLs": "http://ntu.csie.org/~cjlin/papers/libsvm.pdf"
+          "Abstract": "A retrospective study was conducted to investigate the presence of ferlavirus, ball python nidovirus and bacteria in 32 tracheobronchial lavages from ball pythons raised in captivity and affected by respiratory disease. A touchdown reverse transcription polymerase reaction (RT-PCR) was performed to detect ball python nidovirus RNA targeting a 260-bp portion of the ORF1a gene, while a nested RT-PCR was applied to identify RNA targeting the 518-bp ferlavirus partial L gene. RT-PCR positive products were submitted for Sanger's sequencing and phylogeny reconstruction. Bacteriological examinations were performed to diagnose a possible bacterial involvement. BLAST analysis revealed that the nucleotide sequences of the six (18.8%) RT-PCR positive amplicons were 90-97% identical to the partial sequence of the ORF1a gene of the recently described ball python nidovirus. All tested snakes were negative for ferlavirus. Thirteen out of 32 samples (40.6%) were bacteriologically positive. Respiratory tract diseases can be a substantial problem for snake breeders, considering the rapid transmission of respiratory pathogens. The results and published studies show that ball python nidovirus is circulating in python collections and could be linked to suboptimal management practices. Surveillance programs are desirable as part of the routine snake health assessment. Tracheobronchial lavage is a fast, practical, cost-effective procedure for sample collection.",
+          "Affiliation": "1 1 Department of Veterinary Medicine, University of Perugia , San Costanzo 4, 06126, Perugia , Italy.",
+          "Authors": [
+            "No information found",
+            "Elisa Rampacci",
+            "1",
+            "Marco Masi",
+            "2",
+            "Francesco Carlo Origgi",
+            "3",
+            "Valentina Stefanetti",
+            "1",
+            "Marco Bottinelli",
+            "1",
+            "Paolo Selleri",
+            "2",
+            "Mauro Coletti",
+            "1",
+            "Fabrizio Passamonti",
+            "1"
+          ],
+          "Cited count": "['No information found']",
+          "DOI": ": 10.1556/004.2019.014.      ",
+          "ISSN": "['No information found']",
+          "Publication Name": [
+            "No information found"
+          ],
+          "Published date": [
+            "No information found"
+          ],
+          "Title": "First molecular detection of ball python nidovirus in Italy - Short communication",
+          "Type": "['article']",
+          "URLs": "https://pubmed.ncbi.nlm.nih.gov/30922084/"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Microsoft Academy",
+      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
+      "Search Engine": "PubMed Engine",
       "items": [
         {
-          "Abstract": "[object detection performance measured canonical pascal voc dataset plateaued last few years best performing methods complex ensemble systems typically combine multiple low level image features high context paper propose simple scalable algorithm improves mean average precision map more 30 relative previous 2012 achieving 53 3 approach combines two key insights 1 one apply capacity convolutional neural networks cnns bottom region proposals order localize segment objects 2 labeled training data scarce supervised pre auxiliary task followed domain specific fine tuning yields significant boost call r cnn regions experiments provide insight network learns revealing rich hierarchy source code complete system http www cs berkeley edu rbg rcnn]",
-          "Affiliation": "University of California, Berkeley",
-          "Authors": "ross girshick",
-          "Cited count": 10937,
-          "DOI": "['No information found']",
-          "ISSN": "['No Information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "2014-06-23",
-          "Title": "rich feature hierarchies for accurate object detection and semantic segmentation",
-          "Type": "Conference Paper",
-          "URLs": "http://vision.cs.utexas.edu/381V-spring2016/slides/zheng-paper.pdf"
+          "Abstract": "A 9-year-old female diamond python (Morelia spilota) was presented with a submandibular swelling. The cytological, macroscopic and histological features of this lesion indicated a diagnosis of branchial (pharyngeal) cyst. Branchial cysts are benign lesions caused by anomalous development of the branchial apparatus and are described rarely in veterinary medicine. We suggest that possible persistence of branchial remnants should be included in the consideration of differential diagnoses for neck masses in adult snakes.",
+          "Affiliation": "1 Department of Veterinary Medicine, The Queen's Veterinary School Hospital, University of Cambridge, Cambridge, UK. Electronic address: em.cloup@gmail.com.",
+          "Authors": [
+            "No information found",
+            "E Cloup",
+            "1",
+            "C Thomas",
+            "2",
+            "J E Cooper",
+            "3"
+          ],
+          "Cited count": "['No information found']",
+          "DOI": ": 10.1016/j.jcpa.2019.10.007.      ",
+          "ISSN": "['No information found']",
+          "Publication Name": "Copyright \u00a9 2019 Elsevier Ltd. All rights reserved.",
+          "Published date": " 2019 Nov 20.      ",
+          "Title": "A Branchial Cyst in a Diamond Python (Morelia spilota)",
+          "Type": "['article']",
+          "URLs": "https://pubmed.ncbi.nlm.nih.gov/31812178/"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Microsoft Academy",
+      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
+      "Search Engine": "PubMed Engine",
       "items": [
         {
-          "Abstract": "[imagenet large scale visual recognition challenge benchmark object category classification detection hundreds categories millions images run annually 2010 attracting participation more fifty institutions paper describes creation dataset advances discuss challenges collecting ground truth annotation highlight key breakthroughs categorical provide detailed current state field image compare art computer vision accuracy human conclude lessons learned five years propose future directions improvements]",
-          "Affiliation": "Stanford University",
-          "Authors": "olga russakovsky",
-          "Cited count": 448,
-          "DOI": "['No information found']",
-          "ISSN": "['No Information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "2014-09-01",
-          "Title": "imagenet large scale visual recognition challenge",
-          "Type": "Journal/Article",
-          "URLs": "http://export.arxiv.org/pdf/1409.0575"
+          "Abstract": "It has long been known that even closely related species can vary in their antipredator behavior, and in the last two decades there has been mounting interest in how these differences might relate to the hormonal stress response. We tested the relationship between fear-based aggression, a form of antipredator behavior, and plasma corticosterone levels in three species of python [Children's Python (Antaresia childreni), Ball Python (Python regius), Bismarck Ring Python (Bothrochilus boa)]. We recorded the amount of striking in response to perturbation before and after a controlled, stressful confinement. We also measured plasma corticosterone levels prior to confinement, after confinement, and after confinement plus an adrenocorticotropin hormone (ACTH) injection, the later to induce a maximal corticosterone response. We performed among species analyses using two mixed models, and we determined between individual variance within each species to estimate repeatability. Bismarck Ring Pythons struck more than either Ball Pythons or Children's Pythons, and Ball Pythons had a suppressed corticosterone response compared to Children's and Bismarck Ring Pythons. Thus, mean species fear-based aggression correlated with species level differences in corticosterone profile. We also found evidence suggesting behaviors are repeatable within individuals. Our results point to a need for further exploration of aggression, anti-predator behavior, and corticosterone profile.",
+          "Affiliation": "1 School of Life Sciences, Arizona State University, Tempe, AZ, USA. Electronic address: jbrashears@lagcc.cuny.edu.",
+          "Authors": [
+            "No information found",
+            "J Alex Brashears",
+            "1",
+            "H Bobby Fokidis",
+            "2",
+            "Dale F DeNardo",
+            "3"
+          ],
+          "Cited count": "['No information found']",
+          "DOI": ": 10.1016/j.ygcen.2019.113374.      ",
+          "ISSN": "['No information found']",
+          "Publication Name": "Copyright \u00a9 2019 Elsevier Inc. All rights reserved.",
+          "Published date": " 2019 Dec 28.      ",
+          "Title": "Fear-based aggression and its relationship to corticosterone responsiveness in three species of python",
+          "Type": "['article']",
+          "URLs": "https://pubmed.ncbi.nlm.nih.gov/31891687/"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, Cited count, Affiliation name, Type, Published date, Abstract",
-      "Search Engine": "Microsoft Academy",
+      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
+      "Search Engine": "PubMed Engine",
       "items": [
         {
-          "Abstract": "[imagenet large scale visual recognition challenge benchmark object category classification detection hundreds categories millions images run annually 2010 attracting participation more fifty institutions paper describes creation dataset advances discuss challenges collecting ground truth annotation highlight key breakthroughs categorical provide detailed current state field image compare art computer vision accuracy human conclude lessons learned 5 years propose future directions improvements]",
-          "Affiliation": "Stanford University",
-          "Authors": "olga russakovsky",
-          "Cited count": 16065,
-          "DOI": "['No information found']",
-          "ISSN": "['No Information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "2015-12-01",
-          "Title": "imagenet large scale visual recognition challenge",
-          "Type": "Journal/Article",
-          "URLs": "https://collaborate.princeton.edu/en/publications/imagenet-large-scale-visual-recognition-challenge"
+          "Abstract": "Pythons are model organisms for investigating physiological responses to food intake. While systemic growth in response to food consumption is well documented, what occurs in the brain is currently unexplored. In this study, male ball pythons (Python regius) were used to test the hypothesis that food consumption stimulates cell proliferation in the brain. We used 5-bromo-12'-deoxyuridine (BrdU) as a cell-birth marker to quantify and compare cell proliferation in the brain of fasted snakes and those at 2 and 6 days after a meal. Throughout the telencephalon, cell proliferation was significantly increased in the 6 day group, with no difference between the 2 day group and controls. Systemic postprandial plasticity occurs quickly after a meal is ingested, during the period of active digestion; however, the brain displays a surge of cell proliferation after most digestion and absorption is complete.",
+          "Affiliation": "1 Biological Sciences Department, California Polytechnic State University, San Luis Obispo, CA 93407-0401, USA.",
+          "Authors": [
+            "No information found",
+            "Stacy S Habroun",
+            "1",
+            "2",
+            "Andrew A Schaffner",
+            "3",
+            "Emily N Taylor",
+            "1",
+            "Christine R Strand",
+            "4"
+          ],
+          "Cited count": "['No information found']",
+          "DOI": ": 10.1242/jeb.173377.      ",
+          "ISSN": "['No information found']",
+          "Publication Name": "\u00a9 2018. Published by The Company of Biologists Ltd.",
+          "Published date": [
+            "No information found"
+          ],
+          "Title": "Food consumption increases cell proliferation in the python brain",
+          "Type": "['article']",
+          "URLs": "https://pubmed.ncbi.nlm.nih.gov/29496780/"
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
+      "Search Engine": "PubMed Engine",
+      "items": [
+        {
+          "Abstract": "Endothelin-1 (ET-1) is a very potent vasoactive peptide released from endothelial cells, and ET-1 plays an important role in the maintenance and regulation of blood pressure in mammals. ET-1 signaling is mediated by two receptors: ETA and ETB. In mammals, ETA receptors are located on vascular smooth muscle where they mediate vasoconstriction. ETB receptors located on the endothelium mediate vasodilatation through the release of nitric oxide, whereas stimulation of ETB receptors placed on vascular smooth muscle leads to vasoconstriction. Less is known about ET-1 signaling in reptiles. In anaesthetized alligators, ET-1 elicits a biphasic blood pressure with a long-lasting initial decrease followed by a smaller increase in systemic blood pressure. In anaesthetized freshwater turtles, ET-1 causes a dose-dependent systemic vasodilatation mediated through ETB receptors. In the present study, we investigated the cardiovascular effects of ET-1 on the systemic and pulmonary vasculature of pythons. The presence of ETA and ETB receptors in the vasculature of pythons was verified by means of immunoblotting. Myography on isolated vessels revealed a dose-dependent vasoconstrictory response to ET-1 in both mesenteric and pulmonary arteries. Pressure measurements in recovered specimens revealed an ET-1-induced rise in systemic blood pressure supporting our in vitro findings. In conclusion, our study shows that ET-1 induces a strong pressor effect in the systemic circulation.",
+          "Affiliation": "1 Zoophysiology, Department of Bioscience, Aarhus University, 8000 Aarhus, Denmark; Department of Molecular Biology and Genetics, Aarhus University, 8000 Aarhus, Denmark. Electronic address: maja.fuhlendorff@clin.au.dk.",
+          "Authors": [
+            "No information found",
+            "Maja Fuhlendorff Jensen",
+            "1",
+            "Signe Nedergaard",
+            "2",
+            "Hang Nguyen Nielsen",
+            "3",
+            "Nini Skovgaard",
+            "4",
+            "Tinna V Stevnsner",
+            "5",
+            "Tobias Wang",
+            "6"
+          ],
+          "Cited count": "['No information found']",
+          "DOI": ": 10.1016/j.cbpa.2019.110620.      ",
+          "ISSN": "['No information found']",
+          "Publication Name": "Copyright \u00a9 2019 Elsevier Inc. All rights reserved.",
+          "Published date": " 2019 Nov 23.      ",
+          "Title": "Endothelin-1 induces a strong pressor effect in ball pythons (Python regius)",
+          "Type": "['article']",
+          "URLs": "https://pubmed.ncbi.nlm.nih.gov/31770594/"
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
+      "Search Engine": "PubMed Engine",
+      "items": [
+        {
+          "Abstract": "Exceptional and extreme feeding behaviour makes the Burmese python (Python bivittatus) an interesting model to study physiological remodelling and metabolic adaptation in response to refeeding after prolonged starvation. In this study, we used transcriptome sequencing of 5 visceral organs during fasting as well as 24 hours and 48 hours after ingestion of a large meal to unravel the postprandial changes in Burmese pythons. We first used the pooled data to perform a de novo assembly of the transcriptome and supplemented this with a proteomic survey of enzymes in the plasma and gastric fluid. We constructed a high-quality transcriptome with 34 423 transcripts, of which 19 713 (57%) were annotated. Among highly expressed genes (fragments per kilo base per million sequenced reads > 100 in 1 tissue), we found that the transition from fasting to digestion was associated with differential expression of 43 genes in the heart, 206 genes in the liver, 114 genes in the stomach, 89 genes in the pancreas, and 158 genes in the intestine. We interrogated the function of these genes to test previous hypotheses on the response to feeding. We also used the transcriptome to identify 314 secreted proteins in the gastric fluid of the python. Digestion was associated with an upregulation of genes related to metabolic processes, and translational changes therefore appear to support the postprandial rise in metabolism. We identify stomach-related proteins from a digesting individual and demonstrate that the sensitivity of modern liquid chromatography/tandem mass spectrometry equipment allows the identification of gastric juice proteins that are present during digestion.",
+          "Affiliation": "1 Bioinformatics Research Center, Aarhus University, C.F. Moellers Alle 8, Aarhus C, Denmark.",
+          "Authors": [
+            "No information found",
+            "Jinjie Duan",
+            "1",
+            "Kristian Wejse Sanggaard",
+            "2",
+            "3",
+            "Leif Schauser",
+            "4",
+            "Sanne Enok Lauridsen",
+            "5",
+            "Jan J Enghild",
+            "2",
+            "3",
+            "Mikkel Heide Schierup",
+            "1",
+            "5",
+            "Tobias Wang",
+            "5"
+          ],
+          "Cited count": "['No information found']",
+          "DOI": ": 10.1093/gigascience/gix057.      ",
+          "ISSN": "['No information found']",
+          "Publication Name": "\u00a9 The Authors 2017. Published by Oxford University Press.",
+          "Published date": [
+            "No information found"
+          ],
+          "Title": "Transcriptome analysis of the response of Burmese python to digestion",
+          "Type": "['article']",
+          "URLs": "https://pubmed.ncbi.nlm.nih.gov/28873961/"
         }
       ]
     }
