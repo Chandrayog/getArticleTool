@@ -1,6 +1,48 @@
 
-Logged at:2021-02-21 01:07:44.225564 Total Records Returned by - Elsevier Scopus:10
-Logged at:2021-02-21 01:07:44.225599 Records Captured by - Elsevier Scopus:10
+Logged at:2021-03-07 19:24:19.374300 Total Records Returned by - ACM Library for search query "explainable" %2B%2B%2B%2B "artificial intelligence" %2B%2B%2B%2B "ontolog*":1899
+Logged at:2021-03-07 19:24:19.374334 Records Captured by - ACM Library for search query "explainable" %2B%2B%2B%2B "artificial intelligence" %2B%2B%2B%2B "ontolog*":1899
 
-Logged at:2021-02-21 01:18:22.223578 Total Records Returned by - Elsevier Scopus:20
-Logged at:2021-02-21 01:18:22.223617 Records Captured by - Elsevier Scopus:20
+Logged at:2021-03-07 19:42:45.999728 Total Records Returned by - ACM Library for search query "explainable"  2B 2B 2B 2B "artificial intelligence"  2B 2B "ontolog ":1920
+Logged at:2021-03-07 19:42:46.000136 Records Captured by - ACM Library for search query "explainable"  2B 2B 2B 2B "artificial intelligence"  2B 2B "ontolog ":1920
+
+Logged at:2021-03-07 19:49:08.761533 Total Records Returned by - Google Scholar for search query "explainable" + "artificial intelligence" + "ontolog":40
+Logged at:2021-03-07 19:49:08.761909 Records Captured by - Google Scholar for search query "explainable" + "artificial intelligence" + "ontolog":10
+
+Logged at:2021-03-07 19:49:10.426664 Total Records Returned by - Microsoft Academic for search query Logging:0
+Logged at:2021-03-07 19:49:10.426711 Records Captured by - Microsoft Academic for search query Logging:0
+
+Logged at:2021-03-07 19:49:39.975718 Total Records Returned by - CORE Engine for search query "explainable" + "artificial intelligence" + "ontolog":200
+Logged at:2021-03-07 19:49:39.975772 Records Captured by - CORE Engine for search query "explainable" + "artificial intelligence" + "ontolog":200
+
+Logged at:2021-03-07 19:49:54.628966 Total Records Returned by - PubMed Engine for search query "explainable" + "artificial intelligence" + "ontolog":0
+Logged at:2021-03-07 19:49:54.629022 Records Captured by - PubMed Engine for search query "explainable" + "artificial intelligence" + "ontolog":0
+
+Logged at:2021-03-07 19:50:02.282644 Total Records Returned by - ACM Library for search query "explainable"  2B 2B "artificial intelligence"  2B 2B "ontolog":209
+Logged at:2021-03-07 19:50:02.282706 Records Captured by - ACM Library for search query "explainable"  2B 2B "artificial intelligence"  2B 2B "ontolog":209
+
+Logged at:2021-03-07 19:50:04.548607 Total Records Returned by - PLOS One Engine for search query "explainable" + "artificial intelligence" + "ontolog":100
+Logged at:2021-03-07 19:50:04.548664 Records Captured by - PLOS One Engine for search query "explainable" + "artificial intelligence" + "ontolog":100
+
+Logged at:2021-03-07 19:50:08.779396 Total Records Returned by - Academia for search query "explainable" + "artificial intelligence" + "ontolog":0
+Logged at:2021-03-07 19:50:08.779452 Records Captured by - Academia for search query "explainable" + "artificial intelligence" + "ontolog":0
+
+Logged at:2021-03-07 19:50:21.834491 Total Records Returned by - Elsevier Scopus for search query "explainable" AND "artificial intelligence" AND "ontolog":0
+Logged at:2021-03-07 19:50:21.834545 Records Captured by - Elsevier Scopus for search query "explainable" AND "artificial intelligence" AND "ontolog":0
+
+Logged at:2021-03-07 19:50:26.371459 Total Records Returned by - Springer for search query "explainable" + "artificial intelligence" + "ontolog":2
+Logged at:2021-03-07 19:50:26.371519 Records Captured by - Springer for search query "explainable" + "artificial intelligence" + "ontolog":2
+
+Logged at:2021-03-07 19:50:43.267804 Total Records Returned by - Science Direct Engine for search query "explainable" + "artificial intelligence" + "ontolog":12
+Logged at:2021-03-07 19:50:43.267859 Records Captured by - Science Direct Engine for search query "explainable" + "artificial intelligence" + "ontolog":12
+
+Logged at:2021-03-07 19:53:26.292614 Total Records Returned by - Microsoft Academic for search query "explainable" + "artificial intelligence" + "ontolog":0
+Logged at:2021-03-07 19:53:26.292990 Records Captured by - Microsoft Academic for search query "explainable" + "artificial intelligence" + "ontolog":0
+
+Logged at:2021-03-07 19:55:29.912665 Total Records Returned by - Microsoft Academic for search query "artificial intelligence":0
+Logged at:2021-03-07 19:55:29.913058 Records Captured by - Microsoft Academic for search query "artificial intelligence":0
+
+Logged at:2021-03-07 20:25:24.634829 Total Records Returned by - PubMed Engine for search query Breast cancer:122
+Logged at:2021-03-07 20:25:24.635141 Records Captured by - PubMed Engine for search query Breast cancer:122
+
+Logged at:2021-03-07 20:49:28.859580 Total Records Returned by - PubMed Engine for search query Python:12
+Logged at:2021-03-07 20:49:28.859958 Records Captured by - PubMed Engine for search query Python:12

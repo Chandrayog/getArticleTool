@@ -13,6 +13,7 @@ from openpyxl import load_workbook
 from tqdm import tqdm
 import re
 import os
+import sys
 from scraper_api import ScraperAPIClient
 import logger
 
@@ -91,7 +92,7 @@ def search_sciDirect(query, headers, _pages,records, _title, _keyword, _abstract
                     logger.writeError(e, None, _engine, logging_flag, filename, line_number)
 
         time.sleep(1)
-        logger.writeRecords("Logging", None, _engine, count, count, logging_flag)
+        logger.writeRecords(query, None, _engine, count, count, logging_flag)
         print(f'Finished with total {count} records returned.')
         return data
     if (not _from_yr):
@@ -157,7 +158,7 @@ def search_sciDirect(query, headers, _pages,records, _title, _keyword, _abstract
                                     line_number = exception_traceback.tb_lineno
                                     logger.writeError(e, None, _engine, logging_flag, filename, line_number)
         time.sleep(1)
-        logger.writeRecords("Logging", None, _engine, count, count, logging_flag)
+        logger.writeRecords(query, None, _engine, count, count, logging_flag)
         print(f'Finished with total {count} records returned.')
         return data
     else:
@@ -224,7 +225,7 @@ def search_sciDirect(query, headers, _pages,records, _title, _keyword, _abstract
                                     line_number = exception_traceback.tb_lineno
                                     logger.writeError(e, None, _engine, logging_flag, filename, line_number)
             time.sleep(1)
-            logger.writeRecords("Logging", None, _engine, count, count, logging_flag)
+            logger.writeRecords(query, None, _engine, count, count, logging_flag)
             print(f'Finished with total {count} records returned.')
             return data
 

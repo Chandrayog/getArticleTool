@@ -1,420 +1,210 @@
 [
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Microsoft Academy",
       "items": [
         {
-          "Abstract": "Based on the principle of dialectic symmetry formulated by the philosophy of dialecticpositivism, an interpretation of the concept of \"artificial intelligence\" is proposed.This principle assumes the existence of a hierarchy of information objects, ...",
-          "Affiliation": "['No information found']",
-          "Authors": "Ibragim E. Suleimenov, Yelizaveta S. Vitulyova, Akhat S. Bakirov, Oleg A. Gabrielyan",
-          "Cited count": "0",
-          "DOI": "/doi/10.1145/3397125.3397141",
-          "ISSN": "['No information found']",
+          "Abstract": "[deeper neural networks more difficult train residual learning framework ease training substantially previously explicitly reformulate layers functions reference layer inputs instead unreferenced provide comprehensive empirical evidence showing easier optimize gain accuracy considerably depth imagenet dataset evaluate nets 152 8 vgg 40 still lower complexity ensemble achieves 3 57 error test set won 1st place ilsvrc 2015 classification task cifar 10 100 1000 representations central importance visual recognition tasks solely extremely deep obtain 28 relative improvement coco object detection foundations submissions competitions1 places localization segmentation]",
+          "Affiliation": "Microsoft",
+          "Authors": "kaiming he",
+          "Cited count": 49987,
+          "DOI": "['No information found']",
+          "ISSN": "['No Information found']",
           "Publication Name": "['No information found']",
-          "Published date": "April 2020, ",
-          "Title": "Artificial Intelligence: what is it?",
-          "Type": "research-article",
-          "URLs": "https://doi.org/10.1145/3397125.3397141"
+          "Published date": "2016-06-27",
+          "Title": "deep residual learning for image recognition",
+          "Type": "Conference Paper",
+          "URLs": "https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Microsoft Academy",
       "items": [
         {
-          "Abstract": "This paper is a summary of the webinar hold on October 22nd at the \u201cComputationalthinking and robotics in education\u201d track in which the LearningML project was presented.The LearningML project aims to bring the fundamentals of Artificial Intelligence (...",
-          "Affiliation": "['No information found']",
-          "Authors": "Juan David Rodr\u00edguez-Garc\u00eda, Jes\u00fas Moreno-Le\u00f3n, Marcos Rom\u00e1n-Gonz\u00e1lez, Gregorio Robles",
-          "Cited count": "0",
-          "DOI": "/doi/10.1145/3434780.3436705",
-          "ISSN": "['No information found']",
+          "Abstract": "[trained large deep convolutional neural network classify 1 2 million high resolution images imagenet lsvrc 2010 contest 1000 different classes test data achieved top 5 error rates 37 17 0 considerably better previous state art 60 parameters 650 000 neurons consists five layers followed max pooling three fully connected final way softmax make training faster saturating efficient gpu implementation convolution operation reduce overriding employed recently developed regularization called dropout proved effective entered variant model ilsvrc 2012 competition winning rate 15 3 26 second best entry]",
+          "Affiliation": "University of Toronto",
+          "Authors": "alex krizhevsky",
+          "Cited count": 38521,
+          "DOI": "['No information found']",
+          "ISSN": "['No Information found']",
           "Publication Name": "['No information found']",
-          "Published date": "October 2020, ",
-          "Title": "Introducing Artificial Intelligence Fundamentals with LearningML: Artificial Intelligence made easy",
-          "Type": "short-paper",
-          "URLs": "https://doi.org/10.1145/3434780.3436705"
+          "Published date": "2012-12-03",
+          "Title": "imagenet classification with deep convolutional neural networks",
+          "Type": "Conference Paper",
+          "URLs": "https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Microsoft Academy",
       "items": [
         {
-          "Abstract": "In the past decades, artificial intelligence has dramatically changed the way we workand live. Moreover, it is increasingly becoming a national strategy for its rapiddevelopment and broad application in industries. However, the way artificial ...",
-          "Affiliation": "['No information found']",
-          "Authors": "Zhou Shao, Zhenting Shen, Sha Yuan, Jie Tang, Yongli Wang, Lili Wu, Wenjiang Zheng",
-          "Cited count": "0",
-          "DOI": "/doi/10.1145/3394231.3397925",
-          "ISSN": "['No information found']",
+          "Abstract": "[propose deep convolutional neural network architecture codenamed inception achieves state art classification detection imagenet large scale visual recognition challenge 2014 ilsvrc14 main hallmark utilization computing resources inside carefully crafted design depth width keeping computational budget constant optimize quality architectural decisions hebbian principle intuition multi processing one incarnation submission called googlenet 22 layers assessed context]",
+          "Affiliation": "Google",
+          "Authors": "christian szegedy",
+          "Cited count": 17245,
+          "DOI": "['No information found']",
+          "ISSN": "['No Information found']",
           "Publication Name": "['No information found']",
-          "Published date": "July 2020, ",
-          "Title": "AI 2000: A Decade of Artificial Intelligence",
-          "Type": "research-article",
-          "URLs": "https://doi.org/10.1145/3394231.3397925"
+          "Published date": "2015-06-07",
+          "Title": "going deeper with convolutions",
+          "Type": "Conference Paper",
+          "URLs": "http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/43022.pdf"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Microsoft Academy",
       "items": [
         {
-          "Abstract": "The advent of the era of big data has brought opportunities for the application ofartificial intelligence and mental health. From \"virtual psychotherapists\" to socialrobots for dementia and autism treatment to robots for treatment of disorders, AIis ...",
-          "Affiliation": "['No information found']",
-          "Authors": "Fan Yang, Tingting Han, Kesui Deng, Yong Han",
-          "Cited count": "0",
-          "DOI": "/doi/10.1145/3433996.3434004",
-          "ISSN": "['No information found']",
+          "Abstract": "[paper extracting distinctive invariant features images perform reliable matching different views object scene image scale rotation shown provide robust across substantial range affine distortion change 3d viewpoint addition noise illumination highly sense single feature correctly matched high probability against large database describes approach recognition proceeds individual objects fast nearest neighbor algorithm followed hough transform identify clusters belonging finally performing verification least squares solution consistent pose parameters robustly clutter occlusion achieving real time performance]",
+          "Affiliation": "University of British Columbia",
+          "Authors": "david g lowe",
+          "Cited count": 38952,
+          "DOI": "['No information found']",
+          "ISSN": "['No Information found']",
           "Publication Name": "['No information found']",
-          "Published date": "October 2020, ",
-          "Title": "The Application of Artificial Intelligence in the Mental Diseases",
-          "Type": "research-article",
-          "URLs": "https://doi.org/10.1145/3433996.3434004"
+          "Published date": "2004-11-01",
+          "Title": "distinctive image features from scale invariant keypoints",
+          "Type": "Journal/Article",
+          "URLs": "https://rd.springer.com/article/10.1023%2FB%3AVISI.0000029664.99615.94"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Microsoft Academy",
       "items": [
         {
-          "Abstract": "Artificial intelligence is changing the world. The application of the artificial intelligencein logistics has brought a significant reduction in labor costs and huge increasein logistics efficiency. Artificial intelligence will lead the logistics ...",
-          "Affiliation": "['No information found']",
-          "Authors": "Xinke Du",
-          "Cited count": "0",
-          "DOI": "/doi/10.1145/3421766.3421798",
-          "ISSN": "['No information found']",
+          "Abstract": "[dominant sequence transduction models complex recurrent convolutional neural networks encoder decoder configuration best performing connect attention mechanism propose simple network architecture transformer solely mechanisms dispensing recurrence convolutions entirely experiments two machine translation tasks show superior quality more parallelizable requiring significantly less time train model achieves 28 4 bleu wmt 2014 english german task improving over existing ensembles 2 french establishes single state art score 41 8 training 3 5 days eight gpus small fraction costs literature generalizes applying successfully constituency parsing both large limited data]",
+          "Affiliation": "Google",
+          "Authors": "ashish vaswani",
+          "Cited count": 3473,
+          "DOI": "['No information found']",
+          "ISSN": "['No Information found']",
           "Publication Name": "['No information found']",
-          "Published date": "October 2020, ",
-          "Title": "Research on the Artificial Intelligence Applied in Logistics Warehousing",
-          "Type": "research-article",
-          "URLs": "https://doi.org/10.1145/3421766.3421798"
+          "Published date": "2017-06-12",
+          "Title": "attention is all you need",
+          "Type": "Journal/Article",
+          "URLs": "http://export.arxiv.org/pdf/1706.03762"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Microsoft Academy",
       "items": [
         {
-          "Abstract": "Artificial Intelligence (AI) has become the buzzword of the last decade. Advancesso far have been largely technical with a focus on machine learning (ML). Only recentlyhave we begun seeing a shift towards focusing on the human aspects of artificial ...",
-          "Affiliation": "['No information found']",
-          "Authors": "Albrecht Schmidt",
-          "Cited count": "0",
-          "DOI": "/doi/10.1145/3399715.3400873",
-          "ISSN": "['No information found']",
+          "Abstract": "[training deep neural networks complicated fact distribution layer inputs changes parameters previous layers change slows down requiring lower learning rates careful parameter initialization makes notoriously hard train models saturating nonlinearities refer phenomenon internal covariate shift address problem normalizing draws strength normalization part model architecture performing mini batch allows us higher less eliminates dropout applied state art image classification achieves same accuracy 14 times fewer steps beats original significant margin ensemble normalized upon best published imagenet reaching 4 82 top 5 test error exceeding human raters]",
+          "Affiliation": "Google",
+          "Authors": "sergey ioffe",
+          "Cited count": 5764,
+          "DOI": "['No information found']",
+          "ISSN": "['No Information found']",
           "Publication Name": "['No information found']",
-          "Published date": "September 2020, ",
-          "Title": "Interactive Human Centered Artificial Intelligence: A Definition and Research Challenges",
-          "Type": "keynote",
-          "URLs": "https://doi.org/10.1145/3399715.3400873"
+          "Published date": "2015-07-06",
+          "Title": "batch normalization accelerating deep network training by reducing internal covariate shift",
+          "Type": "Conference Paper",
+          "URLs": "https://jmlr.csail.mit.edu/proceedings/papers/v37/ioffe15.html"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Microsoft Academy",
       "items": [
         {
-          "Abstract": "Ideas originating in physics have informed progress in artificial intelligence andmachine learning for many decades. However the pedigree of many such ideas is oftneglected in the Computer Science community. The tutorial focuses on current and past...",
-          "Affiliation": "['No information found']",
-          "Authors": "Muhammad Aurangzeb Ahmad, \u015eener \u00d6z\u00f6nder",
-          "Cited count": "0",
-          "DOI": "/doi/10.1145/3394486.3406464",
-          "ISSN": "['No information found']",
+          "Abstract": "[libsvm library support vector machines svms actively developing package year 2000 goal help users easily apply svm applications gained wide popularity machine learning areas article implementation details issues solving optimization problems theoretical convergence multiclass classification probability estimates parameter selection detail]",
+          "Affiliation": "National Taiwan University",
+          "Authors": "chihchung chang",
+          "Cited count": 33918,
+          "DOI": "['No information found']",
+          "ISSN": "['No Information found']",
           "Publication Name": "['No information found']",
-          "Published date": "August 2020, ",
-          "Title": "Physics Inspired Models in Artificial Intelligence",
-          "Type": "tutorial",
-          "URLs": "https://doi.org/10.1145/3394486.3406464"
+          "Published date": "2011-04-01",
+          "Title": "libsvm a library for support vector machines",
+          "Type": "Journal/Article",
+          "URLs": "http://ntu.csie.org/~cjlin/papers/libsvm.pdf"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Microsoft Academy",
       "items": [
         {
-          "Abstract": "As artificial intelligence (AI) technologies are more and more integrated into everydaylives, both scholarly and popular discourses on AI's often revolve around chartingthe various risks that may be associated with them. The manner and magnitude of ...",
-          "Affiliation": "['No information found']",
-          "Authors": "Aale Luusua, Johanna Ylipulli",
-          "Cited count": "0",
-          "DOI": "/doi/10.1145/3357236.3395491",
-          "ISSN": "['No information found']",
+          "Abstract": "[object detection performance measured canonical pascal voc dataset plateaued last few years best performing methods complex ensemble systems typically combine multiple low level image features high context paper propose simple scalable algorithm improves mean average precision map more 30 relative previous 2012 achieving 53 3 approach combines two key insights 1 one apply capacity convolutional neural networks cnns bottom region proposals order localize segment objects 2 labeled training data scarce supervised pre auxiliary task followed domain specific fine tuning yields significant boost call r cnn regions experiments provide insight network learns revealing rich hierarchy source code complete system http www cs berkeley edu rbg rcnn]",
+          "Affiliation": "University of California, Berkeley",
+          "Authors": "ross girshick",
+          "Cited count": 10937,
+          "DOI": "['No information found']",
+          "ISSN": "['No Information found']",
           "Publication Name": "['No information found']",
-          "Published date": "July 2020, ",
-          "Title": "Artificial Intelligence and Risk in Design",
-          "Type": "research-article",
-          "URLs": "https://doi.org/10.1145/3357236.3395491"
+          "Published date": "2014-06-23",
+          "Title": "rich feature hierarchies for accurate object detection and semantic segmentation",
+          "Type": "Conference Paper",
+          "URLs": "http://vision.cs.utexas.edu/381V-spring2016/slides/zheng-paper.pdf"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Microsoft Academy",
       "items": [
         {
-          "Abstract": "Today, the sheer volume of data generated by humans and computers far exceeds therange of capabilities that humans can absorb, interpret and follow on complex decisions.Computers can calculate the permutation and combination of these moves extremely ...",
-          "Affiliation": "['No information found']",
-          "Authors": "Mengyuan Zhang",
-          "Cited count": "0",
-          "DOI": "/doi/10.1145/3377571.3379441",
-          "ISSN": "['No information found']",
+          "Abstract": "[imagenet large scale visual recognition challenge benchmark object category classification detection hundreds categories millions images run annually 2010 attracting participation more fifty institutions paper describes creation dataset advances discuss challenges collecting ground truth annotation highlight key breakthroughs categorical provide detailed current state field image compare art computer vision accuracy human conclude lessons learned five years propose future directions improvements]",
+          "Affiliation": "Stanford University",
+          "Authors": "olga russakovsky",
+          "Cited count": 448,
+          "DOI": "['No information found']",
+          "ISSN": "['No Information found']",
           "Publication Name": "['No information found']",
-          "Published date": "January 2020, ",
-          "Title": "Artificial Intelligence and Application in Finance",
-          "Type": "research-article",
-          "URLs": "https://doi.org/10.1145/3377571.3379441"
+          "Published date": "2014-09-01",
+          "Title": "imagenet large scale visual recognition challenge",
+          "Type": "Journal/Article",
+          "URLs": "http://export.arxiv.org/pdf/1409.0575"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Microsoft Academy",
       "items": [
         {
-          "Abstract": "The era of intelligence marked by artificial intelligence is coming. Accurate judgmentof research front in AI can influence the policy orientation of AI technology. Basedon Scopus database, artificial intelligence related papers between January 1, ...",
-          "Affiliation": "['No information found']",
-          "Authors": "Liqun Wen, Yao Lu, Hui Li, Suyan Long, Jiayu Li",
-          "Cited count": "0",
-          "DOI": "/doi/10.1145/3421766.3421799",
-          "ISSN": "['No information found']",
+          "Abstract": "[imagenet large scale visual recognition challenge benchmark object category classification detection hundreds categories millions images run annually 2010 attracting participation more fifty institutions paper describes creation dataset advances discuss challenges collecting ground truth annotation highlight key breakthroughs categorical provide detailed current state field image compare art computer vision accuracy human conclude lessons learned 5 years propose future directions improvements]",
+          "Affiliation": "Stanford University",
+          "Authors": "olga russakovsky",
+          "Cited count": 16065,
+          "DOI": "['No information found']",
+          "ISSN": "['No Information found']",
           "Publication Name": "['No information found']",
-          "Published date": "October 2020, ",
-          "Title": "Detecting of Research Front Topic in Artificial Intelligence Based on SciVal",
-          "Type": "research-article",
-          "URLs": "https://doi.org/10.1145/3421766.3421799"
-        }
-      ]
-    }
-  },
-  {
-    "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
-      "items": [
-        {
-          "Abstract": "Bankruptcy is a legal process that declares the debtor's inability to repay the debtand a subsequent chain of repayments to the creditor. Preventing the risk of companyfailure, or a long time, it has been a subject that the academic and industrial ...",
-          "Affiliation": "['No information found']",
-          "Authors": "Kun-Huang Chen, Tzu-Yun Tsai",
-          "Cited count": "0",
-          "DOI": "/doi/10.1145/3417188.3417199",
-          "ISSN": "['No information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "July 2020, ",
-          "Title": "Bankruptcy Study Using Artificial Intelligence",
-          "Type": "research-article",
-          "URLs": "https://doi.org/10.1145/3417188.3417199"
-        }
-      ]
-    }
-  },
-  {
-    "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
-      "items": [
-        {
-          "Abstract": "Owing to the rich emerging multimedia applications and services in the past decade,super large amount of multimedia data has been produced for the purpose of advancedresearch in multimedia. Furthermore, multimedia research has made great progress on...",
-          "Affiliation": "['No information found']",
-          "Authors": "Xin Wang, Wenwu Zhu, Yonghong Tian, Wen Gao",
-          "Cited count": "0",
-          "DOI": "/doi/10.1145/3394171.3418547",
-          "ISSN": "['No information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "October 2020, ",
-          "Title": "Multimedia Intelligence: When Multimedia Meets Artificial Intelligence",
-          "Type": "tutorial",
-          "URLs": "https://doi.org/10.1145/3394171.3418547"
-        }
-      ]
-    }
-  },
-  {
-    "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
-      "items": [
-        {
-          "Abstract": "Artificial intelligence has confronted us with a raft of dilemmas that challenge usto decide what values are important in our designs.",
-          "Affiliation": "['No information found']",
-          "Authors": "Peter J. Denning, Dorothy E. Denning",
-          "Cited count": "2",
-          "DOI": "/doi/10.1145/3379920",
-          "ISSN": "['No information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "February 2020, ",
-          "Title": "Dilemmas of artificial intelligence",
-          "Type": "opinion",
-          "URLs": "https://doi.org/10.1145/3379920"
-        }
-      ]
-    }
-  },
-  {
-    "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
-      "items": [
-        {
-          "Abstract": "In Spain, the majority of university students are women, but the gender distributionin different fields of study is uneven and there are certain disciplines, as engineeringand some experimental sciences where less than 30% are women. This reduced ...",
-          "Affiliation": "['No information found']",
-          "Authors": "Eva Cernadas, Encina Calvo-Iglesias",
-          "Cited count": "0",
-          "DOI": "/doi/10.1145/3434780.3436658",
-          "ISSN": "['No information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "October 2020, ",
-          "Title": "Gender perspective in Artificial Intelligence (AI)",
-          "Type": "research-article",
-          "URLs": "https://doi.org/10.1145/3434780.3436658"
-        }
-      ]
-    }
-  },
-  {
-    "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
-      "items": [
-        {
-          "Abstract": "At present, intelligent technologies such as artificial intelligence and big dataare in full swing, and various application scenarios are gradually landing. The applicationof big data and artificial intelligence technologies to digital marketing has ...",
-          "Affiliation": "['No information found']",
-          "Authors": "Fang Gao, Lan Zhang",
-          "Cited count": "0",
-          "DOI": "/doi/10.1145/3436286.3436404",
-          "ISSN": "['No information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "April 2020, ",
-          "Title": "Application of Artificial Intelligence and Big Data Technology in Digital Marketing",
-          "Type": "research-article",
-          "URLs": "https://doi.org/10.1145/3436286.3436404"
-        }
-      ]
-    }
-  },
-  {
-    "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
-      "items": [
-        {
-          "Abstract": "Most members of scientific community would agree that Artificial Intelligence (AI)has already dramatically changed our society and all of it aspects including scienceand research. There are thousands of publications declaring the great advantages of...",
-          "Affiliation": "['No information found']",
-          "Authors": "Aleksejs Zorins",
-          "Cited count": "0",
-          "DOI": "/doi/10.1145/3407982.3408001",
-          "ISSN": "['No information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "June 2020, ",
-          "Title": "Understanding the Essence of Artificial Intelligence: Towards Ecological Safety of AI in Human Society",
-          "Type": "research-article",
-          "URLs": "https://doi.org/10.1145/3407982.3408001"
-        }
-      ]
-    }
-  },
-  {
-    "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
-      "items": [
-        {
-          "Abstract": "The origin and emergence of innovations has been a central question in research andpractice for decades. In this context, technological progress plays a decisive role:Existing technologies and capabilities serve as building blocks for the innovations...",
-          "Affiliation": "['No information found']",
-          "Authors": "Christian M\u00fchlroth",
-          "Cited count": "0",
-          "DOI": "/doi/10.1145/3378539.3393869",
-          "ISSN": "['No information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "June 2020, ",
-          "Title": "Artificial Intelligence as Innovation Accelerator",
-          "Type": "keynote",
-          "URLs": "https://doi.org/10.1145/3378539.3393869"
-        }
-      ]
-    }
-  },
-  {
-    "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
-      "items": [
-        {
-          "Abstract": "Hull form optimization is an important aspect of ship hydrodynamic research, and theprimary target of ship design. More and more researchers are focusing on hull formintelligent optimization in recent years. First of all, this paper summarizes the...",
-          "Affiliation": "['No information found']",
-          "Authors": "Zhang Li, Chen Weimin",
-          "Cited count": "0",
-          "DOI": "/doi/10.1145/3395260.3395296",
-          "ISSN": "['No information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "April 2020, ",
-          "Title": "Key Technology of Artificial Intelligence in Hull Form Intelligent Optimization",
-          "Type": "research-article",
-          "URLs": "https://doi.org/10.1145/3395260.3395296"
-        }
-      ]
-    }
-  },
-  {
-    "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
-      "items": [
-        {
-          "Abstract": "Ethics Guidelines for Trustworthy AI advocate for AI technology that is, among otherthings, more inclusive. Explainable AI (XAI) aims at making state of the art opaquemodels more transparent, and defends AI-based outcomes endorsed with a rationale ...",
-          "Affiliation": "['No information found']",
-          "Authors": "Natalia D\u00edaz-Rodr\u00edguez, Galena Pisoni",
-          "Cited count": "2",
-          "DOI": "/doi/10.1145/3386392.3399276",
-          "ISSN": "['No information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "July 2020, ",
-          "Title": "Accessible Cultural Heritage through Explainable Artificial Intelligence",
-          "Type": "research-article",
-          "URLs": "https://doi.org/10.1145/3386392.3399276"
-        }
-      ]
-    }
-  },
-  {
-    "entities": {
-      "Attributes found": "DOI, Title, URLs, Authors, Citation count, Type, Published date, Abstract",
-      "Search Engine": "ACM Library Search Engine",
-      "items": [
-        {
-          "Abstract": "This keynote will explore the broader issue of using socio-technical artificial intelligence(AI) systems in criminology for responding to cybercrime and cybersecurity issues.It will focus upon the importance of matching the delivery of AI with the ...",
-          "Affiliation": "['No information found']",
-          "Authors": "David S. Wall",
-          "Cited count": "0",
-          "DOI": "/doi/10.1145/3394332.3402837",
-          "ISSN": "['No information found']",
-          "Publication Name": "['No information found']",
-          "Published date": "July 2020, ",
-          "Title": "AI (Artificial Intelligence) and Cybercrime: balancing expectations with delivery",
-          "Type": "research-article",
-          "URLs": "https://doi.org/10.1145/3394332.3402837"
+          "Published date": "2015-12-01",
+          "Title": "imagenet large scale visual recognition challenge",
+          "Type": "Journal/Article",
+          "URLs": "https://collaborate.princeton.edu/en/publications/imagenet-large-scale-visual-recognition-challenge"
         }
       ]
     }

@@ -1,5 +1,4 @@
 import sys
-
 import requests
 import json
 from bs4 import BeautifulSoup
@@ -17,7 +16,7 @@ pd.set_option('display.max_columns', 10)
 
 _engine="Elsevier Scopus"
 
-def search_scopus(query, headers, _pages, records, _title, _keyword, _abstract,scp_api,_from_yr,_to_yr_, logging_flag, data):
+def search_scopus(query, headers, _els_pages, records, _title, _keyword, _abstract,scp_api,_from_yr,_to_yr_, logging_flag, data):
     query = processInputQuery(query)
     if _title:
         url = 'https://api.elsevier.com/content/search/scopus?query=%22' + query + '%22&apiKey=' + scp_api
@@ -68,7 +67,7 @@ def search_scopus(query, headers, _pages, records, _title, _keyword, _abstract,s
                     line_number = exception_traceback.tb_lineno
                     logger.writeError(e, None, _engine, logging_flag, filename, line_number)
         time.sleep(1)
-        logger.writeRecords("Logging:", None, _engine, count, count, logging_flag)
+        logger.writeRecords(query, None, _engine, count, count, logging_flag)
         print(f'Finished with total {count} records returned.')
         return data
     if (not _from_yr):
@@ -127,67 +126,140 @@ def search_scopus(query, headers, _pages, records, _title, _keyword, _abstract,s
                             line_number = exception_traceback.tb_lineno
                             logger.writeError(e, None, _engine, logging_flag, filename, line_number)
             time.sleep(1)
-            logger.writeRecords("Logging:", None, _engine, count, count, logging_flag)
+            logger.writeRecords(query, None, _engine, count, count, logging_flag)
             print(f'Finished with total {count} records returned.')
             return data
 
     else:
         if _keyword or _abstract:
+            rec=0
+            if (_els_pages != 0):
+                pages = pagination(_els_pages)
+            else:
+                pages = 1
 
             print('Searching in Elsevier Scopus...')
             count = 0
             for i in tqdm(range(1)):
 
-                for i in range(_pages):
+                url = 'https://api.elsevier.com/content/search/scopus?query=' + query + '&apiKey=' + scp_api + '&date=' + _from_yr + '-' + _to_yr_ + '&start=' + str(
+                    i) + '&count=10'
 
-                    url = 'https://api.elsevier.com/content/search/scopus?query=' + query + '&apiKey=' + scp_api + '&date=' + _from_yr+'-'+_to_yr_ +'&start=' + str(i) + '&count=10'
+                # response object
+                response = requests.get(url, headers=headers, timeout=30)
+                soup = BeautifulSoup(response.content, 'lxml')
 
-                    # response object
-                    response = requests.get(url, headers=headers, timeout=30)
-                    soup = BeautifulSoup(response.content, 'lxml')
+                # convert resonse into josn
+                obj = json.loads(soup.text)
+                rec = obj['search-results']['opensearch:totalResults']
+                if (_els_pages != 0):
+                    pages = pagination(_els_pages)
+                else:
+                    pages = pagination(rec)
 
-                    # convert resonse into josn
-                    obj = json.loads(soup.text)
+                if(int(pages) >1000):
+                    pages = 100
+                    for i in range(pages):
 
-                    # set the counter for records count
+                        url = 'https://api.elsevier.com/content/search/scopus?query=' + query + '&apiKey=' + scp_api + '&date=' + _from_yr+'-'+_to_yr_ +'&start=' + str(i) + '&count=10'
 
-                    ######## Find required attributes in the response object
-                    for item in obj['search-results']['entry']:
-                        try:
-                            if "prism:eIssn" in item:
-                                issn = item['prism:eIssn']
-                            elif "prism:Issn" or "prism:issn" in item:
-                                issn = item['prism:issn']
-                            else:
-                                issn = str(['No information found'])
+                        # response object
+                        response = requests.get(url, headers=headers, timeout=30)
+                        soup = BeautifulSoup(response.content, 'lxml')
 
-                            resp_obj = {"entities": {"Search Engine": "Elsevier SCOPUS Search Engine",
-                                                     "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
-                                                     "items": [
-                                                         {"DOI": item['prism:doi'],
-                                                          "Title": item['dc:title'],
-                                                          "URLs": item['prism:url'],
-                                                          "Authors": item['dc:creator'],
-                                                          "Publication Name": item['prism:publicationName'],
-                                                          "ISSN": issn,
-                                                          "Cited count": item['citedby-count'],
-                                                          "Affiliation": item['affiliation'][0]['affilname'],
-                                                          "Type": item['subtypeDescription'],
-                                                          "Published date": item['prism:coverDate'],
-                                                          "Abstract": item['prism:publicationName']
-                                                          }
-                                                     ]}}
-                            count += 1
-                            # append dict object data
-                            data.append(resp_obj)
-                        except Exception as e:  # raise e
-                            pass
-                            exception_type, exception_object, exception_traceback = sys.exc_info()
-                            filename = exception_traceback.tb_frame.f_code.co_filename
-                            line_number = exception_traceback.tb_lineno
-                            logger.writeError(e, None, _engine, logging_flag, filename, line_number)
+                        # convert resonse into josn
+                        obj = json.loads(soup.text)
+
+                        # set the counter for records count
+
+                        ######## Find required attributes in the response object
+                        for item in obj['search-results']['entry']:
+                            try:
+                                if "prism:eIssn" in item:
+                                    issn = item['prism:eIssn']
+                                elif "prism:Issn" or "prism:issn" in item:
+                                    issn = item['prism:issn']
+                                else:
+                                    issn = str(['No information found'])
+
+                                resp_obj = {"entities": {"Search Engine": "Elsevier SCOPUS Search Engine",
+                                                         "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
+                                                         "items": [
+                                                             {"DOI": item['prism:doi'],
+                                                              "Title": item['dc:title'],
+                                                              "URLs": item['prism:url'],
+                                                              "Authors": item['dc:creator'],
+                                                              "Publication Name": item['prism:publicationName'],
+                                                              "ISSN": issn,
+                                                              "Cited count": item['citedby-count'],
+                                                              "Affiliation": item['affiliation'][0]['affilname'],
+                                                              "Type": item['subtypeDescription'],
+                                                              "Published date": item['prism:coverDate'],
+                                                              "Abstract": item['prism:publicationName']
+                                                              }
+                                                         ]}}
+                                count += 1
+                                # append dict object data
+                                data.append(resp_obj)
+                            except Exception as e:  # raise e
+                                pass
+                                exception_type, exception_object, exception_traceback = sys.exc_info()
+                                filename = exception_traceback.tb_frame.f_code.co_filename
+                                line_number = exception_traceback.tb_lineno
+                                logger.writeError(e, None, _engine, logging_flag, filename, line_number)
+                else:
+
+                    for i in range(pages):
+
+                        url = 'https://api.elsevier.com/content/search/scopus?query=' + query + '&apiKey=' + scp_api + '&date=' + _from_yr + '-' + _to_yr_ + '&start=' + str(
+                            i) + '&count=10'
+
+                        # response object
+                        response = requests.get(url, headers=headers, timeout=30)
+                        soup = BeautifulSoup(response.content, 'lxml')
+
+                        # convert resonse into josn
+                        obj = json.loads(soup.text)
+
+                        # set the counter for records count
+
+                        ######## Find required attributes in the response object
+                        for item in obj['search-results']['entry']:
+                            try:
+                                if "prism:eIssn" in item:
+                                    issn = item['prism:eIssn']
+                                elif "prism:Issn" or "prism:issn" in item:
+                                    issn = item['prism:issn']
+                                else:
+                                    issn = str(['No information found'])
+
+                                resp_obj = {"entities": {"Search Engine": "Elsevier SCOPUS Search Engine",
+                                                         "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Cited count, Affiliation name, Type, Published date, Abstract",
+                                                         "items": [
+                                                             {"DOI": item['prism:doi'],
+                                                              "Title": item['dc:title'],
+                                                              "URLs": item['prism:url'],
+                                                              "Authors": item['dc:creator'],
+                                                              "Publication Name": item['prism:publicationName'],
+                                                              "ISSN": issn,
+                                                              "Cited count": item['citedby-count'],
+                                                              "Affiliation": item['affiliation'][0]['affilname'],
+                                                              "Type": item['subtypeDescription'],
+                                                              "Published date": item['prism:coverDate'],
+                                                              "Abstract": item['prism:publicationName']
+                                                              }
+                                                         ]}}
+                                count += 1
+                                # append dict object data
+                                data.append(resp_obj)
+                            except Exception as e:  # raise e
+                                pass
+                                exception_type, exception_object, exception_traceback = sys.exc_info()
+                                filename = exception_traceback.tb_frame.f_code.co_filename
+                                line_number = exception_traceback.tb_lineno
+                                logger.writeError(e, None, _engine, logging_flag, filename, line_number)
             time.sleep(1)
-            logger.writeRecords("Logging:", None, _engine, count, count, logging_flag)
+            logger.writeRecords(query, None, _engine, rec, count, logging_flag)
             print(f'Finished with total {count} records returned.')
             return data
 
@@ -198,3 +270,15 @@ def processInputQuery(_query):
         return new_query
     else:
         return _query
+
+
+### method to find no of pages for webscrapping engines
+def pagination(records):
+    page = 1
+    def_record = 10
+    if (records == 10):
+        page = 1
+    else:
+        page = round((float(records) / def_record)) + 1
+
+    return page

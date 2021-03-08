@@ -91,7 +91,7 @@ def search_academia(query, headers, _pages,records, _title, _keyword, _abstract,
             else:
                 pass
             time.sleep(1)
-            logger.writeRecords("Logging", None, _engine, count, count, logging_flag)
+            logger.writeRecords(query, None, _engine, count, count, logging_flag)
             print(f'Finished with total {count} records returned.')
             return data
 
@@ -215,6 +215,6 @@ def search_academia(query, headers, _pages,records, _title, _keyword, _abstract,
                         else:
                             pass
             time.sleep(1)
-            logger.writeRecords("Logging", None, _engine, count, count, logging_flag)
+            logger.writeRecords(query, None, _engine, count, count, logging_flag)
             print(f'Finished with total {count} records returned.')
             return data

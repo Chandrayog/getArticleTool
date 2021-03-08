@@ -13,6 +13,7 @@ from openpyxl import load_workbook
 from tqdm import tqdm
 import re
 import os
+import sys
 from scraper_api import ScraperAPIClient
 import logger
 
@@ -82,7 +83,7 @@ def search_springer(query, headers, _pages,records, _title, _keyword, _abstract,
                             logger.writeError(e, None, _engine, logging_flag, filename, line_number)
 
         time.sleep(1)
-        logger.writeRecords("Logging", None, _engine, count, count, logging_flag)
+        logger.writeRecords(query, None, _engine, count, count, logging_flag)
         print(f'Finished with total {count} records returned.')
         return data
     else:

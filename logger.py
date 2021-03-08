@@ -1,6 +1,7 @@
 import os
 import sys
 from datetime import datetime
+import re
 #
 # _text=''
 # _err=''
@@ -14,9 +15,9 @@ def writeRecords(_text, output_path,engine, total_count, actual_count, flag):
             mode = 'a' if os.path.exists(writepath) else 'w+'
             with open(writepath+"/records.txt", mode) as f:
                 f.write("\n")
-                f.write( "Logged at:" + str(datetime.now()) +" Total Records Returned by - " + engine  +":" + str(total_count))
+                f.write( "Logged at:" + str(datetime.now()) +" Total Records Returned by - " + engine + " for search query " + str(re.sub('[!,*)@#%(&$_?.^]', ' ', _text)) + ":" + str(total_count))
                 f.write("\n")
-                f.write("Logged at:" + str(datetime.now()) + " Records Captured by - " + engine + ":" + str(actual_count))
+                f.write("Logged at:" + str(datetime.now()) + " Records Captured by - " + engine + " for search query " + str(re.sub('[!,*)@#%(&$_?.^]', ' ', _text)) + ":"  + str(actual_count))
                 f.write("\n")
                 f.close()
         else:
@@ -26,17 +27,25 @@ def writeRecords(_text, output_path,engine, total_count, actual_count, flag):
                     f = open("records.txt", "a")
 
                     f.write("\n")
-                    f.write("Logged at:" + str(datetime.now()) + " Total Records Returned by - " + engine + ":" + str(total_count))
+                    f.write("Logged at:" + str(
+                        datetime.now()) + " Total Records Returned by - " + engine + " for search query " + str(re.sub('[!,*)@#%(&$_?.^]', ' ', _text)) + ":" + str(
+                        total_count))
                     f.write("\n")
-                    f.write("Logged at:" + str(datetime.now()) + " Records Captured by - " + engine + ":" + str(actual_count))
+                    f.write("Logged at:" + str(
+                        datetime.now()) + " Records Captured by - " + engine + " for search query " + str(re.sub('[!,*)@#%(&$_?.^]', ' ', _text)) + ":" + str(
+                        actual_count))
                     f.write("\n")
                     f.close()
                 else:
                     f = open("records.txt", "x")
                     f.write("\n")
-                    f.write("Logged at:" + str(datetime.now()) + " Total Records Returned by - " + engine + ":" + str(total_count))
+                    f.write("Logged at:" + str(
+                        datetime.now()) + " Total Records Returned by - " + engine + " for search query " + str(re.sub('[!,*)@#%(&$_?.^]', '', _text)) + ":" + str(
+                        total_count))
                     f.write("\n")
-                    f.write("Logged at:" + str(datetime.now()) + " Records Captured by - " + engine + ":" + str(actual_count))
+                    f.write("Logged at:" + str(
+                        datetime.now()) + " Records Captured by - " + engine + " for search query " + str(re.sub('[!,*)@#%(&$_?.^]', ' ', _text)) + ":" + str(
+                        actual_count))
                     f.write("\n")
                     f.close()
             except Exception as e:  # raise e

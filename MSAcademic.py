@@ -13,6 +13,7 @@ from openpyxl import load_workbook
 from tqdm import tqdm
 import re
 import os
+import sys
 from scraper_api import ScraperAPIClient
 import logger
 
@@ -26,7 +27,7 @@ pd.set_option('display.max_columns', 10)
 _engine="Microsoft Academic"
 
 def search_msAcademic(query, headers, _pages,records, _title, _keyword, _abstract,ms_api,_from_yr,_to_yr_, logging_flag, data):
-    q = query.lower()
+    q = str(re.sub('["!,*)@#%(&$_?.^]', '', query.lower()))
 
     # title search
     if _title:
@@ -104,7 +105,7 @@ def search_msAcademic(query, headers, _pages,records, _title, _keyword, _abstrac
                     logger.writeError(e, None, _engine, logging_flag, filename, line_number)
 
         time.sleep(1)
-        logger.writeRecords("Logging", None, _engine, count, count, logging_flag)
+        logger.writeRecords(query, None, _engine, count, count, logging_flag)
         print(f'Finished with total {count} records returned.')
         return data
 
@@ -185,7 +186,7 @@ def search_msAcademic(query, headers, _pages,records, _title, _keyword, _abstrac
                         logger.writeError(e, None, _engine, logging_flag, filename, line_number)
 
             time.sleep(1)
-            logger.writeRecords("Logging", None, _engine, count, count, logging_flag)
+            logger.writeRecords(query, None, _engine, count, count, logging_flag)
             print(f'Finished with total {count} records returned.')
             return data
     else:
@@ -265,7 +266,7 @@ def search_msAcademic(query, headers, _pages,records, _title, _keyword, _abstrac
                         logger.writeError(e, None, _engine, logging_flag, filename, line_number)
 
             time.sleep(1)
-            logger.writeRecords("Logging", None, _engine, count, count, logging_flag)
+            logger.writeRecords(query, None, _engine, count, count, logging_flag)
             print(f'Finished with total {count} records returned.')
             return data
 

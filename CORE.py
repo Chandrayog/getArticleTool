@@ -1,19 +1,13 @@
 import requests
 import json
-import urllib3
-import urllib
-from requests import get
 from bs4 import BeautifulSoup
-import xml.etree.ElementTree as ET
 import pandas as pd
 import numpy as n
 import time
-from time import sleep
-from openpyxl import load_workbook
 from tqdm import tqdm
 import re
 import os
-from scraper_api import ScraperAPIClient
+import sys
 import logger
 
 # ignore warning messages
@@ -79,7 +73,7 @@ def search_core(query, headers, _pages,records, _title, _keyword, _abstract,core
                     pass
                     # print('error core:', e)
             time.sleep(1)
-            logger.writeRecords("Logging", None, _engine, count, count, logging_flag)
+            logger.writeRecords(query, None, _engine, count, count, logging_flag)
             print(f'Finished with total {count} records returned.')
             return data
 
@@ -134,7 +128,7 @@ def search_core(query, headers, _pages,records, _title, _keyword, _abstract,core
                             pass
 
                 time.sleep(1)
-                logger.writeRecords("Logging", None, _engine, count, count, logging_flag)
+                logger.writeRecords(query, None, _engine, count, count, logging_flag)
                 print(f'Finished with total {count} records returned.')
                 return data
         else:
