@@ -1,18 +1,11 @@
 import sys
-
-import requests
-import json
-import urllib3
-import urllib
 from requests import get
 from bs4 import BeautifulSoup
 import pandas as pd
 import numpy as n
 import time
-from time import sleep
 from tqdm import tqdm
 import re
-import os
 from scraper_api import ScraperAPIClient
 import requests
 import logger
@@ -20,6 +13,7 @@ import logger
 # ignore warning messages
 import warnings
 warnings.filterwarnings('ignore')
+
 ### setting output display options
 pd.set_option('display.width', 400)
 pd.set_option('display.max_columns', 10)
@@ -87,7 +81,7 @@ def search_googleScholar(query,headers,_gs_pages,records, _title, _keyword, _abs
         time.sleep(1)
 
         print(f'Finished with total {count} records returned.')
-        logger.writeRecords("Logging:", None, _engine, "1", count,logging_flag)
+        logger.writeRecords(query, None, _engine, "1", count,logging_flag)
         return data
 
     if _keyword or _abstract:
@@ -95,7 +89,7 @@ def search_googleScholar(query,headers,_gs_pages,records, _title, _keyword, _abs
            pages = pagination(_gs_pages)
         else:
             pages=1
-        #proxy = FreeProxy(country_id=['US', 'CA'], timeout=0.3, rand=True).get()
+
         # search for dates
         if (_from_yr):
 
@@ -108,7 +102,6 @@ def search_googleScholar(query,headers,_gs_pages,records, _title, _keyword, _abs
                 print("Searching Google Scholar Engine now please wait...")
                 url = 'https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=' + query + '&as_ylo=' + _from_yr + '&as_yhi=' + _to_yr_ + '&btnG='
 
-                #response = requests.get(url, proxies={"http": proxy, "https": proxy}, headers=headers)
                 response = client.get(url, headers={'User-agent': 'your bot 0.1'})
 
                 if response.status_code != 200:
@@ -121,6 +114,7 @@ def search_googleScholar(query,headers,_gs_pages,records, _title, _keyword, _abs
                     #count no of records returned by google scholar
                     for item in soup.find_all('div', class_='gs_ab_st'):
                         rec =str(item.find_all('div', id='gs_ab_md')[0].get_text()).split(' ', 1)[1].replace(',', "").split(' ', 1)[0]
+
                         pages=1
                         if (_gs_pages!=0):
                             pages = pagination(_gs_pages)
@@ -207,7 +201,7 @@ def search_googleScholar(query,headers,_gs_pages,records, _title, _keyword, _abs
                             url = 'https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=' + query + '&as_ylo=' + _from_yr + '&as_yhi=' + _to_yr_ + '&btnG=&start=' + str(
                                 i) + '0'
 
-                            #response = requests.get(url, proxies={"http": proxy, "https": proxy}, headers=headers)
+
                             response = client.get(url, headers={'User-agent': 'your bot 0.1'})
                             if response.status_code != 200:
                                 print("Request failed with stauts", response.status_code)
@@ -274,7 +268,7 @@ def search_googleScholar(query,headers,_gs_pages,records, _title, _keyword, _abs
                     time.sleep(1)
 
                     print(f'Finished with total {count} records returned.')
-                    logger.writeRecords("Logging", None,_engine,rec,count,logging_flag)
+                    logger.writeRecords(query, None,_engine,rec,count,logging_flag)
                     return data
 
         # search without dates
@@ -289,10 +283,6 @@ def search_googleScholar(query,headers,_gs_pages,records, _title, _keyword, _abs
                         i) + '0'
                     # response object
                     response = client.get(url, headers={'User-agent': 'your bot 0.1'})
-                    # response = requests.get(url,
-                    #                         proxies={"http": list(proxies)[:proxy_val],
-                    #                                  "https": list(proxies)[:proxy_val]},
-                    #                         headers=headers)
 
                     if response.status_code != 200:
                         print("Request failed with stauts", response.status_code)
@@ -362,7 +352,7 @@ def search_googleScholar(query,headers,_gs_pages,records, _title, _keyword, _abs
             time.sleep(1)
 
             print(f'Finished with total {count} records returned.')
-            logger.writeRecords("Logging", None, _engine, rec, count, logging_flag)
+            logger.writeRecords(query, None, _engine, rec, count, logging_flag)
             return data
 
 
@@ -376,15 +366,3 @@ def pagination(records):
         page = round((float(records) / def_record)) + 1
 
     return page
-
-# method to get list of proxies
-#Proxies = []
-# def get_proxies():
-#
-#     scrapper = Scrapper(category='ALL', print_err_trace=False)
-#     # Get ALL Proxies According to your Choice
-#     data = scrapper.getProxies()
-#     # Scrapped Proxies
-#     for item in data.proxies:
-#         Proxies.append('{}:{}'.format(item.ip, item.port))
-#     return Proxies

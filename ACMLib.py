@@ -30,12 +30,9 @@ def search_acmlibrary(query, headers, _acm_pages,records, _title, _keyword, _abs
     query = processInputQuery(query)
     if _title:
 
-        # url = 'https://dl.acm.org/action/doSearch?AllField=%22' + query + '%22'
         url = 'https://dl.acm.org/action/doSearch?AllField=%22' + query + '%22'
 
         # response object
-        # response = requests.get(url, headers={'User-agent': 'your bot 0.1'})
-
         response = requests.get(url, headers=headers)
         soup = BeautifulSoup(response.content, 'lxml')
         # obj = json.loads(soup.text)
@@ -84,7 +81,7 @@ def search_acmlibrary(query, headers, _acm_pages,records, _title, _keyword, _abs
                     line_number = exception_traceback.tb_lineno
                     logger.writeError(e, None, _engine, logging_flag, filename, line_number)
         time.sleep(1)
-        logger.writeRecords("Logging", None, _engine, count, count, logging_flag)
+        logger.writeRecords(query, None, _engine, count, count, logging_flag)
         print(f'Finished with total {count} records returned.')
         return data
 
@@ -119,10 +116,12 @@ def search_acmlibrary(query, headers, _acm_pages,records, _title, _keyword, _abs
                             pages = pagination(int(rec))
 
                     if (int(pages) > 100):
+                        print(
+                            "NOTE:ACM Library returns data for max 2000 records irrespective of total records. Total No of total records found :",
+                            rec, "\n Fetching records details now...")
 
                         pages = 50
                         for i in range(pages):
-                            # url = 'https://dl.acm.org/action/doSearch?AllField=' + query
                             url = 'https://dl.acm.org/action/doSearch?AllField=' + query + '&AfterYear=' + _from_yr + '&BeforeYear=' + _to_yr_ + '&pageSize=20&startPage=' + str(
                                 i)
 
@@ -169,10 +168,6 @@ def search_acmlibrary(query, headers, _acm_pages,records, _title, _keyword, _abs
                                     filename = exception_traceback.tb_frame.f_code.co_filename
                                     line_number = exception_traceback.tb_lineno
                                     logger.writeError(e, None, _engine, logging_flag, filename, line_number)
-                    # time.sleep(1)
-                    # logger.writeRecords("Logging", None, _engine, count, count, logging_flag)
-                    # print(f'Finished with total {count} records returned.')
-                    # return data
             else:
                 for i in range(pages):
                     ######## Find required attributes in the response object
@@ -217,7 +212,7 @@ def search_acmlibrary(query, headers, _acm_pages,records, _title, _keyword, _abs
                             line_number = exception_traceback.tb_lineno
                             logger.writeError(e, None, _engine, logging_flag, filename, line_number)
             time.sleep(1)
-            logger.writeRecords("Logging", None, _engine, count, count, logging_flag)
+            logger.writeRecords(query, None, _engine, count, count, logging_flag)
             print(f'Finished with total {count} records returned.')
             return data
 
@@ -226,11 +221,9 @@ def search_acmlibrary(query, headers, _acm_pages,records, _title, _keyword, _abs
             for i in tqdm(range(1)):
 
                 for i in range(pages):
-                    # url = 'https://dl.acm.org/action/doSearch?AllField=' + query
+
                     url = 'https://dl.acm.org/action/doSearch?AllField=' + query + '&pageSize=20&startPage=' + str(i)
                     # response object
-                    # response = requests.get(url, headers={'User-agent': 'your bot 0.1'})
-
                     response = requests.get(url, headers=headers)
                     soup = BeautifulSoup(response.content, 'lxml')
                     # obj = json.loads(soup.text)
@@ -282,7 +275,7 @@ def search_acmlibrary(query, headers, _acm_pages,records, _title, _keyword, _abs
                             line_number = exception_traceback.tb_lineno
                             logger.writeError(e, None, _engine, logging_flag, filename, line_number)
             time.sleep(1)
-            logger.writeRecords("Logging", None, _engine, count, count, logging_flag)
+            logger.writeRecords(query, None, _engine, count, count, logging_flag)
             print(f'Finished with total {count} records returned.')
             return data
 

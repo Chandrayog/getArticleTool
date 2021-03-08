@@ -7,8 +7,8 @@ import os
 email = ''
 
 
-url1 = 'http://www.ncbi.nlm.nih.gov/pubmed/22331878'
-url2=  'https://pubmed.ncbi.nlm.nih.gov/26667886/'
+# url1 = 'http://www.ncbi.nlm.nih.gov/pubmed/22331878'
+# url2=  'https://pubmed.ncbi.nlm.nih.gov/26667886/'
 
 
 def getMeshIDs(data, email):

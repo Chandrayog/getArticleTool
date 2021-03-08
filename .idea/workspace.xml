@@ -3,10 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="e09b6821-875c-44bf-8346-b37c33ac8668" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACMLib.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACMLib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Academia.py" beforeDir="false" afterPath="$PROJECT_DIR$/Academia.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CORE.py" beforeDir="false" afterPath="$PROJECT_DIR$/CORE.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ElseScopus.py" beforeDir="false" afterPath="$PROJECT_DIR$/ElseScopus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ErrorLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ErrorLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoogleScholar.py" beforeDir="false" afterPath="$PROJECT_DIR$/GoogleScholar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MSAcademic.py" beforeDir="false" afterPath="$PROJECT_DIR$/MSAcademic.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MeshTerms.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MeshTerms.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PLOSOne.py" beforeDir="false" afterPath="$PROJECT_DIR$/PLOSOne.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plots.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SciDirect.py" beforeDir="false" afterPath="$PROJECT_DIR$/SciDirect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Springer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Springer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Untitled.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/getArticleTool.py" beforeDir="false" afterPath="$PROJECT_DIR$/getArticleTool.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/getMeshTerms.py" beforeDir="false" afterPath="$PROJECT_DIR$/getMeshTerms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubMed.py" beforeDir="false" afterPath="$PROJECT_DIR$/pubMed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/records.txt" beforeDir="false" afterPath="$PROJECT_DIR$/records.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -305,17 +321,17 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ACMLib.py</url>
-          <line>99</line>
+          <line>96</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ACMLib.py</url>
-          <line>110</line>
+          <line>107</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ACMLib.py</url>
-          <line>102</line>
+          <line>99</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
@@ -375,18 +391,133 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/pubMed.py</url>
-          <line>164</line>
+          <line>187</line>
           <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/pubMed.py</url>
-          <line>166</line>
+          <line>189</line>
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/pubMed.py</url>
-          <line>168</line>
+          <line>191</line>
           <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/GoogleScholar.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/GoogleScholar.py</url>
+          <line>87</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/GoogleScholar.py</url>
+          <line>198</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/GoogleScholar.py</url>
+          <line>270</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/GoogleScholar.py</url>
+          <line>172</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/GoogleScholar.py</url>
+          <line>126</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/GoogleScholar.py</url>
+          <line>106</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/GoogleScholar.py</url>
+          <line>114</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/GoogleScholar.py</url>
+          <line>115</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pubMed.py</url>
+          <line>97</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/getArticleTool.py</url>
+          <line>325</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/getArticleTool.py</url>
+          <line>203</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/getArticleTool.py</url>
+          <line>316</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pubMed.py</url>
+          <line>162</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pubMed.py</url>
+          <line>265</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pubMed.py</url>
+          <line>161</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MSAcademic.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MSAcademic.py</url>
+          <line>111</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MSAcademic.py</url>
+          <line>196</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MSAcademic.py</url>
+          <line>191</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MSAcademic.py</url>
+          <line>197</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MSAcademic.py</url>
+          <line>192</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MSAcademic.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="110" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -407,6 +538,7 @@
         <watch expression="key" />
         <watch expression="meshTerms" />
         <watch expression="resp_obj" />
+        <watch expression="url1" />
       </configuration>
     </watches-manager>
   </component>

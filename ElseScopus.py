@@ -67,7 +67,7 @@ def search_scopus(query, headers, _els_pages, records, _title, _keyword, _abstra
                     line_number = exception_traceback.tb_lineno
                     logger.writeError(e, None, _engine, logging_flag, filename, line_number)
         time.sleep(1)
-        logger.writeRecords("Logging:", None, _engine, count, count, logging_flag)
+        logger.writeRecords(query, None, _engine, count, count, logging_flag)
         print(f'Finished with total {count} records returned.')
         return data
     if (not _from_yr):
@@ -126,7 +126,7 @@ def search_scopus(query, headers, _els_pages, records, _title, _keyword, _abstra
                             line_number = exception_traceback.tb_lineno
                             logger.writeError(e, None, _engine, logging_flag, filename, line_number)
             time.sleep(1)
-            logger.writeRecords("Logging:", None, _engine, count, count, logging_flag)
+            logger.writeRecords(query, None, _engine, count, count, logging_flag)
             print(f'Finished with total {count} records returned.')
             return data
 
@@ -259,7 +259,7 @@ def search_scopus(query, headers, _els_pages, records, _title, _keyword, _abstra
                                 line_number = exception_traceback.tb_lineno
                                 logger.writeError(e, None, _engine, logging_flag, filename, line_number)
             time.sleep(1)
-            logger.writeRecords("Logging:", None, _engine, rec, count, logging_flag)
+            logger.writeRecords(query, None, _engine, rec, count, logging_flag)
             print(f'Finished with total {count} records returned.')
             return data
 

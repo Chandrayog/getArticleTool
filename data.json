@@ -1,352 +1,210 @@
 [
   {
     "entities": {
-      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
-      "Search Engine": "PubMed Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Microsoft Academy",
       "items": [
         {
-          "Abstract": "Breast cancer remains a public-health issue on a global scale. We report new information about the disease from the past 5 years. Early age at first birth, increasing parity, and tamoxifen use are related to long-term lifetime reduction in breast-cancer risk. Ductal carcinomas in situ has been suggested to be renamed ductal intraepithelial neoplasia to emphasise its non-life-threatening nature. An alternative approach, the progenitor/stem cell theory, predicts that only some tumour cells cause cancer progression and that these should be targeted by treatment. Mammography and ultrasonography are still the most effective for women with non-dense and dense breast tissues, respectively. Additionally, MRI, lymphatic mapping, the nipple-sparing mastectomy, partial breast irradiation, neoadjuvant systemic therapy, and adjuvant treatments are promising for subgroups of breast-cancer patients. Although tamoxifen can be offered for endocrine-responsive disease, aromatase inhibitors are increasingly used. Assessment of potential molecular targets is now important in primary diagnosis. Tyrosine-kinase inhibitors and other drugs with anti-angiogenesis properties are currently undergoing preclinical investigations.",
-          "Affiliation": "1 European Institute of Oncology, Milan, Italy. umberto.veronesi@ieo.it",
-          "Authors": [
-            "No information found",
-            "Umberto Veronesi",
-            "1",
-            "Peter Boyle",
-            "Aron Goldhirsch",
-            "Roberto Orecchia",
-            "Giuseppe Viale"
-          ],
-          "Cited count": "['No information found']",
-          "DOI": ": 10.1016/S0140-6736(05)66546-4.      ",
-          "ISSN": "['No information found']",
-          "Publication Name": "\u00a92017 American Society of Radiologic Technologists.",
-          "Published date": " 2017 Mar 4.      ",
-          "Title": "Breast cancer",
-          "Type": "['article']",
-          "URLs": "https://pubmed.ncbi.nlm.nih.gov/15894099/"
+          "Abstract": "[deeper neural networks more difficult train residual learning framework ease training substantially previously explicitly reformulate layers functions reference layer inputs instead unreferenced provide comprehensive empirical evidence showing easier optimize gain accuracy considerably depth imagenet dataset evaluate nets 152 8 vgg 40 still lower complexity ensemble achieves 3 57 error test set won 1st place ilsvrc 2015 classification task cifar 10 100 1000 representations central importance visual recognition tasks solely extremely deep obtain 28 relative improvement coco object detection foundations submissions competitions1 places localization segmentation]",
+          "Affiliation": "Microsoft",
+          "Authors": "kaiming he",
+          "Cited count": 49987,
+          "DOI": "['No information found']",
+          "ISSN": "['No Information found']",
+          "Publication Name": "['No information found']",
+          "Published date": "2016-06-27",
+          "Title": "deep residual learning for image recognition",
+          "Type": "Conference Paper",
+          "URLs": "https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
-      "Search Engine": "PubMed Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Microsoft Academy",
       "items": [
         {
-          "Abstract": "Breast cancer remains a public-health issue on a global scale. We report new information about the disease from the past 5 years. Early age at first birth, increasing parity, and tamoxifen use are related to long-term lifetime reduction in breast-cancer risk. Ductal carcinomas in situ has been suggested to be renamed ductal intraepithelial neoplasia to emphasise its non-life-threatening nature. An alternative approach, the progenitor/stem cell theory, predicts that only some tumour cells cause cancer progression and that these should be targeted by treatment. Mammography and ultrasonography are still the most effective for women with non-dense and dense breast tissues, respectively. Additionally, MRI, lymphatic mapping, the nipple-sparing mastectomy, partial breast irradiation, neoadjuvant systemic therapy, and adjuvant treatments are promising for subgroups of breast-cancer patients. Although tamoxifen can be offered for endocrine-responsive disease, aromatase inhibitors are increasingly used. Assessment of potential molecular targets is now important in primary diagnosis. Tyrosine-kinase inhibitors and other drugs with anti-angiogenesis properties are currently undergoing preclinical investigations.",
-          "Affiliation": "1 European Institute of Oncology, Milan, Italy. umberto.veronesi@ieo.it",
-          "Authors": [
-            "No information found",
-            "Umberto Veronesi",
-            "1",
-            "Peter Boyle",
-            "Aron Goldhirsch",
-            "Roberto Orecchia",
-            "Giuseppe Viale"
-          ],
-          "Cited count": "['No information found']",
-          "DOI": ": 10.1016/S0140-6736(05)66546-4.      ",
-          "ISSN": "['No information found']",
-          "Publication Name": "\u00a92017 American Society of Radiologic Technologists.",
-          "Published date": " 2017 Mar 4.      ",
-          "Title": "Breast cancer",
-          "Type": "['article']",
-          "URLs": "https://pubmed.ncbi.nlm.nih.gov/15894099/"
+          "Abstract": "[trained large deep convolutional neural network classify 1 2 million high resolution images imagenet lsvrc 2010 contest 1000 different classes test data achieved top 5 error rates 37 17 0 considerably better previous state art 60 parameters 650 000 neurons consists five layers followed max pooling three fully connected final way softmax make training faster saturating efficient gpu implementation convolution operation reduce overriding employed recently developed regularization called dropout proved effective entered variant model ilsvrc 2012 competition winning rate 15 3 26 second best entry]",
+          "Affiliation": "University of Toronto",
+          "Authors": "alex krizhevsky",
+          "Cited count": 38521,
+          "DOI": "['No information found']",
+          "ISSN": "['No Information found']",
+          "Publication Name": "['No information found']",
+          "Published date": "2012-12-03",
+          "Title": "imagenet classification with deep convolutional neural networks",
+          "Type": "Conference Paper",
+          "URLs": "https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
-      "Search Engine": "PubMed Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Microsoft Academy",
       "items": [
         {
-          "Abstract": "Breast cancer remains a public-health issue on a global scale. We report new information about the disease from the past 5 years. Early age at first birth, increasing parity, and tamoxifen use are related to long-term lifetime reduction in breast-cancer risk. Ductal carcinomas in situ has been suggested to be renamed ductal intraepithelial neoplasia to emphasise its non-life-threatening nature. An alternative approach, the progenitor/stem cell theory, predicts that only some tumour cells cause cancer progression and that these should be targeted by treatment. Mammography and ultrasonography are still the most effective for women with non-dense and dense breast tissues, respectively. Additionally, MRI, lymphatic mapping, the nipple-sparing mastectomy, partial breast irradiation, neoadjuvant systemic therapy, and adjuvant treatments are promising for subgroups of breast-cancer patients. Although tamoxifen can be offered for endocrine-responsive disease, aromatase inhibitors are increasingly used. Assessment of potential molecular targets is now important in primary diagnosis. Tyrosine-kinase inhibitors and other drugs with anti-angiogenesis properties are currently undergoing preclinical investigations.",
-          "Affiliation": "1 European Institute of Oncology, Milan, Italy. umberto.veronesi@ieo.it",
-          "Authors": [
-            "No information found",
-            "Umberto Veronesi",
-            "1",
-            "Peter Boyle",
-            "Aron Goldhirsch",
-            "Roberto Orecchia",
-            "Giuseppe Viale",
-            "Umberto Veronesi",
-            "1",
-            "Peter Boyle",
-            "Aron Goldhirsch",
-            "Roberto Orecchia",
-            "Giuseppe Viale"
-          ],
-          "Cited count": "['No information found']",
-          "DOI": ": 10.1016/S0140-6736(05)66546-4.      ",
-          "ISSN": "['No information found']",
-          "Publication Name": "\u00a92017 American Society of Radiologic Technologists.",
-          "Published date": " 2017 Mar 4.      ",
-          "Title": "Breast cancer",
-          "Type": "['article']",
-          "URLs": "https://pubmed.ncbi.nlm.nih.gov/15894099/"
+          "Abstract": "[propose deep convolutional neural network architecture codenamed inception achieves state art classification detection imagenet large scale visual recognition challenge 2014 ilsvrc14 main hallmark utilization computing resources inside carefully crafted design depth width keeping computational budget constant optimize quality architectural decisions hebbian principle intuition multi processing one incarnation submission called googlenet 22 layers assessed context]",
+          "Affiliation": "Google",
+          "Authors": "christian szegedy",
+          "Cited count": 17245,
+          "DOI": "['No information found']",
+          "ISSN": "['No Information found']",
+          "Publication Name": "['No information found']",
+          "Published date": "2015-06-07",
+          "Title": "going deeper with convolutions",
+          "Type": "Conference Paper",
+          "URLs": "http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/43022.pdf"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
-      "Search Engine": "PubMed Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Microsoft Academy",
       "items": [
         {
-          "Abstract": "Breast cancer remains a public-health issue on a global scale. We report new information about the disease from the past 5 years. Early age at first birth, increasing parity, and tamoxifen use are related to long-term lifetime reduction in breast-cancer risk. Ductal carcinomas in situ has been suggested to be renamed ductal intraepithelial neoplasia to emphasise its non-life-threatening nature. An alternative approach, the progenitor/stem cell theory, predicts that only some tumour cells cause cancer progression and that these should be targeted by treatment. Mammography and ultrasonography are still the most effective for women with non-dense and dense breast tissues, respectively. Additionally, MRI, lymphatic mapping, the nipple-sparing mastectomy, partial breast irradiation, neoadjuvant systemic therapy, and adjuvant treatments are promising for subgroups of breast-cancer patients. Although tamoxifen can be offered for endocrine-responsive disease, aromatase inhibitors are increasingly used. Assessment of potential molecular targets is now important in primary diagnosis. Tyrosine-kinase inhibitors and other drugs with anti-angiogenesis properties are currently undergoing preclinical investigations.",
-          "Affiliation": "1 European Institute of Oncology, Milan, Italy. umberto.veronesi@ieo.it",
-          "Authors": [
-            "No information found",
-            "Umberto Veronesi",
-            "1",
-            "Peter Boyle",
-            "Aron Goldhirsch",
-            "Roberto Orecchia",
-            "Giuseppe Viale",
-            "Umberto Veronesi",
-            "1",
-            "Peter Boyle",
-            "Aron Goldhirsch",
-            "Roberto Orecchia",
-            "Giuseppe Viale"
-          ],
-          "Cited count": "['No information found']",
-          "DOI": ": 10.1016/S0140-6736(05)66546-4.      ",
-          "ISSN": "['No information found']",
-          "Publication Name": "\u00a92017 American Society of Radiologic Technologists.",
-          "Published date": " 2017 Mar 4.      ",
-          "Title": "Breast cancer",
-          "Type": "['article']",
-          "URLs": "https://pubmed.ncbi.nlm.nih.gov/15894099/"
+          "Abstract": "[paper extracting distinctive invariant features images perform reliable matching different views object scene image scale rotation shown provide robust across substantial range affine distortion change 3d viewpoint addition noise illumination highly sense single feature correctly matched high probability against large database describes approach recognition proceeds individual objects fast nearest neighbor algorithm followed hough transform identify clusters belonging finally performing verification least squares solution consistent pose parameters robustly clutter occlusion achieving real time performance]",
+          "Affiliation": "University of British Columbia",
+          "Authors": "david g lowe",
+          "Cited count": 38952,
+          "DOI": "['No information found']",
+          "ISSN": "['No Information found']",
+          "Publication Name": "['No information found']",
+          "Published date": "2004-11-01",
+          "Title": "distinctive image features from scale invariant keypoints",
+          "Type": "Journal/Article",
+          "URLs": "https://rd.springer.com/article/10.1023%2FB%3AVISI.0000029664.99615.94"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
-      "Search Engine": "PubMed Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Microsoft Academy",
       "items": [
         {
-          "Abstract": "Breast cancer remains a public-health issue on a global scale. We report new information about the disease from the past 5 years. Early age at first birth, increasing parity, and tamoxifen use are related to long-term lifetime reduction in breast-cancer risk. Ductal carcinomas in situ has been suggested to be renamed ductal intraepithelial neoplasia to emphasise its non-life-threatening nature. An alternative approach, the progenitor/stem cell theory, predicts that only some tumour cells cause cancer progression and that these should be targeted by treatment. Mammography and ultrasonography are still the most effective for women with non-dense and dense breast tissues, respectively. Additionally, MRI, lymphatic mapping, the nipple-sparing mastectomy, partial breast irradiation, neoadjuvant systemic therapy, and adjuvant treatments are promising for subgroups of breast-cancer patients. Although tamoxifen can be offered for endocrine-responsive disease, aromatase inhibitors are increasingly used. Assessment of potential molecular targets is now important in primary diagnosis. Tyrosine-kinase inhibitors and other drugs with anti-angiogenesis properties are currently undergoing preclinical investigations.",
-          "Affiliation": "1 European Institute of Oncology, Milan, Italy. umberto.veronesi@ieo.it",
-          "Authors": [
-            "No information found",
-            "Umberto Veronesi",
-            "1",
-            "Peter Boyle",
-            "Aron Goldhirsch",
-            "Roberto Orecchia",
-            "Giuseppe Viale"
-          ],
-          "Cited count": "['No information found']",
-          "DOI": ": 10.1016/S0140-6736(05)66546-4.      ",
-          "ISSN": "['No information found']",
-          "Publication Name": [
-            "No information found"
-          ],
-          "Published date": [
-            "No information found"
-          ],
-          "Title": "Breast cancer",
-          "Type": "['article']",
-          "URLs": "https://pubmed.ncbi.nlm.nih.gov/15894099/"
+          "Abstract": "[dominant sequence transduction models complex recurrent convolutional neural networks encoder decoder configuration best performing connect attention mechanism propose simple network architecture transformer solely mechanisms dispensing recurrence convolutions entirely experiments two machine translation tasks show superior quality more parallelizable requiring significantly less time train model achieves 28 4 bleu wmt 2014 english german task improving over existing ensembles 2 french establishes single state art score 41 8 training 3 5 days eight gpus small fraction costs literature generalizes applying successfully constituency parsing both large limited data]",
+          "Affiliation": "Google",
+          "Authors": "ashish vaswani",
+          "Cited count": 3473,
+          "DOI": "['No information found']",
+          "ISSN": "['No Information found']",
+          "Publication Name": "['No information found']",
+          "Published date": "2017-06-12",
+          "Title": "attention is all you need",
+          "Type": "Journal/Article",
+          "URLs": "http://export.arxiv.org/pdf/1706.03762"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
-      "Search Engine": "PubMed Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Microsoft Academy",
       "items": [
         {
-          "Abstract": "Breast cancer is the most frequently diagnosed cancer in women and ranks second among causes for cancer related death in women. Evidence in literature has shown that the past and ongoing research has an enormous implication in improving the clinical outcome in breast cancer. This has been attributed to the progress made in the realm of screening, diagnosis and therapeutic strategies engaged in breast cancer management. However, poor prognosis in TNBC and drug resistance presents major inhibitions which are also current challenges for containing the disease. Similarly, a focal point of concern is the rising rate of breast cancer incidence and mortality among the population of under developed world. In this chapter, an overview of the current practices for the diagnosis and treatment of breast cancer and associated impediments has been provided.",
-          "Affiliation": "1 Prince Fahd Research Chair, Department of Medical Laboratory Technology, Faculty of Applied Medical Science, University of Tabuk, Tabuk-71491, Saudi Arabia. m.ullah@ut.edu.sa.",
-          "Authors": [
-            "No information found",
-            "Mohammad Fahad Ullah",
-            "1"
-          ],
-          "Cited count": "['No information found']",
-          "DOI": ": 10.1007/978-3-030-20301-6_4.      ",
-          "ISSN": "['No information found']",
-          "Publication Name": [
-            "No information found"
-          ],
-          "Published date": [
-            "No information found"
-          ],
-          "Title": "Breast Cancer: Current Perspectives on the Disease Status",
-          "Type": "['article']",
-          "URLs": "https://pubmed.ncbi.nlm.nih.gov/31456179/"
+          "Abstract": "[training deep neural networks complicated fact distribution layer inputs changes parameters previous layers change slows down requiring lower learning rates careful parameter initialization makes notoriously hard train models saturating nonlinearities refer phenomenon internal covariate shift address problem normalizing draws strength normalization part model architecture performing mini batch allows us higher less eliminates dropout applied state art image classification achieves same accuracy 14 times fewer steps beats original significant margin ensemble normalized upon best published imagenet reaching 4 82 top 5 test error exceeding human raters]",
+          "Affiliation": "Google",
+          "Authors": "sergey ioffe",
+          "Cited count": 5764,
+          "DOI": "['No information found']",
+          "ISSN": "['No Information found']",
+          "Publication Name": "['No information found']",
+          "Published date": "2015-07-06",
+          "Title": "batch normalization accelerating deep network training by reducing internal covariate shift",
+          "Type": "Conference Paper",
+          "URLs": "https://jmlr.csail.mit.edu/proceedings/papers/v37/ioffe15.html"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
-      "Search Engine": "PubMed Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Microsoft Academy",
       "items": [
         {
-          "Abstract": "Despite dramatic advances in cancer research setting, breast cancer remains a major health problem and represents currently a top biomedical research priority. Worldwide, breast cancer is the most common cancer affecting women, and its incidence and mortality rates are expected to increase significantly the next years. Recently the researchers' interest has been attracted by breast cancer arising in young women. Current evidence suggests that in women aged <45 years, breast cancer is unquestionably the leading cause of cancer-related deaths. This type of cancer seems to be highly heterogeneous and has potentially aggressive and complex biological features. However, management strategies, recommendations and options are not age based and the 'complex' biology of this type of cancer remains uncertain and unexplored. In this review, we summarize the latest scientific information on breast cancer arising in young women highlighting the heterogeneity and the complex nature of this type of cancer.",
-          "Affiliation": "1 Department of Surgery, School of Medicine, University of Ioannina, Ioannina, Greece.",
-          "Authors": [
-            "No information found",
-            "Zoi Anastasiadi",
-            "1",
-            "Georgios D Lianos",
-            "2",
-            "Eleftheria Ignatiadou",
-            "1",
-            "Haralampos V Harissis",
-            "1",
-            "Michail Mitsis",
-            "1"
-          ],
-          "Cited count": "['No information found']",
-          "DOI": ": 10.1007/s13304-017-0424-1.      ",
-          "ISSN": "['No information found']",
-          "Publication Name": [
-            "No information found"
-          ],
-          "Published date": " 2017 Mar 4.      ",
-          "Title": "Breast cancer in young women: an overview",
-          "Type": "['article']",
-          "URLs": "https://pubmed.ncbi.nlm.nih.gov/28260181/"
+          "Abstract": "[libsvm library support vector machines svms actively developing package year 2000 goal help users easily apply svm applications gained wide popularity machine learning areas article implementation details issues solving optimization problems theoretical convergence multiclass classification probability estimates parameter selection detail]",
+          "Affiliation": "National Taiwan University",
+          "Authors": "chihchung chang",
+          "Cited count": 33918,
+          "DOI": "['No information found']",
+          "ISSN": "['No Information found']",
+          "Publication Name": "['No information found']",
+          "Published date": "2011-04-01",
+          "Title": "libsvm a library for support vector machines",
+          "Type": "Journal/Article",
+          "URLs": "http://ntu.csie.org/~cjlin/papers/libsvm.pdf"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
-      "Search Engine": "PubMed Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Microsoft Academy",
       "items": [
         {
-          "Abstract": "Introduction:\n        \n      \n      Breast cancer is the most common cancer among women and is the second cancer frequently occurring worldwide of newly-diagnosed cancers. There is much evidence showing the influence of life style and environmental factors on the development of mammary gland cancer (high-fat diet, alcohol consumption, lack of physical exercise), the elimination of which (primary prevention) may contribute to a decrease in morbidity and mortality. Secondary prevention, comprising diagnostic tests (e.g. mammography, ultrasonography, magnetic resonance imaging, breast self-examination, as well as modern and more precise imaging methods) help the early detection of tumours or lesions predisposing to tumours.\n    \n\n\n          Objective:\n        \n      \n      The aim of this study paper is to review current knowledge and reports regarding primary and secondary prevention of breast cancer.\n    \n\n\n          State of knowledge:\n        \n      \n      It is estimated that nearly 70% of malign tumours are caused by environmental factors, whereas in breast cancer this percentage reaches 90-95%. There are national programmes established in many countries to fight cancer, where both types of prevention are stressed as serving to decrease morbidity and mortality due to cancers.\n    \n\n\n          Conclusions:\n        \n      \n      Cancer prevention is currently playing a key role in the fight against the disease. Behaviour modification, as well as greater awareness among women regarding breast cancer, may significantly contribute towards reducing the incidence of this cancer. Another important aspect is the number of women undergoing diagnostic tests, which still remains at an unsatisfactory level.",
-          "Affiliation": "1 St. John's Cancer Center, Department of Radiotherapy, Lublin, Poland. agkola@interia.pl.",
-          "Authors": [
-            "No information found",
-            "Agnieszka Kolak",
-            "1",
-            "Marzena Kami\u0144ska",
-            "2",
-            "Katarzyna Sygit",
-            "3",
-            "Agnieszka Budny",
-            "4",
-            "Dariusz Surdyka",
-            "4",
-            "Bo\u017cena Kukie\u0142ka-Budny",
-            "2",
-            "Franciszek Burdan",
-            "5"
-          ],
-          "Cited count": "['No information found']",
-          "DOI": ": 10.26444/aaem/75943.      ",
-          "ISSN": "['No information found']",
-          "Publication Name": [
-            "No information found"
-          ],
-          "Published date": " 2017 Jul 18.      ",
-          "Title": "Primary and secondary prevention of breast cancer",
-          "Type": "['article']",
-          "URLs": "https://pubmed.ncbi.nlm.nih.gov/29284222/"
+          "Abstract": "[object detection performance measured canonical pascal voc dataset plateaued last few years best performing methods complex ensemble systems typically combine multiple low level image features high context paper propose simple scalable algorithm improves mean average precision map more 30 relative previous 2012 achieving 53 3 approach combines two key insights 1 one apply capacity convolutional neural networks cnns bottom region proposals order localize segment objects 2 labeled training data scarce supervised pre auxiliary task followed domain specific fine tuning yields significant boost call r cnn regions experiments provide insight network learns revealing rich hierarchy source code complete system http www cs berkeley edu rbg rcnn]",
+          "Affiliation": "University of California, Berkeley",
+          "Authors": "ross girshick",
+          "Cited count": 10937,
+          "DOI": "['No information found']",
+          "ISSN": "['No Information found']",
+          "Publication Name": "['No information found']",
+          "Published date": "2014-06-23",
+          "Title": "rich feature hierarchies for accurate object detection and semantic segmentation",
+          "Type": "Conference Paper",
+          "URLs": "http://vision.cs.utexas.edu/381V-spring2016/slides/zheng-paper.pdf"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
-      "Search Engine": "PubMed Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Microsoft Academy",
       "items": [
         {
-          "Abstract": "In this article, the American Cancer Society provides an overview of female breast cancer statistics in the United States, including trends in incidence, mortality, survival, and screening. Approximately 230,480 new cases of invasive breast cancer and 39,520 breast cancer deaths are expected to occur among US women in 2011. Breast cancer incidence rates were stable among all racial/ethnic groups from 2004 to 2008. Breast cancer death rates have been declining since the early 1990s for all women except American Indians/Alaska Natives, among whom rates have remained stable. Disparities in breast cancer death rates are evident by state, socioeconomic status, and race/ethnicity. While significant declines in mortality rates were observed for 36 states and the District of Columbia over the past 10 years, rates for 14 states remained level. Analyses by county-level poverty rates showed that the decrease in mortality rates began later and was slower among women residing in poor areas. As a result, the highest breast cancer death rates shifted from the affluent areas to the poor areas in the early 1990s. Screening rates continue to be lower in poor women compared with non-poor women, despite much progress in increasing mammography utilization. In 2008, 51.4% of poor women had undergone a screening mammogram in the past 2 years compared with 72.8% of non-poor women. Encouraging patients aged 40 years and older to have annual mammography and a clinical breast examination is the single most important step that clinicians can take to reduce suffering and death from breast cancer. Clinicians should also ensure that patients at high risk of breast cancer are identified and offered appropriate screening and follow-up. Continued progress in the control of breast cancer will require sustained and increased efforts to provide high-quality screening, diagnosis, and treatment to all segments of the population.",
-          "Affiliation": "1 Epidemiologist, Surveillance Research, American Cancer Society, Atlanta, GA 30303, USA. carol.desantis@cancer.org",
-          "Authors": [
-            "No information found",
-            "Carol DeSantis",
-            "1",
-            "Rebecca Siegel",
-            "Priti Bandi",
-            "Ahmedin Jemal"
-          ],
-          "Cited count": "['No information found']",
-          "DOI": ": 10.3322/caac.20134.      ",
-          "ISSN": "['No information found']",
-          "Publication Name": "Copyright \u00a9 2011 American Cancer Society, Inc.",
-          "Published date": " 2011 Oct 3.      ",
-          "Title": "Breast cancer statistics, 2011",
-          "Type": "['article']",
-          "URLs": "https://pubmed.ncbi.nlm.nih.gov/21969133/"
+          "Abstract": "[imagenet large scale visual recognition challenge benchmark object category classification detection hundreds categories millions images run annually 2010 attracting participation more fifty institutions paper describes creation dataset advances discuss challenges collecting ground truth annotation highlight key breakthroughs categorical provide detailed current state field image compare art computer vision accuracy human conclude lessons learned five years propose future directions improvements]",
+          "Affiliation": "Stanford University",
+          "Authors": "olga russakovsky",
+          "Cited count": 448,
+          "DOI": "['No information found']",
+          "ISSN": "['No Information found']",
+          "Publication Name": "['No information found']",
+          "Published date": "2014-09-01",
+          "Title": "imagenet large scale visual recognition challenge",
+          "Type": "Journal/Article",
+          "URLs": "http://export.arxiv.org/pdf/1409.0575"
         }
       ]
     }
   },
   {
     "entities": {
-      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
-      "Search Engine": "PubMed Engine",
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, Cited count, Affiliation name, Type, Published date, Abstract",
+      "Search Engine": "Microsoft Academy",
       "items": [
         {
-          "Abstract": "Breast cancer is the most frequently diagnosed cancer in women and ranks second among causes for cancer related death in women. The ability to identify and diagnose breast cancer has improved markedly. Treatment decisions which were based in the past predominantly on the anatomic extent of the disease are shifting to the underlying biological mechanisms. Gene array technology has led to the recognition that breast cancer is a heterogeneous disease composed of different biological subtypes, and genetic profiling enables response to chemotherapy to be predicted. Breast conservation became an established standard of care and the oncoplastic approach enables wide excisions without compromising the natural shape of the breast. Sentinel lymph node biopsy has replaced axillary dissection as the standard procedure to stage the axilla and spared many patients the excess morbidity of axillary dissection. Targeted therapy to the oestrogen receptor plays a major role in systemic therapy; pathways responsible for endocrine resistance have been targeted as well. Biological therapy has been developed to target HER2 receptor and combination of antibody drug conjugates linked cytotoxic therapy to HER2 antibodies. Meaningful improvements in survival resulted from the new effective systemic agents and patients with metastasis are likely to have a longer survival.",
-          "Affiliation": "1 Soroka Medical Centre, Ben Gurion University , Beer Sheva , Israel.",
-          "Authors": [
-            "No information found",
-            "Shai Libson",
-            "1",
-            "Marc Lippman"
-          ],
-          "Cited count": "['No information found']",
-          "DOI": ": 10.3109/09540261.2013.852971.      ",
-          "ISSN": "['No information found']",
-          "Publication Name": [
-            "No information found"
-          ],
-          "Published date": [
-            "No information found"
-          ],
-          "Title": "A review of clinical aspects of breast cancer",
-          "Type": "['article']",
-          "URLs": "https://pubmed.ncbi.nlm.nih.gov/24716497/"
-        }
-      ]
-    }
-  },
-  {
-    "entities": {
-      "Attributes found": "DOI,Title, URLs, Authors,Type, Published Date,Publication Name,Affiliation, Abstract",
-      "Search Engine": "PubMed Engine",
-      "items": [
-        {
-          "Abstract": "Breast cancer is the most common cancer in women, and survivors with this diagnosis account for almost one fourth of the over 14 million cancer survivors in the US. After several decades of basic and clinical trials research, we have learned much about the heterogeneity of breast cancer and have evolved a complex and multidisciplinary treatment approach to the disease. Increasingly, we are paying attention to the long term and late effects of breast cancer treatment, and this is largely the subject of this volume. In this chapter, the authors introduce the topic of breast cancer survivorship and highlight the organization and content of this volume, briefly describing the contents of the subsequent chapters.",
-          "Affiliation": "1 UCLA Schools of Medicine and Public Health, Jonsson Comprehensive Cancer Center, Los Angeles, CA, USA, pganz@mednet.ucla.edu.",
-          "Authors": [
-            "No information found",
-            "Patricia A Ganz",
-            "1",
-            "Pamela J Goodwin"
-          ],
-          "Cited count": "['No information found']",
-          "DOI": ": 10.1007/978-3-319-16366-6_1.      ",
-          "ISSN": "['No information found']",
-          "Publication Name": [
-            "No information found"
-          ],
-          "Published date": [
-            "No information found"
-          ],
-          "Title": "Breast Cancer Survivorship: Where Are We Today?",
-          "Type": "['article']",
-          "URLs": "https://pubmed.ncbi.nlm.nih.gov/26059925/"
+          "Abstract": "[imagenet large scale visual recognition challenge benchmark object category classification detection hundreds categories millions images run annually 2010 attracting participation more fifty institutions paper describes creation dataset advances discuss challenges collecting ground truth annotation highlight key breakthroughs categorical provide detailed current state field image compare art computer vision accuracy human conclude lessons learned 5 years propose future directions improvements]",
+          "Affiliation": "Stanford University",
+          "Authors": "olga russakovsky",
+          "Cited count": 16065,
+          "DOI": "['No information found']",
+          "ISSN": "['No Information found']",
+          "Publication Name": "['No information found']",
+          "Published date": "2015-12-01",
+          "Title": "imagenet large scale visual recognition challenge",
+          "Type": "Journal/Article",
+          "URLs": "https://collaborate.princeton.edu/en/publications/imagenet-large-scale-visual-recognition-challenge"
         }
       ]
     }

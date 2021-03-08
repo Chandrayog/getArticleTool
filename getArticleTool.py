@@ -6,16 +6,16 @@ import sys
 import logger
 sys.path.insert(1,os.getcwd())
 #sys.path.insert(1,'Users/chandrayogyadav/Desktop/getArticleTool/')
-# from GoogleScholar import search_googleScholar
-# from MSAcademic import search_msAcademic
-# from CORE import search_core
+from GoogleScholar import search_googleScholar
+from MSAcademic import search_msAcademic
+from CORE import search_core
 from pubMed import search_pubMed
-# from ACMLib import search_acmlibrary
-# from PLOSOne import search_PlosOne
-# from Academia import search_academia
-# from ElseScopus import search_scopus
-# from Springer import search_springer
-# from SciDirect import search_sciDirect
+from ACMLib import search_acmlibrary
+from PLOSOne import search_PlosOne
+from Academia import search_academia
+from ElseScopus import search_scopus
+from Springer import search_springer
+from SciDirect import search_sciDirect
 
 
 # ignore warning messages
