@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e09b6821-875c-44bf-8346-b37c33ac8668" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ElseScopus.py" beforeDir="false" afterPath="$PROJECT_DIR$/ElseScopus.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getArticleTool.py" beforeDir="false" afterPath="$PROJECT_DIR$/getArticleTool.py" afterDir="false" />
-    </list>
+    <list default="true" id="e09b6821-875c-44bf-8346-b37c33ac8668" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
