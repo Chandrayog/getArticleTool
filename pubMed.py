@@ -91,7 +91,10 @@ def search_pubMed(query, headers, _pages, _title, _keyword, _abstract,_from_yr,_
         time.sleep(1)
         logger.writeRecords(query, None, _engine, count, count, logging_flag)
         print(f'Finished with total {count} records returned.')
-        getMeshTerms.getMeshIDs(data, _email)
+        # Enable if you want to get MESH terms of articles
+        # print(f'Now fetching Mesh Terms for {count} records returned.')
+        # getMeshTerms.getMeshIDs(data,_email)
+        # print(f'MeshTerms File saved for {count} records in text format.')
         return data
 
     if _keyword or _abstract:
@@ -181,7 +184,10 @@ def search_pubMed(query, headers, _pages, _title, _keyword, _abstract,_from_yr,_
             time.sleep(1)
             logger.writeRecords(query, None, _engine, count, count, logging_flag)
             print(f'Finished with total {count} records returned.')
-            getMeshTerms.getMeshIDs(data, _email)
+            # Enable if you want to get MESH terms of articles
+            # print(f'Now fetching Mesh Terms for {count} records returned.')
+            # getMeshTerms.getMeshIDs(data,_email)
+            # print(f'MeshTerms File saved for {count} records in text format.')
             return data
         else:
             for i in tqdm(range(1)):

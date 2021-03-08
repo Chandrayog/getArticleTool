@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e09b6821-875c-44bf-8346-b37c33ac8668" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ErrorLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ErrorLog.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getArticleTool.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/getArticleTool.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubMed.py" beforeDir="false" afterPath="$PROJECT_DIR$/pubMed.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/records.txt" beforeDir="false" afterPath="$PROJECT_DIR$/records.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search_results.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/search_results.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/~$search_results.xlsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -378,17 +371,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/pubMed.py</url>
-          <line>187</line>
+          <line>193</line>
           <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/pubMed.py</url>
-          <line>189</line>
+          <line>195</line>
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/pubMed.py</url>
-          <line>191</line>
+          <line>197</line>
           <option name="timeStamp" value="80" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -438,7 +431,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/pubMed.py</url>
-          <line>97</line>
+          <line>100</line>
           <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -458,17 +451,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/pubMed.py</url>
-          <line>162</line>
+          <line>165</line>
           <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/pubMed.py</url>
-          <line>266</line>
+          <line>272</line>
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/pubMed.py</url>
-          <line>161</line>
+          <line>164</line>
           <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
