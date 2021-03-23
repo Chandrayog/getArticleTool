@@ -2,12 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e09b6821-875c-44bf-8346-b37c33ac8668" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pubMed.py" beforeDir="false" afterPath="$PROJECT_DIR$/pubMed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InputArgs/ParseInput.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OutPut/SaveOutput.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchMethods/getArticleTool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchMethods/searchAllEngines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchMethods/searchSpecificEngine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACMLib.py" beforeDir="false" afterPath="$PROJECT_DIR$/SearchEngines/ACMLib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Academia.py" beforeDir="false" afterPath="$PROJECT_DIR$/SearchEngines/Academia.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CORE.py" beforeDir="false" afterPath="$PROJECT_DIR$/SearchEngines/CORE.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ElseScopus.py" beforeDir="false" afterPath="$PROJECT_DIR$/SearchEngines/ElseScopus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ErrorLog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoogleScholar.py" beforeDir="false" afterPath="$PROJECT_DIR$/SearchEngines/GoogleScholar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MSAcademic.py" beforeDir="false" afterPath="$PROJECT_DIR$/SearchEngines/MSAcademic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeshTerms.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MeshTerms/MeshTerms.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PLOSOne.py" beforeDir="false" afterPath="$PROJECT_DIR$/SearchEngines/PLOSOne.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SciDirect.py" beforeDir="false" afterPath="$PROJECT_DIR$/SearchEngines/SciDirect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Springer.py" beforeDir="false" afterPath="$PROJECT_DIR$/SearchEngines/Springer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Untitled.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getArticleTool.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SearchMethods/getArticleTool.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getArticleTool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getMeshTerms.py" beforeDir="false" afterPath="$PROJECT_DIR$/MeshTerms/getMeshTerms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/Logging/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubMed.py" beforeDir="false" afterPath="$PROJECT_DIR$/SearchEngines/pubMed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/records.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_results.xlsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,17 +65,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.project" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/Desktop" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/MeshTerms" />
+      <recent name="$PROJECT_DIR$/OutPut" />
+      <recent name="$PROJECT_DIR$/Logging" />
+      <recent name="$PROJECT_DIR$/Main" />
+      <recent name="$PROJECT_DIR$/SearchEngines" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.getArticleTool">
+  <component name="RunManager" selected="Python.main">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,7 +114,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/getArticleTool.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main/getArticleTool.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,7 +123,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="getMeshTerms" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="localBranch" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -96,7 +135,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/getMeshTerms.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,7 +144,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="scratch_6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="scratch_12" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="localBranch" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,7 +156,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_6.py" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_12.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +165,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="scratch_8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="scratch_13" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="localBranch" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,7 +177,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_8.py" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_13.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -230,11 +269,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.getArticleTool" />
+        <item itemvalue="Python.scratch_12" />
+        <item itemvalue="Python.scratch_13" />
         <item itemvalue="Python.scratch_9" />
-        <item itemvalue="Python.getMeshTerms" />
-        <item itemvalue="Python.scratch_6" />
-        <item itemvalue="Python.scratch_8" />
       </list>
     </recent_temporary>
   </component>
@@ -295,62 +334,62 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ElseScopus.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/ElseScopus.py</url>
           <line>20</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ACMLib.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/ACMLib.py</url>
           <line>96</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ACMLib.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/ACMLib.py</url>
           <line>107</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ACMLib.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/ACMLib.py</url>
           <line>99</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ACMLib.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/ACMLib.py</url>
           <line>122</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ElseScopus.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/ElseScopus.py</url>
           <line>134</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ElseScopus.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/ElseScopus.py</url>
           <line>159</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ElseScopus.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/ElseScopus.py</url>
           <line>128</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ElseScopus.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/ElseScopus.py</url>
           <line>133</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ElseScopus.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/ElseScopus.py</url>
           <line>261</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ElseScopus.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/ElseScopus.py</url>
           <line>254</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ElseScopus.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/ElseScopus.py</url>
           <line>260</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
@@ -360,144 +399,273 @@
           <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/getMeshTerms.py</url>
+          <url>file://$PROJECT_DIR$/MeshTerms/getMeshTerms.py</url>
           <line>17</line>
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/getMeshTerms.py</url>
+          <url>file://$PROJECT_DIR$/MeshTerms/getMeshTerms.py</url>
           <line>16</line>
           <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/pubMed.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/pubMed.py</url>
           <line>193</line>
           <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/pubMed.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/pubMed.py</url>
           <line>195</line>
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/pubMed.py</url>
-          <line>197</line>
-          <option name="timeStamp" value="80" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/GoogleScholar.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/GoogleScholar.py</url>
           <line>24</line>
           <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/GoogleScholar.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/GoogleScholar.py</url>
           <line>87</line>
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/GoogleScholar.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/GoogleScholar.py</url>
           <line>198</line>
           <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/GoogleScholar.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/GoogleScholar.py</url>
           <line>270</line>
           <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/GoogleScholar.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/GoogleScholar.py</url>
           <line>172</line>
           <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/GoogleScholar.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/GoogleScholar.py</url>
           <line>126</line>
           <option name="timeStamp" value="86" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/GoogleScholar.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/GoogleScholar.py</url>
           <line>106</line>
           <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/GoogleScholar.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/GoogleScholar.py</url>
           <line>114</line>
           <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/GoogleScholar.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/GoogleScholar.py</url>
           <line>115</line>
           <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/pubMed.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/pubMed.py</url>
           <line>100</line>
           <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/getArticleTool.py</url>
-          <line>325</line>
+          <url>file://$PROJECT_DIR$/SearchMethods/getArticleTool.py</url>
+          <line>324</line>
           <option name="timeStamp" value="92" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/getArticleTool.py</url>
-          <line>203</line>
+          <url>file://$PROJECT_DIR$/SearchMethods/getArticleTool.py</url>
+          <line>202</line>
           <option name="timeStamp" value="93" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/getArticleTool.py</url>
-          <line>316</line>
+          <url>file://$PROJECT_DIR$/SearchMethods/getArticleTool.py</url>
+          <line>315</line>
           <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/pubMed.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/pubMed.py</url>
           <line>165</line>
           <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/pubMed.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/pubMed.py</url>
           <line>272</line>
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/pubMed.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/pubMed.py</url>
           <line>164</line>
           <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/MSAcademic.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/MSAcademic.py</url>
           <line>29</line>
           <option name="timeStamp" value="103" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/MSAcademic.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/MSAcademic.py</url>
           <line>111</line>
           <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/MSAcademic.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/MSAcademic.py</url>
           <line>196</line>
           <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/MSAcademic.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/MSAcademic.py</url>
           <line>191</line>
           <option name="timeStamp" value="106" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/MSAcademic.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/MSAcademic.py</url>
           <line>197</line>
           <option name="timeStamp" value="107" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/MSAcademic.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/MSAcademic.py</url>
           <line>192</line>
           <option name="timeStamp" value="108" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/MSAcademic.py</url>
+          <url>file://$PROJECT_DIR$/SearchEngines/MSAcademic.py</url>
           <line>32</line>
           <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_13.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_13.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_13.py</url>
+          <line>76</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_13.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_13.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_13.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_12.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_12.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_12.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/Desktop/AXMLAttribute.py</url>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SearchMethods/getArticleTool.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SearchMethods/getArticleTool.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SearchMethods/searchSpecificEngine.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SearchMethods/getArticleTool.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SearchMethods/getArticleTool.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SearchEngines/ACMLib.py</url>
+          <line>289</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SearchMethods/searchSpecificEngine.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SearchMethods/searchSpecificEngine.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SearchMethods/searchSpecificEngine.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/OutPut/SaveOutput.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/OutPut/SaveOutput.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SearchMethods/searchAllEngines.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SearchEngines/ElseScopus.py</url>
+          <line>174</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SearchEngines/ElseScopus.py</url>
+          <line>176</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SearchEngines/ElseScopus.py</url>
+          <line>172</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SearchEngines/ElseScopus.py</url>
+          <line>171</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SearchEngines/ElseScopus.py</url>
+          <line>168</line>
+          <option name="timeStamp" value="160" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -519,6 +687,9 @@
         <watch expression="meshTerms" />
         <watch expression="resp_obj" />
         <watch expression="url1" />
+        <watch expression="xml_dict" />
+        <watch expression="    for item in root.findall('PubmedArticle'):&#10;" />
+        <watch expression="item" />
       </configuration>
     </watches-manager>
   </component>

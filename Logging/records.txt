@@ -1,0 +1,105 @@
+
+Logged at:2021-03-22 23:49:18.815763 Total Records Returned by - ACM Library for search query Python:16
+Logged at:2021-03-22 23:49:18.816239 Records Captured by - ACM Library for search query Python:16
+
+Logged at:2021-03-22 23:50:28.807735 Total Records Returned by - Google Scholar for search query Python:0
+Logged at:2021-03-22 23:50:28.808194 Records Captured by - Google Scholar for search query Python:10
+
+Logged at:2021-03-22 23:50:31.231528 Total Records Returned by - Microsoft Academic for search query Python:10
+Logged at:2021-03-22 23:50:31.231587 Records Captured by - Microsoft Academic for search query Python:10
+
+Logged at:2021-03-22 23:50:36.419265 Total Records Returned by - CORE Engine for search query Python:20
+Logged at:2021-03-22 23:50:36.419319 Records Captured by - CORE Engine for search query Python:20
+
+Logged at:2021-03-22 23:50:43.425217 Total Records Returned by - PubMed Engine for search query Python:12
+Logged at:2021-03-22 23:50:43.425300 Records Captured by - PubMed Engine for search query Python:12
+
+Logged at:2021-03-22 23:50:47.429353 Total Records Returned by - ACM Library for search query Python:16
+Logged at:2021-03-22 23:50:47.429396 Records Captured by - ACM Library for search query Python:16
+
+Logged at:2021-03-22 23:50:48.930362 Total Records Returned by - PLOS One Engine for search query Python:10
+Logged at:2021-03-22 23:50:48.930401 Records Captured by - PLOS One Engine for search query Python:10
+
+Logged at:2021-03-22 23:50:52.747721 Total Records Returned by - Academia for search query Python:20
+Logged at:2021-03-22 23:50:52.747794 Records Captured by - Academia for search query Python:20
+
+Logged at:2021-03-23 00:14:05.866669 Total Records Returned by - Google Scholar for search query Cancer:0
+Logged at:2021-03-23 00:14:05.867670 Records Captured by - Google Scholar for search query Cancer:0
+
+Logged at:2021-03-23 00:16:30.886686 Total Records Returned by - Microsoft Academic for search query Cancer:10
+Logged at:2021-03-23 00:16:30.886787 Records Captured by - Microsoft Academic for search query Cancer:10
+
+Logged at:2021-03-23 00:16:35.154248 Total Records Returned by - CORE Engine for search query Cancer:20
+Logged at:2021-03-23 00:16:35.154326 Records Captured by - CORE Engine for search query Cancer:20
+
+Logged at:2021-03-23 00:16:57.208557 Total Records Returned by - PubMed Engine for search query Cancer:12
+Logged at:2021-03-23 00:16:57.208655 Records Captured by - PubMed Engine for search query Cancer:12
+
+Logged at:2021-03-23 00:17:06.807188 Total Records Returned by - ACM Library for search query Cancer:18
+Logged at:2021-03-23 00:17:06.807263 Records Captured by - ACM Library for search query Cancer:18
+
+Logged at:2021-03-23 00:18:40.574843 Total Records Returned by - PLOS One Engine for search query Cancer:10
+Logged at:2021-03-23 00:18:40.574913 Records Captured by - PLOS One Engine for search query Cancer:10
+
+Logged at:2021-03-23 00:19:09.661960 Total Records Returned by - Academia for search query Cancer:20
+Logged at:2021-03-23 00:19:09.662030 Records Captured by - Academia for search query Cancer:20
+
+Logged at:2021-03-23 00:22:38.329648 Total Records Returned by - Elsevier Scopus for search query Python:0
+Logged at:2021-03-23 00:22:38.330457 Records Captured by - Elsevier Scopus for search query Python:0
+
+Logged at:2021-03-23 00:28:31.269340 Total Records Returned by - Elsevier Scopus for search query Python:10
+Logged at:2021-03-23 00:28:31.269799 Records Captured by - Elsevier Scopus for search query Python:10
+
+Logged at:2021-03-23 00:29:01.353324 Total Records Returned by - Google Scholar for search query Python:0
+Logged at:2021-03-23 00:29:01.353895 Records Captured by - Google Scholar for search query Python:10
+
+Logged at:2021-03-23 00:29:03.640324 Total Records Returned by - Microsoft Academic for search query Python:10
+Logged at:2021-03-23 00:29:03.640389 Records Captured by - Microsoft Academic for search query Python:10
+
+Logged at:2021-03-23 00:29:06.553480 Total Records Returned by - CORE Engine for search query Python:20
+Logged at:2021-03-23 00:29:06.553570 Records Captured by - CORE Engine for search query Python:20
+
+Logged at:2021-03-23 00:29:13.077679 Total Records Returned by - PubMed Engine for search query Python:12
+Logged at:2021-03-23 00:29:13.077733 Records Captured by - PubMed Engine for search query Python:12
+
+Logged at:2021-03-23 00:29:17.532832 Total Records Returned by - ACM Library for search query Python:16
+Logged at:2021-03-23 00:29:17.532889 Records Captured by - ACM Library for search query Python:16
+
+Logged at:2021-03-23 00:29:19.096350 Total Records Returned by - PLOS One Engine for search query Python:10
+Logged at:2021-03-23 00:29:19.096395 Records Captured by - PLOS One Engine for search query Python:10
+
+Logged at:2021-03-23 00:29:21.840114 Total Records Returned by - Academia for search query Python:20
+Logged at:2021-03-23 00:29:21.840169 Records Captured by - Academia for search query Python:20
+
+Logged at:2021-03-23 00:29:24.674043 Total Records Returned by - Elsevier Scopus for search query Python:10
+Logged at:2021-03-23 00:29:24.674097 Records Captured by - Elsevier Scopus for search query Python:10
+
+Logged at:2021-03-23 00:29:26.617194 Total Records Returned by - Springer for search query Python:10
+Logged at:2021-03-23 00:29:26.617248 Records Captured by - Springer for search query Python:10
+
+Logged at:2021-03-23 00:29:40.885257 Total Records Returned by - Science Direct Engine for search query Python:10
+Logged at:2021-03-23 00:29:40.885312 Records Captured by - Science Direct Engine for search query Python:10
+
+Logged at:2021-03-23 01:15:34.903164 Total Records Returned by - Springer for search query Python:10
+Logged at:2021-03-23 01:15:34.903548 Records Captured by - Springer for search query Python:10
+
+Logged at:2021-03-23 01:18:26.423806 Total Records Returned by - Google Scholar for search query Breast cancer:45000
+Logged at:2021-03-23 01:18:26.424178 Records Captured by - Google Scholar for search query Breast cancer:10
+
+Logged at:2021-03-23 01:18:28.454768 Total Records Returned by - Microsoft Academic for search query Breast cancer:10
+Logged at:2021-03-23 01:18:28.454827 Records Captured by - Microsoft Academic for search query Breast cancer:10
+
+Logged at:2021-03-23 01:18:32.197231 Total Records Returned by - CORE Engine for search query Breast cancer:20
+Logged at:2021-03-23 01:18:32.197295 Records Captured by - CORE Engine for search query Breast cancer:20
+
+Logged at:2021-03-23 01:18:40.140785 Total Records Returned by - PubMed Engine for search query Breast cancer:13
+Logged at:2021-03-23 01:18:40.140842 Records Captured by - PubMed Engine for search query Breast cancer:13
+
+Logged at:2021-03-23 01:18:46.292900 Total Records Returned by - ACM Library for search query Breast cancer:140
+Logged at:2021-03-23 01:18:46.292956 Records Captured by - ACM Library for search query Breast cancer:140
+
+Logged at:2021-03-23 01:18:47.848938 Total Records Returned by - PLOS One Engine for search query Breast cancer:10
+Logged at:2021-03-23 01:18:47.849002 Records Captured by - PLOS One Engine for search query Breast cancer:10
+
+Logged at:2021-03-23 01:19:00.763621 Total Records Returned by - Academia for search query Breast cancer:20
+Logged at:2021-03-23 01:19:00.763676 Records Captured by - Academia for search query Breast cancer:20

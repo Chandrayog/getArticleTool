@@ -1,0 +1,212 @@
+[
+  {
+    "entities": {
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Type, Published date, Abstract",
+      "Search Engine": "Springer Search Engine",
+      "items": [
+        {
+          "Abstract": "This study evaluates the dynamic behavior and performance of vital reinforced concrete (RC) public building [Ministry of Higher Education (MHE)] designed in compliance with the old Syrian (non-seismic) building code. The real non-linear dynamic behavior of the MHE building has been checked by detailed dynamic numerical analyses (finite elements method\u2014FEM) validated by a series of ambient noise measurements carried out on-site. The modeling approach for the thorough 3D dynamic analyses of the (RC) MHE building has been developed to be able to investigate the actual non-linear dynamic performance of widespread range of RC structures, providing the opportunity to set up a reliable detailed methodology to assess the real dynamic performance of the old vital structures designed according to the old Syrian (non-seismic) building code from the new seismic requirements perspective. The results of the frequency analyses, the nonlinear time history, and the experimental measurements have shown an excellent agreement. The study showed that the modeling approach by the FEM is reliable for predicting the actual dynamic behavior of RC structures, but it is very sensitive to the modeling assumptions. Furthermore, the dynamic performance analyses have revealed unsymmetrical behavior of the east\u2013west wings about the Y -axis which could be attributed to the inefficient seismic rehabilitation executed in 2001.",
+          "Affiliation": "['No information found']",
+          "Authors": "Al-Helwani, Amjad",
+          "Cited count": "['No Information found']",
+          "DOI": "doi:10.1007/s42107-020-00337-w",
+          "ISSN": "['No Information found']",
+          "Publication Name": "Asian Journal of Civil Engineering",
+          "Published date": "2021-01-09",
+          "Title": "Dynamic behavior assessment of public buildings in Syria using non-linear time-history analysis and ambient noise measurements: a case study",
+          "Type": "Article",
+          "URLs": "http://link.springer.com/openurl/fulltext?id=doi:10.1007/s42107-020-00337-w"
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Type, Published date, Abstract",
+      "Search Engine": "Springer Search Engine",
+      "items": [
+        {
+          "Abstract": "End-use electrical loads in residential and commercial buildings are evolving into flexible and cost-effective resources to improve electric grid reliability, reduce costs, and support increased hosting of distributed renewable generation. This article reviews the simulation of utility services delivered by buildings for the purpose of electric grid operational modeling. We consider services delivered to (1) the high-voltage bulk power system through the coordinated action of many, distributed building loads working together, and (2) targeted support provided to the operation of low-voltage electric distribution grids. Although an exhaustive exploration is not possible, we emphasize the ancillary services and voltage management buildings can provide and summarize the gaps in our ability to simulate them with traditional building energy modeling (BEM) tools, suggesting pathways for future research and development.",
+          "Affiliation": "['No information found']",
+          "Authors": "Chinde, Venkatesh",
+          "Cited count": "['No Information found']",
+          "DOI": "doi:10.1007/s12273-020-0687-1",
+          "ISSN": "['No Information found']",
+          "Publication Name": "Building Simulation",
+          "Published date": "2020-09-02",
+          "Title": "Simulating dispatchable grid services provided by flexible building loads: State of the art and needed building energy modeling improvements",
+          "Type": "Article",
+          "URLs": "http://link.springer.com/openurl/pdf?id=doi:10.1007/s12273-020-0687-1"
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Type, Published date, Abstract",
+      "Search Engine": "Springer Search Engine",
+      "items": [
+        {
+          "Abstract": "An innovative crystal plasticity model was developed by incorporating the dislocation density-based hardening law, in which the grain-level hardening behavior is dependent on the evolution of the dislocation density in the cell walls and cell interiors and the evolution of the volume fraction of the cell walls. The large plastic deformations of OFHC copper single crystals and polycrystals were simulated by the two crystal plasticity models in conjunction with the dislocation density-based hardening law and the classic saturation-type phenomenological hardening law, respectively. A comprehensive comparison study on the 2 hardening laws was accordingly carried out in terms of the stress\u2013strain responses and texture evolutions. The simulation results of the two crystal plasticity models conjuncted with the different hardening laws have a good consistency, and both of them are generally in good agreement with the experimental data, which therefore validate the developed crystal plasticity model incorporated with the dislocation density-based hardening law. The Taylor-type mean-field model and Voronoi-type full-field model were, respectively, used as the homogenization schemes to calculate the macroscopic stress\u2013strain responses of the polycrystalline aggregate, and the two kinds of calculated results were compared and analyzed in detail. By using the Taylor-type mean-field crystal plasticity finite element method (CPFEM), the processes of single shot impact along the different impact angles were numerically simulated; the macroscopic plastic deformations, microscopic texture evolutions and dislocation density evolutions were resultantly investigated, which would conduce to the further study on the microscopic strengthening mechanisms of shot peening or surface mechanical attrition treatment, and the rise of the new ideas for relevant modeling.",
+          "Affiliation": "['No information found']",
+          "Authors": "Wang, Cheng",
+          "Cited count": "['No Information found']",
+          "DOI": "doi:10.1007/s10853-021-05816-2",
+          "ISSN": "['No Information found']",
+          "Publication Name": "Journal of Materials Science",
+          "Published date": "2021-02-01",
+          "Title": "A comparative study of plastic deformation behaviors of OFHC copper based on crystal plasticity models in conjunction with phenomenological and dislocation density-based hardening laws",
+          "Type": "Article",
+          "URLs": "http://link.springer.com/openurl/fulltext?id=doi:10.1007/s10853-021-05816-2"
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Type, Published date, Abstract",
+      "Search Engine": "Springer Search Engine",
+      "items": [
+        {
+          "Abstract": "Many studies have shown that syntagmatic and paradigmatic aspects of morphological structure may have an impact on the phonetic realisation of complex words (e.g. Cohen 2014a , b ; Kuperman et\u00a0al. 2007 ; Lee-Kim et\u00a0al. 2013 ; L\u00f5o et\u00a0al. 2018 ; Plag et\u00a0al. 2017 ; Schuppler et\u00a0al. 2012 ; Smith et\u00a0al. 2012 ; Sproat and Fujimura 1993 ; Zimmermann 2016 , among many others). The majority of these studies have been concerned with affixes, often focusing on the acoustic properties of segments at a morphological boundary. The present study extends this line of investigation to compounds, exploring the extent to which consonant duration at compound-internal boundaries in English is dependent on morphological structure. Three competing hypotheses about the relationship between fine phonetic detail and morphological structure are tested. According to the Segmentability Hypothesis, greater morphological segmentability, i.e. a stronger morphological boundary, leads to acoustic lengthening (Ben Hedia and Plag 2017 ; Hay 2003 ; Plag and Ben Hedia 2018 ). The Informativity Hypothesis, on the other hand, states that higher informativity leads to lengthening (e.g. Jurafsky et\u00a0al. 2001 ; van Son and Pols 2003 ). Finally, the Paradigmatic Support Hypothesis says that stronger paradigmatic support leads to lengthening (Cohen 2014b ; Kuperman et\u00a0al. 2007 ). To test these hypotheses, an experimental study was carried out using 62 compound types taken from the British National Corpus. The compounds were spoken by 30 speakers, yielding more than 1500 acoustic tokens overall. The data provide no support for the Segmentability Hypothesis, and only limited support for the Informativity Hypothesis. In contrast, the Paradigmatic Support Hypothesis makes correct predictions: consonant duration at compound-internal boundaries is positively correlated with the probability of the relevant consonant following the first noun, and the duration of compound-internal geminate consonants is negatively correlated with the family size of the first noun. In other words, longer durations are associated with lower paradigmatic diversity.",
+          "Affiliation": "['No information found']",
+          "Authors": "Bell, Melanie J.",
+          "Cited count": "['No Information found']",
+          "DOI": "doi:10.1007/s11525-020-09346-6",
+          "ISSN": "['No Information found']",
+          "Publication Name": "Morphology",
+          "Published date": "2020-03-12",
+          "Title": "How morphological structure affects phonetic realisation in English compound nouns",
+          "Type": "Article",
+          "URLs": "http://link.springer.com/openurl/fulltext?id=doi:10.1007/s11525-020-09346-6"
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Type, Published date, Abstract",
+      "Search Engine": "Springer Search Engine",
+      "items": [
+        {
+          "Abstract": "The purpose of smart city is to enhance the optimal utilization of scarce resources and improve the resident\u2019s quality of live. The smart cities employed Internet of Things (IoT) to create a sustainable urban life. The IoT devices such as sensors, actuators, and smartphones in the smart cities generate data. The data generated from the smart cities are subjected to analytics to gain insight and discover new knowledge for improving the efficiency and effectiveness of the smart cities. Recently, the application of deep learning in smart cities has gained a tremendous attention from the research community. However, despite raise in popularity and achievements made by deep learning in solving problems in smart cities, no survey has been dedicated mainly on the application of deep learning in smart cities to show recent progress and direction for future development. To bridge this gap, this paper proposes to conduct a dedicated survey on the applications of deep learning in smart cities. In this paper, recent progress, new taxonomies, challenges and opportunities for future research opportunities on the application of deep learning in smart cities have been unveiled. The paper can provide opportunities for experts in the research community to propose a novel approach for developing the research area. On the other hand, new researchers interested in the research area can use the paper as an entry point.",
+          "Affiliation": "['No information found']",
+          "Authors": "Muhammad, Amina N.",
+          "Cited count": "['No Information found']",
+          "DOI": "doi:10.1007/s00521-020-05151-8",
+          "ISSN": "['No Information found']",
+          "Publication Name": "Neural Computing and Applications",
+          "Published date": "2020-07-15",
+          "Title": "Deep learning application in smart cities: recent development, taxonomy, challenges and research prospects",
+          "Type": "Article",
+          "URLs": "http://link.springer.com/openurl/fulltext?id=doi:10.1007/s00521-020-05151-8"
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Type, Published date, Abstract",
+      "Search Engine": "Springer Search Engine",
+      "items": [
+        {
+          "Abstract": "Avocado undergoes quality transformation during storage, which needs to be managed in order to prevent quantity losses. A machine vision system devised with a smartphone camera was used to capture \u2018Hass\u2019 avocado images. Color features in L * a * b * and YUV (YUV color space is defined in terms of one luminance (Y) and two chrominance components (U and Y)) were extracted from the RGB images. Artificial Neural Network (ANN) and Support Vector Regression (SVR) were used compared for firmness estimation using the L * a * b * and YUV color features. The results indicated the ANN model is more accurate and robust than the SVR model for estimating \u2018Hass\u2019 avocado firmness with R^2, RMSE, and RPD of 0.94, 0.38, 4.03 respectively for the model testing data set. It was concluded that the machine vision system devised with a smartphone camera and ANN model could be a low-cost tool for the determination of ripeness of \u2018Hass\u2019 avocado during harvest, storage, and distribution.",
+          "Affiliation": "['No information found']",
+          "Authors": "Cho, Byeong-Hyo",
+          "Cited count": "['No Information found']",
+          "DOI": "doi:10.1007/s11694-020-00793-7",
+          "ISSN": "['No Information found']",
+          "Publication Name": "Journal of Food Measurement and Characterization",
+          "Published date": "2021-01-09",
+          "Title": "Determination of \u2018Hass\u2019 avocado ripeness during storage by a smartphone camera using artificial neural network and support vector regression",
+          "Type": "Article",
+          "URLs": "http://link.springer.com/openurl/fulltext?id=doi:10.1007/s11694-020-00793-7"
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Type, Published date, Abstract",
+      "Search Engine": "Springer Search Engine",
+      "items": [
+        {
+          "Abstract": "Lagrangian particle tracking, based on currents derived from hydrodynamic models, is an important tool in quantifying bio-physical transports in the ocean. Particle tracking in the unstructured grids typically used in coastal regions is computationally slow, limiting the number of particles and ranges of behaviours that can be modeled. Techniques used in a new offline particle tracker \u201cOceanTracker\u201d are shown to be two orders of magnitude faster than those used in an existing ocean particle tracker for unstructured grids when run on a single computer core. More significantly, its computational speed can exceed that achieved when particle tracking on a regular grid. The techniques for unstructured grids make it possible to routinely calculate the trajectories of millions of particles. This large number of particles allows much better estimates of dispersion and transport statistics, particularly when the probability of connection is low but the consequences are significant, e.g. the spread of invasive species. It also enables wider exploration of parameter sensitivity and particles\u2019 bio-physical behaviours to provide more robust results. The speed increases result largely from exploiting history and reuse within the spatial interpolation of the hydrodynamic model\u2019s output. Using multiple computer cores further increased the speed to track a given number of particles.",
+          "Affiliation": "['No information found']",
+          "Authors": "Vennell, Ross",
+          "Cited count": "['No Information found']",
+          "DOI": "doi:10.1007/s10236-020-01436-7",
+          "ISSN": "['No Information found']",
+          "Publication Name": "Ocean Dynamics",
+          "Published date": "2021-02-22",
+          "Title": "Fast lagrangian particle tracking in unstructured ocean model grids",
+          "Type": "Article",
+          "URLs": "http://link.springer.com/openurl/fulltext?id=doi:10.1007/s10236-020-01436-7"
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Type, Published date, Abstract",
+      "Search Engine": "Springer Search Engine",
+      "items": [
+        {
+          "Abstract": "The present global size of online news websites is more than 200 million. According to MarketingProfs, more than 2 million articles are published every day on the web, but Online News websites have also circulated editorial content over the internet that specifies which articles to display on their website\u2019s home pages and what articles to highlight, e.g., broad text size for main news articles. Many of the articles posted on a news website are very similar to many other news websites. The selective reporting of top news headlines and also the similarity among news across various news associations is well-identified but not very well calculated. This paper identifies the top news items on the news sites and measures the similarity between two same news items in two languages (Hindi and English) referring to the same event. To accomplish this, a highlighted headline and link extractor has been created to extract top news for both Hindi and English from Google\u2019s news feed. First, translate the Hindi news article into English by using Google translator and then compare it with English news articles. Second, we used the cosine similarity, Jaccard similarity, Euclidean distance measure to calculate news similarity score. The frequency of nouns and the next word of nouns from the news articles are also extracted. Our methodology clearly shows that we can efficiently identify top news articles and measure the similarity between news reports.",
+          "Affiliation": "['No information found']",
+          "Authors": "Singh, Ritika",
+          "Cited count": "['No Information found']",
+          "DOI": "doi:10.1007/s40031-020-00501-5",
+          "ISSN": "['No Information found']",
+          "Publication Name": "Journal of The Institution of Engineers (India): Series B",
+          "Published date": "2020-11-07",
+          "Title": "Text Similarity Measures in News Articles by Vector Space Model Using NLP",
+          "Type": "Article",
+          "URLs": "http://link.springer.com/openurl/fulltext?id=doi:10.1007/s40031-020-00501-5"
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Type, Published date, Abstract",
+      "Search Engine": "Springer Search Engine",
+      "items": [
+        {
+          "Abstract": "Ineffective effort during expiration (IEE) occurs when there is a mismatch between the demand of a mechanically ventilated patient and the support delivered by a Mechanical ventilator during the expiration. This work presents a pressure\u2013flow characterization for respiratory asynchronies and validates a machine-learning method, based on the presented characterization, to identify IEEs. 1500 breaths produced by 8 mechanically-ventilated patients were considered: 500 of them were included into the training set and the remaining 1000 into the test set. Each of them was evaluated by 3 experts and classified as either normal, artefact, or containing inspiratory, expiratory, or cycling-off asynchronies. A software implementing the proposed method was trained by using the experts\u2019 evaluations of the training set and used to identify IEEs in the test set. The outcomes were compared with a consensus of three expert evaluations. The software classified IEEs with sensitivity 0.904, specificity 0.995, accuracy 0.983, positive and negative predictive value 0.963 and 0.986, respectively. The Cohen\u2019s kappa is 0.983 (with 95% confidence interval (CI): [0.884, 0.962]). The pressure\u2013flow characterization of respiratory cycles and the monitoring technique proposed in this work automatically identified IEEs in real-time in close agreement with the experts.",
+          "Affiliation": "['No information found']",
+          "Authors": "Casagrande, Alberto",
+          "Cited count": "['No Information found']",
+          "DOI": "doi:10.1007/s10877-020-00469-z",
+          "ISSN": "['No Information found']",
+          "Publication Name": "Journal of Clinical Monitoring and Computing",
+          "Published date": "2020-01-28",
+          "Title": "An effective pressure\u2013flow characterization of respiratory asynchronies in mechanical ventilation",
+          "Type": "Article",
+          "URLs": "http://link.springer.com/openurl/fulltext?id=doi:10.1007/s10877-020-00469-z"
+        }
+      ]
+    }
+  },
+  {
+    "entities": {
+      "Attributes found": "DOI, Title, URLs, Authors, Publication Name, ISSN, Type, Published date, Abstract",
+      "Search Engine": "Springer Search Engine",
+      "items": [
+        {
+          "Abstract": "Companies operating internet platforms are developing artificial intelligence tools for content moderation purposes. This paper discusses technologies developed to measure the \u2018toxicity\u2019 of text-based content. The research builds upon queer linguistic studies that have indicated the use of \u2018mock impoliteness\u2019 as a form of interaction employed by LGBTQ people to cope with hostility. Automated analyses that disregard such a pro-social function may, contrary to their intended design, actually reinforce harmful biases. This paper uses \u2018Perspective\u2019, an AI technology developed by Jigsaw (formerly Google Ideas), to measure the levels of toxicity of tweets from prominent drag queens in the United States. The research indicated that Perspective considered a significant number of drag queen Twitter accounts to have higher levels of toxicity than white nationalists. The qualitative analysis revealed that Perspective was not able to properly consider social context when measuring toxicity levels and failed to recognize cases in which words, that might conventionally be seen as offensive, conveyed different meanings in LGBTQ speech.",
+          "Affiliation": "['No information found']",
+          "Authors": "Dias Oliva, Thiago",
+          "Cited count": "['No Information found']",
+          "DOI": "doi:10.1007/s12119-020-09790-w",
+          "ISSN": "['No Information found']",
+          "Publication Name": "Sexuality & Culture",
+          "Published date": "2020-11-06",
+          "Title": "Fighting Hate Speech, Silencing Drag Queens? Artificial Intelligence in Content Moderation and Risks to LGBTQ Voices Online",
+          "Type": "Article",
+          "URLs": "http://link.springer.com/openurl/fulltext?id=doi:10.1007/s12119-020-09790-w"
+        }
+      ]
+    }
+  }
+]
