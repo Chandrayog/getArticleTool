@@ -16,6 +16,7 @@ import pandas as pd
 
 ### Function to save JSON output to a file
 def save_ToJSON(output, output_path):
+    print(output)
     if output_path:
         writepath = output_path
         mode = 'a' if os.path.exists(writepath) else 'w+'
